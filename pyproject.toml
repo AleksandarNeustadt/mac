@@ -1,0 +1,20 @@
+[project]
+name = "mac-core"
+version = "1.0.0b0"
+description = "Modular Application Core (SQLite/JSON DB, Model API, managers)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name="Aleksandar Popović"}]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/your-username/mac-core"
+Issues = "https://github.com/your-username/mac-core/issues"
+
+[tool.pytest.ini_options]
+addopts = "-q"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"

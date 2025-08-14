@@ -1,0 +1,2210 @@
+# Project Audit Summary
+
+- Base: `D:\PROJECT\MAC`
+- Generated: `2025-08-13 22:59:05`
+
+## Totals
+- Python files: **2058**
+- Classes: **4506**
+- Functions: **3571**
+- Global symbols: **4445**
+
+## GitHub Readiness Checklist
+- ✅ README.md
+- ❌ LICENSE
+- ✅ .gitignore
+- ✅ docs
+- ❌ CONTRIBUTING.md
+- ❌ CODE_OF_CONDUCT.md
+- ❌ SECURITY.md
+- ❌ CHANGELOG.md
+- ❌ pyproject.toml
+- ✅ requirements.txt
+- ❌ .gitattributes
+
+## Orphan Modules (heuristic)
+- .venv.Lib.site-packages._pytest._argcomplete  *(path: .venv/Lib/site-packages/_pytest/_argcomplete.py)*
+- .venv.Lib.site-packages._pytest._code.code  *(path: .venv/Lib/site-packages/_pytest/_code/code.py)*
+- .venv.Lib.site-packages._pytest._code.source  *(path: .venv/Lib/site-packages/_pytest/_code/source.py)*
+- .venv.Lib.site-packages._pytest._io.pprint  *(path: .venv/Lib/site-packages/_pytest/_io/pprint.py)*
+- .venv.Lib.site-packages._pytest._io.saferepr  *(path: .venv/Lib/site-packages/_pytest/_io/saferepr.py)*
+- .venv.Lib.site-packages._pytest._io.terminalwriter  *(path: .venv/Lib/site-packages/_pytest/_io/terminalwriter.py)*
+- .venv.Lib.site-packages._pytest._io.wcwidth  *(path: .venv/Lib/site-packages/_pytest/_io/wcwidth.py)*
+- .venv.Lib.site-packages._pytest._py.error  *(path: .venv/Lib/site-packages/_pytest/_py/error.py)*
+- .venv.Lib.site-packages._pytest._py.path  *(path: .venv/Lib/site-packages/_pytest/_py/path.py)*
+- .venv.Lib.site-packages._pytest._version  *(path: .venv/Lib/site-packages/_pytest/_version.py)*
+- .venv.Lib.site-packages._pytest.assertion.rewrite  *(path: .venv/Lib/site-packages/_pytest/assertion/rewrite.py)*
+- .venv.Lib.site-packages._pytest.assertion.truncate  *(path: .venv/Lib/site-packages/_pytest/assertion/truncate.py)*
+- .venv.Lib.site-packages._pytest.assertion.util  *(path: .venv/Lib/site-packages/_pytest/assertion/util.py)*
+- .venv.Lib.site-packages._pytest.cacheprovider  *(path: .venv/Lib/site-packages/_pytest/cacheprovider.py)*
+- .venv.Lib.site-packages._pytest.capture  *(path: .venv/Lib/site-packages/_pytest/capture.py)*
+- .venv.Lib.site-packages._pytest.compat  *(path: .venv/Lib/site-packages/_pytest/compat.py)*
+- .venv.Lib.site-packages._pytest.config.argparsing  *(path: .venv/Lib/site-packages/_pytest/config/argparsing.py)*
+- .venv.Lib.site-packages._pytest.config.compat  *(path: .venv/Lib/site-packages/_pytest/config/compat.py)*
+- .venv.Lib.site-packages._pytest.config.exceptions  *(path: .venv/Lib/site-packages/_pytest/config/exceptions.py)*
+- .venv.Lib.site-packages._pytest.config.findpaths  *(path: .venv/Lib/site-packages/_pytest/config/findpaths.py)*
+- .venv.Lib.site-packages._pytest.debugging  *(path: .venv/Lib/site-packages/_pytest/debugging.py)*
+- .venv.Lib.site-packages._pytest.deprecated  *(path: .venv/Lib/site-packages/_pytest/deprecated.py)*
+- .venv.Lib.site-packages._pytest.doctest  *(path: .venv/Lib/site-packages/_pytest/doctest.py)*
+- .venv.Lib.site-packages._pytest.faulthandler  *(path: .venv/Lib/site-packages/_pytest/faulthandler.py)*
+- .venv.Lib.site-packages._pytest.fixtures  *(path: .venv/Lib/site-packages/_pytest/fixtures.py)*
+- .venv.Lib.site-packages._pytest.freeze_support  *(path: .venv/Lib/site-packages/_pytest/freeze_support.py)*
+- .venv.Lib.site-packages._pytest.helpconfig  *(path: .venv/Lib/site-packages/_pytest/helpconfig.py)*
+- .venv.Lib.site-packages._pytest.hookspec  *(path: .venv/Lib/site-packages/_pytest/hookspec.py)*
+- .venv.Lib.site-packages._pytest.junitxml  *(path: .venv/Lib/site-packages/_pytest/junitxml.py)*
+- .venv.Lib.site-packages._pytest.legacypath  *(path: .venv/Lib/site-packages/_pytest/legacypath.py)*
+- .venv.Lib.site-packages._pytest.logging  *(path: .venv/Lib/site-packages/_pytest/logging.py)*
+- .venv.Lib.site-packages._pytest.mark.expression  *(path: .venv/Lib/site-packages/_pytest/mark/expression.py)*
+- .venv.Lib.site-packages._pytest.mark.structures  *(path: .venv/Lib/site-packages/_pytest/mark/structures.py)*
+- .venv.Lib.site-packages._pytest.monkeypatch  *(path: .venv/Lib/site-packages/_pytest/monkeypatch.py)*
+- .venv.Lib.site-packages._pytest.nodes  *(path: .venv/Lib/site-packages/_pytest/nodes.py)*
+- .venv.Lib.site-packages._pytest.outcomes  *(path: .venv/Lib/site-packages/_pytest/outcomes.py)*
+- .venv.Lib.site-packages._pytest.pastebin  *(path: .venv/Lib/site-packages/_pytest/pastebin.py)*
+- .venv.Lib.site-packages._pytest.pathlib  *(path: .venv/Lib/site-packages/_pytest/pathlib.py)*
+- .venv.Lib.site-packages._pytest.pytester  *(path: .venv/Lib/site-packages/_pytest/pytester.py)*
+- .venv.Lib.site-packages._pytest.pytester_assertions  *(path: .venv/Lib/site-packages/_pytest/pytester_assertions.py)*
+- .venv.Lib.site-packages._pytest.python  *(path: .venv/Lib/site-packages/_pytest/python.py)*
+- .venv.Lib.site-packages._pytest.python_api  *(path: .venv/Lib/site-packages/_pytest/python_api.py)*
+- .venv.Lib.site-packages._pytest.raises  *(path: .venv/Lib/site-packages/_pytest/raises.py)*
+- .venv.Lib.site-packages._pytest.recwarn  *(path: .venv/Lib/site-packages/_pytest/recwarn.py)*
+- .venv.Lib.site-packages._pytest.reports  *(path: .venv/Lib/site-packages/_pytest/reports.py)*
+- .venv.Lib.site-packages._pytest.runner  *(path: .venv/Lib/site-packages/_pytest/runner.py)*
+- .venv.Lib.site-packages._pytest.scope  *(path: .venv/Lib/site-packages/_pytest/scope.py)*
+- .venv.Lib.site-packages._pytest.setuponly  *(path: .venv/Lib/site-packages/_pytest/setuponly.py)*
+- .venv.Lib.site-packages._pytest.setupplan  *(path: .venv/Lib/site-packages/_pytest/setupplan.py)*
+- .venv.Lib.site-packages._pytest.skipping  *(path: .venv/Lib/site-packages/_pytest/skipping.py)*
+- .venv.Lib.site-packages._pytest.stash  *(path: .venv/Lib/site-packages/_pytest/stash.py)*
+- .venv.Lib.site-packages._pytest.stepwise  *(path: .venv/Lib/site-packages/_pytest/stepwise.py)*
+- .venv.Lib.site-packages._pytest.terminal  *(path: .venv/Lib/site-packages/_pytest/terminal.py)*
+- .venv.Lib.site-packages._pytest.threadexception  *(path: .venv/Lib/site-packages/_pytest/threadexception.py)*
+- .venv.Lib.site-packages._pytest.timing  *(path: .venv/Lib/site-packages/_pytest/timing.py)*
+- .venv.Lib.site-packages._pytest.tmpdir  *(path: .venv/Lib/site-packages/_pytest/tmpdir.py)*
+- .venv.Lib.site-packages._pytest.tracemalloc  *(path: .venv/Lib/site-packages/_pytest/tracemalloc.py)*
+- .venv.Lib.site-packages._pytest.unittest  *(path: .venv/Lib/site-packages/_pytest/unittest.py)*
+- .venv.Lib.site-packages._pytest.unraisableexception  *(path: .venv/Lib/site-packages/_pytest/unraisableexception.py)*
+- .venv.Lib.site-packages._pytest.warning_types  *(path: .venv/Lib/site-packages/_pytest/warning_types.py)*
+- .venv.Lib.site-packages._pytest.warnings  *(path: .venv/Lib/site-packages/_pytest/warnings.py)*
+- .venv.Lib.site-packages.anyio._backends._asyncio  *(path: .venv/Lib/site-packages/anyio/_backends/_asyncio.py)*
+- .venv.Lib.site-packages.anyio._backends._trio  *(path: .venv/Lib/site-packages/anyio/_backends/_trio.py)*
+- .venv.Lib.site-packages.anyio._core._asyncio_selector_thread  *(path: .venv/Lib/site-packages/anyio/_core/_asyncio_selector_thread.py)*
+- .venv.Lib.site-packages.anyio._core._contextmanagers  *(path: .venv/Lib/site-packages/anyio/_core/_contextmanagers.py)*
+- .venv.Lib.site-packages.anyio._core._eventloop  *(path: .venv/Lib/site-packages/anyio/_core/_eventloop.py)*
+- .venv.Lib.site-packages.anyio._core._exceptions  *(path: .venv/Lib/site-packages/anyio/_core/_exceptions.py)*
+- .venv.Lib.site-packages.anyio._core._fileio  *(path: .venv/Lib/site-packages/anyio/_core/_fileio.py)*
+- .venv.Lib.site-packages.anyio._core._resources  *(path: .venv/Lib/site-packages/anyio/_core/_resources.py)*
+- .venv.Lib.site-packages.anyio._core._signals  *(path: .venv/Lib/site-packages/anyio/_core/_signals.py)*
+- .venv.Lib.site-packages.anyio._core._sockets  *(path: .venv/Lib/site-packages/anyio/_core/_sockets.py)*
+- .venv.Lib.site-packages.anyio._core._streams  *(path: .venv/Lib/site-packages/anyio/_core/_streams.py)*
+- .venv.Lib.site-packages.anyio._core._subprocesses  *(path: .venv/Lib/site-packages/anyio/_core/_subprocesses.py)*
+- .venv.Lib.site-packages.anyio._core._synchronization  *(path: .venv/Lib/site-packages/anyio/_core/_synchronization.py)*
+- .venv.Lib.site-packages.anyio._core._tasks  *(path: .venv/Lib/site-packages/anyio/_core/_tasks.py)*
+- .venv.Lib.site-packages.anyio._core._tempfile  *(path: .venv/Lib/site-packages/anyio/_core/_tempfile.py)*
+- .venv.Lib.site-packages.anyio._core._testing  *(path: .venv/Lib/site-packages/anyio/_core/_testing.py)*
+- .venv.Lib.site-packages.anyio._core._typedattr  *(path: .venv/Lib/site-packages/anyio/_core/_typedattr.py)*
+- .venv.Lib.site-packages.anyio.abc._eventloop  *(path: .venv/Lib/site-packages/anyio/abc/_eventloop.py)*
+- .venv.Lib.site-packages.anyio.abc._resources  *(path: .venv/Lib/site-packages/anyio/abc/_resources.py)*
+- .venv.Lib.site-packages.anyio.abc._sockets  *(path: .venv/Lib/site-packages/anyio/abc/_sockets.py)*
+- .venv.Lib.site-packages.anyio.abc._streams  *(path: .venv/Lib/site-packages/anyio/abc/_streams.py)*
+- .venv.Lib.site-packages.anyio.abc._subprocesses  *(path: .venv/Lib/site-packages/anyio/abc/_subprocesses.py)*
+- .venv.Lib.site-packages.anyio.abc._tasks  *(path: .venv/Lib/site-packages/anyio/abc/_tasks.py)*
+- .venv.Lib.site-packages.anyio.abc._testing  *(path: .venv/Lib/site-packages/anyio/abc/_testing.py)*
+- .venv.Lib.site-packages.anyio.from_thread  *(path: .venv/Lib/site-packages/anyio/from_thread.py)*
+- .venv.Lib.site-packages.anyio.lowlevel  *(path: .venv/Lib/site-packages/anyio/lowlevel.py)*
+- .venv.Lib.site-packages.anyio.pytest_plugin  *(path: .venv/Lib/site-packages/anyio/pytest_plugin.py)*
+- .venv.Lib.site-packages.anyio.streams.buffered  *(path: .venv/Lib/site-packages/anyio/streams/buffered.py)*
+- .venv.Lib.site-packages.anyio.streams.file  *(path: .venv/Lib/site-packages/anyio/streams/file.py)*
+- .venv.Lib.site-packages.anyio.streams.memory  *(path: .venv/Lib/site-packages/anyio/streams/memory.py)*
+- .venv.Lib.site-packages.anyio.streams.stapled  *(path: .venv/Lib/site-packages/anyio/streams/stapled.py)*
+- .venv.Lib.site-packages.anyio.streams.text  *(path: .venv/Lib/site-packages/anyio/streams/text.py)*
+- .venv.Lib.site-packages.anyio.streams.tls  *(path: .venv/Lib/site-packages/anyio/streams/tls.py)*
+- .venv.Lib.site-packages.anyio.to_interpreter  *(path: .venv/Lib/site-packages/anyio/to_interpreter.py)*
+- .venv.Lib.site-packages.anyio.to_process  *(path: .venv/Lib/site-packages/anyio/to_process.py)*
+- .venv.Lib.site-packages.anyio.to_thread  *(path: .venv/Lib/site-packages/anyio/to_thread.py)*
+- .venv.Lib.site-packages.certifi.__main__  *(path: .venv/Lib/site-packages/certifi/__main__.py)*
+- .venv.Lib.site-packages.certifi.core  *(path: .venv/Lib/site-packages/certifi/core.py)*
+- .venv.Lib.site-packages.colorama.ansi  *(path: .venv/Lib/site-packages/colorama/ansi.py)*
+- .venv.Lib.site-packages.colorama.ansitowin32  *(path: .venv/Lib/site-packages/colorama/ansitowin32.py)*
+- .venv.Lib.site-packages.colorama.initialise  *(path: .venv/Lib/site-packages/colorama/initialise.py)*
+- .venv.Lib.site-packages.colorama.tests.utils  *(path: .venv/Lib/site-packages/colorama/tests/utils.py)*
+- .venv.Lib.site-packages.colorama.win32  *(path: .venv/Lib/site-packages/colorama/win32.py)*
+- .venv.Lib.site-packages.colorama.winterm  *(path: .venv/Lib/site-packages/colorama/winterm.py)*
+- .venv.Lib.site-packages.distro.__main__  *(path: .venv/Lib/site-packages/distro/__main__.py)*
+- .venv.Lib.site-packages.distro.distro  *(path: .venv/Lib/site-packages/distro/distro.py)*
+- .venv.Lib.site-packages.dotenv.__main__  *(path: .venv/Lib/site-packages/dotenv/__main__.py)*
+- .venv.Lib.site-packages.dotenv.cli  *(path: .venv/Lib/site-packages/dotenv/cli.py)*
+- .venv.Lib.site-packages.dotenv.ipython  *(path: .venv/Lib/site-packages/dotenv/ipython.py)*
+- .venv.Lib.site-packages.dotenv.parser  *(path: .venv/Lib/site-packages/dotenv/parser.py)*
+- .venv.Lib.site-packages.dotenv.variables  *(path: .venv/Lib/site-packages/dotenv/variables.py)*
+- .venv.Lib.site-packages.dotenv.version  *(path: .venv/Lib/site-packages/dotenv/version.py)*
+- .venv.Lib.site-packages.h11._abnf  *(path: .venv/Lib/site-packages/h11/_abnf.py)*
+- .venv.Lib.site-packages.h11._connection  *(path: .venv/Lib/site-packages/h11/_connection.py)*
+- .venv.Lib.site-packages.h11._events  *(path: .venv/Lib/site-packages/h11/_events.py)*
+- .venv.Lib.site-packages.h11._headers  *(path: .venv/Lib/site-packages/h11/_headers.py)*
+- .venv.Lib.site-packages.h11._readers  *(path: .venv/Lib/site-packages/h11/_readers.py)*
+- .venv.Lib.site-packages.h11._receivebuffer  *(path: .venv/Lib/site-packages/h11/_receivebuffer.py)*
+- .venv.Lib.site-packages.h11._state  *(path: .venv/Lib/site-packages/h11/_state.py)*
+- .venv.Lib.site-packages.h11._util  *(path: .venv/Lib/site-packages/h11/_util.py)*
+- .venv.Lib.site-packages.h11._version  *(path: .venv/Lib/site-packages/h11/_version.py)*
+- .venv.Lib.site-packages.h11._writers  *(path: .venv/Lib/site-packages/h11/_writers.py)*
+- .venv.Lib.site-packages.httpcore._api  *(path: .venv/Lib/site-packages/httpcore/_api.py)*
+- .venv.Lib.site-packages.httpcore._async.connection  *(path: .venv/Lib/site-packages/httpcore/_async/connection.py)*
+- .venv.Lib.site-packages.httpcore._async.connection_pool  *(path: .venv/Lib/site-packages/httpcore/_async/connection_pool.py)*
+- .venv.Lib.site-packages.httpcore._async.http11  *(path: .venv/Lib/site-packages/httpcore/_async/http11.py)*
+- .venv.Lib.site-packages.httpcore._async.http2  *(path: .venv/Lib/site-packages/httpcore/_async/http2.py)*
+- .venv.Lib.site-packages.httpcore._async.http_proxy  *(path: .venv/Lib/site-packages/httpcore/_async/http_proxy.py)*
+- .venv.Lib.site-packages.httpcore._async.interfaces  *(path: .venv/Lib/site-packages/httpcore/_async/interfaces.py)*
+- .venv.Lib.site-packages.httpcore._async.socks_proxy  *(path: .venv/Lib/site-packages/httpcore/_async/socks_proxy.py)*
+- .venv.Lib.site-packages.httpcore._backends.anyio  *(path: .venv/Lib/site-packages/httpcore/_backends/anyio.py)*
+- .venv.Lib.site-packages.httpcore._backends.auto  *(path: .venv/Lib/site-packages/httpcore/_backends/auto.py)*
+- .venv.Lib.site-packages.httpcore._backends.base  *(path: .venv/Lib/site-packages/httpcore/_backends/base.py)*
+- .venv.Lib.site-packages.httpcore._backends.mock  *(path: .venv/Lib/site-packages/httpcore/_backends/mock.py)*
+- .venv.Lib.site-packages.httpcore._backends.sync  *(path: .venv/Lib/site-packages/httpcore/_backends/sync.py)*
+- .venv.Lib.site-packages.httpcore._backends.trio  *(path: .venv/Lib/site-packages/httpcore/_backends/trio.py)*
+- .venv.Lib.site-packages.httpcore._exceptions  *(path: .venv/Lib/site-packages/httpcore/_exceptions.py)*
+- .venv.Lib.site-packages.httpcore._models  *(path: .venv/Lib/site-packages/httpcore/_models.py)*
+- .venv.Lib.site-packages.httpcore._ssl  *(path: .venv/Lib/site-packages/httpcore/_ssl.py)*
+- .venv.Lib.site-packages.httpcore._sync.connection  *(path: .venv/Lib/site-packages/httpcore/_sync/connection.py)*
+- .venv.Lib.site-packages.httpcore._sync.connection_pool  *(path: .venv/Lib/site-packages/httpcore/_sync/connection_pool.py)*
+- .venv.Lib.site-packages.httpcore._sync.http11  *(path: .venv/Lib/site-packages/httpcore/_sync/http11.py)*
+- .venv.Lib.site-packages.httpcore._sync.http2  *(path: .venv/Lib/site-packages/httpcore/_sync/http2.py)*
+- .venv.Lib.site-packages.httpcore._sync.http_proxy  *(path: .venv/Lib/site-packages/httpcore/_sync/http_proxy.py)*
+- .venv.Lib.site-packages.httpcore._sync.interfaces  *(path: .venv/Lib/site-packages/httpcore/_sync/interfaces.py)*
+- .venv.Lib.site-packages.httpcore._sync.socks_proxy  *(path: .venv/Lib/site-packages/httpcore/_sync/socks_proxy.py)*
+- .venv.Lib.site-packages.httpcore._synchronization  *(path: .venv/Lib/site-packages/httpcore/_synchronization.py)*
+- .venv.Lib.site-packages.httpcore._trace  *(path: .venv/Lib/site-packages/httpcore/_trace.py)*
+- .venv.Lib.site-packages.httpcore._utils  *(path: .venv/Lib/site-packages/httpcore/_utils.py)*
+- .venv.Lib.site-packages.httpx.__version__  *(path: .venv/Lib/site-packages/httpx/__version__.py)*
+- .venv.Lib.site-packages.httpx._api  *(path: .venv/Lib/site-packages/httpx/_api.py)*
+- .venv.Lib.site-packages.httpx._auth  *(path: .venv/Lib/site-packages/httpx/_auth.py)*
+- .venv.Lib.site-packages.httpx._client  *(path: .venv/Lib/site-packages/httpx/_client.py)*
+- .venv.Lib.site-packages.httpx._config  *(path: .venv/Lib/site-packages/httpx/_config.py)*
+- .venv.Lib.site-packages.httpx._content  *(path: .venv/Lib/site-packages/httpx/_content.py)*
+- .venv.Lib.site-packages.httpx._decoders  *(path: .venv/Lib/site-packages/httpx/_decoders.py)*
+- .venv.Lib.site-packages.httpx._exceptions  *(path: .venv/Lib/site-packages/httpx/_exceptions.py)*
+- .venv.Lib.site-packages.httpx._main  *(path: .venv/Lib/site-packages/httpx/_main.py)*
+- .venv.Lib.site-packages.httpx._models  *(path: .venv/Lib/site-packages/httpx/_models.py)*
+- .venv.Lib.site-packages.httpx._multipart  *(path: .venv/Lib/site-packages/httpx/_multipart.py)*
+- .venv.Lib.site-packages.httpx._status_codes  *(path: .venv/Lib/site-packages/httpx/_status_codes.py)*
+- .venv.Lib.site-packages.httpx._transports.asgi  *(path: .venv/Lib/site-packages/httpx/_transports/asgi.py)*
+- .venv.Lib.site-packages.httpx._transports.base  *(path: .venv/Lib/site-packages/httpx/_transports/base.py)*
+- .venv.Lib.site-packages.httpx._transports.default  *(path: .venv/Lib/site-packages/httpx/_transports/default.py)*
+- .venv.Lib.site-packages.httpx._transports.mock  *(path: .venv/Lib/site-packages/httpx/_transports/mock.py)*
+- .venv.Lib.site-packages.httpx._transports.wsgi  *(path: .venv/Lib/site-packages/httpx/_transports/wsgi.py)*
+- .venv.Lib.site-packages.httpx._types  *(path: .venv/Lib/site-packages/httpx/_types.py)*
+- .venv.Lib.site-packages.httpx._urlparse  *(path: .venv/Lib/site-packages/httpx/_urlparse.py)*
+- .venv.Lib.site-packages.httpx._urls  *(path: .venv/Lib/site-packages/httpx/_urls.py)*
+- .venv.Lib.site-packages.httpx._utils  *(path: .venv/Lib/site-packages/httpx/_utils.py)*
+- .venv.Lib.site-packages.idna.codec  *(path: .venv/Lib/site-packages/idna/codec.py)*
+- .venv.Lib.site-packages.idna.compat  *(path: .venv/Lib/site-packages/idna/compat.py)*
+- .venv.Lib.site-packages.idna.core  *(path: .venv/Lib/site-packages/idna/core.py)*
+- .venv.Lib.site-packages.idna.idnadata  *(path: .venv/Lib/site-packages/idna/idnadata.py)*
+- .venv.Lib.site-packages.idna.intranges  *(path: .venv/Lib/site-packages/idna/intranges.py)*
+- .venv.Lib.site-packages.idna.package_data  *(path: .venv/Lib/site-packages/idna/package_data.py)*
+- .venv.Lib.site-packages.idna.uts46data  *(path: .venv/Lib/site-packages/idna/uts46data.py)*
+- .venv.Lib.site-packages.iniconfig._parse  *(path: .venv/Lib/site-packages/iniconfig/_parse.py)*
+- .venv.Lib.site-packages.iniconfig._version  *(path: .venv/Lib/site-packages/iniconfig/_version.py)*
+- .venv.Lib.site-packages.iniconfig.exceptions  *(path: .venv/Lib/site-packages/iniconfig/exceptions.py)*
+- .venv.Lib.site-packages.markdown_it._compat  *(path: .venv/Lib/site-packages/markdown_it/_compat.py)*
+- .venv.Lib.site-packages.markdown_it._punycode  *(path: .venv/Lib/site-packages/markdown_it/_punycode.py)*
+- .venv.Lib.site-packages.markdown_it.cli.parse  *(path: .venv/Lib/site-packages/markdown_it/cli/parse.py)*
+- .venv.Lib.site-packages.markdown_it.common.entities  *(path: .venv/Lib/site-packages/markdown_it/common/entities.py)*
+- .venv.Lib.site-packages.markdown_it.common.html_blocks  *(path: .venv/Lib/site-packages/markdown_it/common/html_blocks.py)*
+- .venv.Lib.site-packages.markdown_it.common.html_re  *(path: .venv/Lib/site-packages/markdown_it/common/html_re.py)*
+- .venv.Lib.site-packages.markdown_it.common.normalize_url  *(path: .venv/Lib/site-packages/markdown_it/common/normalize_url.py)*
+- .venv.Lib.site-packages.markdown_it.common.utils  *(path: .venv/Lib/site-packages/markdown_it/common/utils.py)*
+- .venv.Lib.site-packages.markdown_it.helpers.parse_link_destination  *(path: .venv/Lib/site-packages/markdown_it/helpers/parse_link_destination.py)*
+- .venv.Lib.site-packages.markdown_it.helpers.parse_link_label  *(path: .venv/Lib/site-packages/markdown_it/helpers/parse_link_label.py)*
+- .venv.Lib.site-packages.markdown_it.helpers.parse_link_title  *(path: .venv/Lib/site-packages/markdown_it/helpers/parse_link_title.py)*
+- .venv.Lib.site-packages.markdown_it.parser_block  *(path: .venv/Lib/site-packages/markdown_it/parser_block.py)*
+- .venv.Lib.site-packages.markdown_it.parser_core  *(path: .venv/Lib/site-packages/markdown_it/parser_core.py)*
+- .venv.Lib.site-packages.markdown_it.parser_inline  *(path: .venv/Lib/site-packages/markdown_it/parser_inline.py)*
+- .venv.Lib.site-packages.markdown_it.presets.commonmark  *(path: .venv/Lib/site-packages/markdown_it/presets/commonmark.py)*
+- .venv.Lib.site-packages.markdown_it.presets.default  *(path: .venv/Lib/site-packages/markdown_it/presets/default.py)*
+- .venv.Lib.site-packages.markdown_it.presets.zero  *(path: .venv/Lib/site-packages/markdown_it/presets/zero.py)*
+- .venv.Lib.site-packages.markdown_it.renderer  *(path: .venv/Lib/site-packages/markdown_it/renderer.py)*
+- .venv.Lib.site-packages.markdown_it.ruler  *(path: .venv/Lib/site-packages/markdown_it/ruler.py)*
+- .venv.Lib.site-packages.markdown_it.rules_block.blockquote  *(path: .venv/Lib/site-packages/markdown_it/rules_block/blockquote.py)*
+- .venv.Lib.site-packages.markdown_it.rules_block.code  *(path: .venv/Lib/site-packages/markdown_it/rules_block/code.py)*
+- .venv.Lib.site-packages.markdown_it.rules_block.fence  *(path: .venv/Lib/site-packages/markdown_it/rules_block/fence.py)*
+- .venv.Lib.site-packages.markdown_it.rules_block.heading  *(path: .venv/Lib/site-packages/markdown_it/rules_block/heading.py)*
+- .venv.Lib.site-packages.markdown_it.rules_block.hr  *(path: .venv/Lib/site-packages/markdown_it/rules_block/hr.py)*
+- .venv.Lib.site-packages.markdown_it.rules_block.html_block  *(path: .venv/Lib/site-packages/markdown_it/rules_block/html_block.py)*
+- .venv.Lib.site-packages.markdown_it.rules_block.lheading  *(path: .venv/Lib/site-packages/markdown_it/rules_block/lheading.py)*
+- .venv.Lib.site-packages.markdown_it.rules_block.list  *(path: .venv/Lib/site-packages/markdown_it/rules_block/list.py)*
+- .venv.Lib.site-packages.markdown_it.rules_block.paragraph  *(path: .venv/Lib/site-packages/markdown_it/rules_block/paragraph.py)*
+- .venv.Lib.site-packages.markdown_it.rules_block.reference  *(path: .venv/Lib/site-packages/markdown_it/rules_block/reference.py)*
+- .venv.Lib.site-packages.markdown_it.rules_block.state_block  *(path: .venv/Lib/site-packages/markdown_it/rules_block/state_block.py)*
+- .venv.Lib.site-packages.markdown_it.rules_block.table  *(path: .venv/Lib/site-packages/markdown_it/rules_block/table.py)*
+- .venv.Lib.site-packages.markdown_it.rules_core.block  *(path: .venv/Lib/site-packages/markdown_it/rules_core/block.py)*
+- .venv.Lib.site-packages.markdown_it.rules_core.inline  *(path: .venv/Lib/site-packages/markdown_it/rules_core/inline.py)*
+- .venv.Lib.site-packages.markdown_it.rules_core.linkify  *(path: .venv/Lib/site-packages/markdown_it/rules_core/linkify.py)*
+- .venv.Lib.site-packages.markdown_it.rules_core.normalize  *(path: .venv/Lib/site-packages/markdown_it/rules_core/normalize.py)*
+- .venv.Lib.site-packages.markdown_it.rules_core.replacements  *(path: .venv/Lib/site-packages/markdown_it/rules_core/replacements.py)*
+- .venv.Lib.site-packages.markdown_it.rules_core.smartquotes  *(path: .venv/Lib/site-packages/markdown_it/rules_core/smartquotes.py)*
+- .venv.Lib.site-packages.markdown_it.rules_core.state_core  *(path: .venv/Lib/site-packages/markdown_it/rules_core/state_core.py)*
+- .venv.Lib.site-packages.markdown_it.rules_core.text_join  *(path: .venv/Lib/site-packages/markdown_it/rules_core/text_join.py)*
+- .venv.Lib.site-packages.markdown_it.rules_inline.autolink  *(path: .venv/Lib/site-packages/markdown_it/rules_inline/autolink.py)*
+- .venv.Lib.site-packages.markdown_it.rules_inline.backticks  *(path: .venv/Lib/site-packages/markdown_it/rules_inline/backticks.py)*
+- .venv.Lib.site-packages.markdown_it.rules_inline.balance_pairs  *(path: .venv/Lib/site-packages/markdown_it/rules_inline/balance_pairs.py)*
+- .venv.Lib.site-packages.markdown_it.rules_inline.emphasis  *(path: .venv/Lib/site-packages/markdown_it/rules_inline/emphasis.py)*
+- .venv.Lib.site-packages.markdown_it.rules_inline.entity  *(path: .venv/Lib/site-packages/markdown_it/rules_inline/entity.py)*
+- .venv.Lib.site-packages.markdown_it.rules_inline.escape  *(path: .venv/Lib/site-packages/markdown_it/rules_inline/escape.py)*
+- .venv.Lib.site-packages.markdown_it.rules_inline.fragments_join  *(path: .venv/Lib/site-packages/markdown_it/rules_inline/fragments_join.py)*
+- .venv.Lib.site-packages.markdown_it.rules_inline.html_inline  *(path: .venv/Lib/site-packages/markdown_it/rules_inline/html_inline.py)*
+- .venv.Lib.site-packages.markdown_it.rules_inline.image  *(path: .venv/Lib/site-packages/markdown_it/rules_inline/image.py)*
+- .venv.Lib.site-packages.markdown_it.rules_inline.link  *(path: .venv/Lib/site-packages/markdown_it/rules_inline/link.py)*
+- .venv.Lib.site-packages.markdown_it.rules_inline.linkify  *(path: .venv/Lib/site-packages/markdown_it/rules_inline/linkify.py)*
+- .venv.Lib.site-packages.markdown_it.rules_inline.newline  *(path: .venv/Lib/site-packages/markdown_it/rules_inline/newline.py)*
+- .venv.Lib.site-packages.markdown_it.rules_inline.state_inline  *(path: .venv/Lib/site-packages/markdown_it/rules_inline/state_inline.py)*
+- .venv.Lib.site-packages.markdown_it.rules_inline.strikethrough  *(path: .venv/Lib/site-packages/markdown_it/rules_inline/strikethrough.py)*
+- .venv.Lib.site-packages.markdown_it.rules_inline.text  *(path: .venv/Lib/site-packages/markdown_it/rules_inline/text.py)*
+- .venv.Lib.site-packages.markdown_it.token  *(path: .venv/Lib/site-packages/markdown_it/token.py)*
+- .venv.Lib.site-packages.markdown_it.tree  *(path: .venv/Lib/site-packages/markdown_it/tree.py)*
+- .venv.Lib.site-packages.markdown_it.utils  *(path: .venv/Lib/site-packages/markdown_it/utils.py)*
+- .venv.Lib.site-packages.mdurl._decode  *(path: .venv/Lib/site-packages/mdurl/_decode.py)*
+- .venv.Lib.site-packages.mdurl._encode  *(path: .venv/Lib/site-packages/mdurl/_encode.py)*
+- .venv.Lib.site-packages.mdurl._format  *(path: .venv/Lib/site-packages/mdurl/_format.py)*
+- .venv.Lib.site-packages.mdurl._parse  *(path: .venv/Lib/site-packages/mdurl/_parse.py)*
+- .venv.Lib.site-packages.mdurl._url  *(path: .venv/Lib/site-packages/mdurl/_url.py)*
+- .venv.Lib.site-packages.openai.__main__  *(path: .venv/Lib/site-packages/openai/__main__.py)*
+- .venv.Lib.site-packages.openai._base_client  *(path: .venv/Lib/site-packages/openai/_base_client.py)*
+- .venv.Lib.site-packages.openai._client  *(path: .venv/Lib/site-packages/openai/_client.py)*
+- .venv.Lib.site-packages.openai._compat  *(path: .venv/Lib/site-packages/openai/_compat.py)*
+- .venv.Lib.site-packages.openai._constants  *(path: .venv/Lib/site-packages/openai/_constants.py)*
+- .venv.Lib.site-packages.openai._exceptions  *(path: .venv/Lib/site-packages/openai/_exceptions.py)*
+- .venv.Lib.site-packages.openai._extras._common  *(path: .venv/Lib/site-packages/openai/_extras/_common.py)*
+- .venv.Lib.site-packages.openai._extras.numpy_proxy  *(path: .venv/Lib/site-packages/openai/_extras/numpy_proxy.py)*
+- .venv.Lib.site-packages.openai._extras.pandas_proxy  *(path: .venv/Lib/site-packages/openai/_extras/pandas_proxy.py)*
+- .venv.Lib.site-packages.openai._extras.sounddevice_proxy  *(path: .venv/Lib/site-packages/openai/_extras/sounddevice_proxy.py)*
+- .venv.Lib.site-packages.openai._files  *(path: .venv/Lib/site-packages/openai/_files.py)*
+- .venv.Lib.site-packages.openai._legacy_response  *(path: .venv/Lib/site-packages/openai/_legacy_response.py)*
+- .venv.Lib.site-packages.openai._models  *(path: .venv/Lib/site-packages/openai/_models.py)*
+- .venv.Lib.site-packages.openai._module_client  *(path: .venv/Lib/site-packages/openai/_module_client.py)*
+- .venv.Lib.site-packages.openai._qs  *(path: .venv/Lib/site-packages/openai/_qs.py)*
+- .venv.Lib.site-packages.openai._resource  *(path: .venv/Lib/site-packages/openai/_resource.py)*
+- .venv.Lib.site-packages.openai._response  *(path: .venv/Lib/site-packages/openai/_response.py)*
+- .venv.Lib.site-packages.openai._streaming  *(path: .venv/Lib/site-packages/openai/_streaming.py)*
+- .venv.Lib.site-packages.openai._types  *(path: .venv/Lib/site-packages/openai/_types.py)*
+- .venv.Lib.site-packages.openai._utils._logs  *(path: .venv/Lib/site-packages/openai/_utils/_logs.py)*
+- .venv.Lib.site-packages.openai._utils._proxy  *(path: .venv/Lib/site-packages/openai/_utils/_proxy.py)*
+- .venv.Lib.site-packages.openai._utils._reflection  *(path: .venv/Lib/site-packages/openai/_utils/_reflection.py)*
+- .venv.Lib.site-packages.openai._utils._resources_proxy  *(path: .venv/Lib/site-packages/openai/_utils/_resources_proxy.py)*
+- .venv.Lib.site-packages.openai._utils._streams  *(path: .venv/Lib/site-packages/openai/_utils/_streams.py)*
+- .venv.Lib.site-packages.openai._utils._sync  *(path: .venv/Lib/site-packages/openai/_utils/_sync.py)*
+- .venv.Lib.site-packages.openai._utils._transform  *(path: .venv/Lib/site-packages/openai/_utils/_transform.py)*
+- .venv.Lib.site-packages.openai._utils._typing  *(path: .venv/Lib/site-packages/openai/_utils/_typing.py)*
+- .venv.Lib.site-packages.openai._utils._utils  *(path: .venv/Lib/site-packages/openai/_utils/_utils.py)*
+- .venv.Lib.site-packages.openai._version  *(path: .venv/Lib/site-packages/openai/_version.py)*
+- .venv.Lib.site-packages.openai.cli._api._main  *(path: .venv/Lib/site-packages/openai/cli/_api/_main.py)*
+- .venv.Lib.site-packages.openai.cli._api.audio  *(path: .venv/Lib/site-packages/openai/cli/_api/audio.py)*
+- .venv.Lib.site-packages.openai.cli._api.chat.completions  *(path: .venv/Lib/site-packages/openai/cli/_api/chat/completions.py)*
+- .venv.Lib.site-packages.openai.cli._api.completions  *(path: .venv/Lib/site-packages/openai/cli/_api/completions.py)*
+- .venv.Lib.site-packages.openai.cli._api.files  *(path: .venv/Lib/site-packages/openai/cli/_api/files.py)*
+- .venv.Lib.site-packages.openai.cli._api.fine_tuning.jobs  *(path: .venv/Lib/site-packages/openai/cli/_api/fine_tuning/jobs.py)*
+- .venv.Lib.site-packages.openai.cli._api.image  *(path: .venv/Lib/site-packages/openai/cli/_api/image.py)*
+- .venv.Lib.site-packages.openai.cli._api.models  *(path: .venv/Lib/site-packages/openai/cli/_api/models.py)*
+- .venv.Lib.site-packages.openai.cli._cli  *(path: .venv/Lib/site-packages/openai/cli/_cli.py)*
+- .venv.Lib.site-packages.openai.cli._errors  *(path: .venv/Lib/site-packages/openai/cli/_errors.py)*
+- .venv.Lib.site-packages.openai.cli._models  *(path: .venv/Lib/site-packages/openai/cli/_models.py)*
+- .venv.Lib.site-packages.openai.cli._progress  *(path: .venv/Lib/site-packages/openai/cli/_progress.py)*
+- .venv.Lib.site-packages.openai.cli._tools._main  *(path: .venv/Lib/site-packages/openai/cli/_tools/_main.py)*
+- .venv.Lib.site-packages.openai.cli._tools.fine_tunes  *(path: .venv/Lib/site-packages/openai/cli/_tools/fine_tunes.py)*
+- .venv.Lib.site-packages.openai.cli._tools.migrate  *(path: .venv/Lib/site-packages/openai/cli/_tools/migrate.py)*
+- .venv.Lib.site-packages.openai.cli._utils  *(path: .venv/Lib/site-packages/openai/cli/_utils.py)*
+- .venv.Lib.site-packages.openai.helpers.local_audio_player  *(path: .venv/Lib/site-packages/openai/helpers/local_audio_player.py)*
+- .venv.Lib.site-packages.openai.helpers.microphone  *(path: .venv/Lib/site-packages/openai/helpers/microphone.py)*
+- .venv.Lib.site-packages.openai.lib._old_api  *(path: .venv/Lib/site-packages/openai/lib/_old_api.py)*
+- .venv.Lib.site-packages.openai.lib._parsing._completions  *(path: .venv/Lib/site-packages/openai/lib/_parsing/_completions.py)*
+- .venv.Lib.site-packages.openai.lib._parsing._responses  *(path: .venv/Lib/site-packages/openai/lib/_parsing/_responses.py)*
+- .venv.Lib.site-packages.openai.lib._pydantic  *(path: .venv/Lib/site-packages/openai/lib/_pydantic.py)*
+- .venv.Lib.site-packages.openai.lib._tools  *(path: .venv/Lib/site-packages/openai/lib/_tools.py)*
+- .venv.Lib.site-packages.openai.lib._validators  *(path: .venv/Lib/site-packages/openai/lib/_validators.py)*
+- .venv.Lib.site-packages.openai.lib.azure  *(path: .venv/Lib/site-packages/openai/lib/azure.py)*
+- .venv.Lib.site-packages.openai.lib.streaming._assistants  *(path: .venv/Lib/site-packages/openai/lib/streaming/_assistants.py)*
+- .venv.Lib.site-packages.openai.lib.streaming._deltas  *(path: .venv/Lib/site-packages/openai/lib/streaming/_deltas.py)*
+- .venv.Lib.site-packages.openai.lib.streaming.chat._completions  *(path: .venv/Lib/site-packages/openai/lib/streaming/chat/_completions.py)*
+- .venv.Lib.site-packages.openai.lib.streaming.chat._events  *(path: .venv/Lib/site-packages/openai/lib/streaming/chat/_events.py)*
+- .venv.Lib.site-packages.openai.lib.streaming.chat._types  *(path: .venv/Lib/site-packages/openai/lib/streaming/chat/_types.py)*
+- .venv.Lib.site-packages.openai.lib.streaming.responses._events  *(path: .venv/Lib/site-packages/openai/lib/streaming/responses/_events.py)*
+- .venv.Lib.site-packages.openai.lib.streaming.responses._responses  *(path: .venv/Lib/site-packages/openai/lib/streaming/responses/_responses.py)*
+- .venv.Lib.site-packages.openai.lib.streaming.responses._types  *(path: .venv/Lib/site-packages/openai/lib/streaming/responses/_types.py)*
+- .venv.Lib.site-packages.openai.pagination  *(path: .venv/Lib/site-packages/openai/pagination.py)*
+- .venv.Lib.site-packages.openai.resources.audio.audio  *(path: .venv/Lib/site-packages/openai/resources/audio/audio.py)*
+- .venv.Lib.site-packages.openai.resources.audio.speech  *(path: .venv/Lib/site-packages/openai/resources/audio/speech.py)*
+- .venv.Lib.site-packages.openai.resources.audio.transcriptions  *(path: .venv/Lib/site-packages/openai/resources/audio/transcriptions.py)*
+- .venv.Lib.site-packages.openai.resources.audio.translations  *(path: .venv/Lib/site-packages/openai/resources/audio/translations.py)*
+- .venv.Lib.site-packages.openai.resources.batches  *(path: .venv/Lib/site-packages/openai/resources/batches.py)*
+- .venv.Lib.site-packages.openai.resources.beta.assistants  *(path: .venv/Lib/site-packages/openai/resources/beta/assistants.py)*
+- .venv.Lib.site-packages.openai.resources.beta.beta  *(path: .venv/Lib/site-packages/openai/resources/beta/beta.py)*
+- .venv.Lib.site-packages.openai.resources.beta.realtime.realtime  *(path: .venv/Lib/site-packages/openai/resources/beta/realtime/realtime.py)*
+- .venv.Lib.site-packages.openai.resources.beta.realtime.sessions  *(path: .venv/Lib/site-packages/openai/resources/beta/realtime/sessions.py)*
+- .venv.Lib.site-packages.openai.resources.beta.realtime.transcription_sessions  *(path: .venv/Lib/site-packages/openai/resources/beta/realtime/transcription_sessions.py)*
+- .venv.Lib.site-packages.openai.resources.beta.threads.messages  *(path: .venv/Lib/site-packages/openai/resources/beta/threads/messages.py)*
+- .venv.Lib.site-packages.openai.resources.beta.threads.runs.runs  *(path: .venv/Lib/site-packages/openai/resources/beta/threads/runs/runs.py)*
+- .venv.Lib.site-packages.openai.resources.beta.threads.runs.steps  *(path: .venv/Lib/site-packages/openai/resources/beta/threads/runs/steps.py)*
+- .venv.Lib.site-packages.openai.resources.beta.threads.threads  *(path: .venv/Lib/site-packages/openai/resources/beta/threads/threads.py)*
+- .venv.Lib.site-packages.openai.resources.chat.chat  *(path: .venv/Lib/site-packages/openai/resources/chat/chat.py)*
+- .venv.Lib.site-packages.openai.resources.chat.completions.completions  *(path: .venv/Lib/site-packages/openai/resources/chat/completions/completions.py)*
+- .venv.Lib.site-packages.openai.resources.chat.completions.messages  *(path: .venv/Lib/site-packages/openai/resources/chat/completions/messages.py)*
+- .venv.Lib.site-packages.openai.resources.completions  *(path: .venv/Lib/site-packages/openai/resources/completions.py)*
+- .venv.Lib.site-packages.openai.resources.containers.containers  *(path: .venv/Lib/site-packages/openai/resources/containers/containers.py)*
+- .venv.Lib.site-packages.openai.resources.containers.files.content  *(path: .venv/Lib/site-packages/openai/resources/containers/files/content.py)*
+- .venv.Lib.site-packages.openai.resources.containers.files.files  *(path: .venv/Lib/site-packages/openai/resources/containers/files/files.py)*
+- .venv.Lib.site-packages.openai.resources.embeddings  *(path: .venv/Lib/site-packages/openai/resources/embeddings.py)*
+- .venv.Lib.site-packages.openai.resources.evals.evals  *(path: .venv/Lib/site-packages/openai/resources/evals/evals.py)*
+- .venv.Lib.site-packages.openai.resources.evals.runs.output_items  *(path: .venv/Lib/site-packages/openai/resources/evals/runs/output_items.py)*
+- .venv.Lib.site-packages.openai.resources.evals.runs.runs  *(path: .venv/Lib/site-packages/openai/resources/evals/runs/runs.py)*
+- .venv.Lib.site-packages.openai.resources.files  *(path: .venv/Lib/site-packages/openai/resources/files.py)*
+- .venv.Lib.site-packages.openai.resources.fine_tuning.alpha.alpha  *(path: .venv/Lib/site-packages/openai/resources/fine_tuning/alpha/alpha.py)*
+- .venv.Lib.site-packages.openai.resources.fine_tuning.alpha.graders  *(path: .venv/Lib/site-packages/openai/resources/fine_tuning/alpha/graders.py)*
+- .venv.Lib.site-packages.openai.resources.fine_tuning.checkpoints.checkpoints  *(path: .venv/Lib/site-packages/openai/resources/fine_tuning/checkpoints/checkpoints.py)*
+- .venv.Lib.site-packages.openai.resources.fine_tuning.checkpoints.permissions  *(path: .venv/Lib/site-packages/openai/resources/fine_tuning/checkpoints/permissions.py)*
+- .venv.Lib.site-packages.openai.resources.fine_tuning.fine_tuning  *(path: .venv/Lib/site-packages/openai/resources/fine_tuning/fine_tuning.py)*
+- .venv.Lib.site-packages.openai.resources.fine_tuning.jobs.checkpoints  *(path: .venv/Lib/site-packages/openai/resources/fine_tuning/jobs/checkpoints.py)*
+- .venv.Lib.site-packages.openai.resources.fine_tuning.jobs.jobs  *(path: .venv/Lib/site-packages/openai/resources/fine_tuning/jobs/jobs.py)*
+- .venv.Lib.site-packages.openai.resources.images  *(path: .venv/Lib/site-packages/openai/resources/images.py)*
+- .venv.Lib.site-packages.openai.resources.models  *(path: .venv/Lib/site-packages/openai/resources/models.py)*
+- .venv.Lib.site-packages.openai.resources.moderations  *(path: .venv/Lib/site-packages/openai/resources/moderations.py)*
+- .venv.Lib.site-packages.openai.resources.responses.input_items  *(path: .venv/Lib/site-packages/openai/resources/responses/input_items.py)*
+- .venv.Lib.site-packages.openai.resources.responses.responses  *(path: .venv/Lib/site-packages/openai/resources/responses/responses.py)*
+- .venv.Lib.site-packages.openai.resources.uploads.parts  *(path: .venv/Lib/site-packages/openai/resources/uploads/parts.py)*
+- .venv.Lib.site-packages.openai.resources.uploads.uploads  *(path: .venv/Lib/site-packages/openai/resources/uploads/uploads.py)*
+- .venv.Lib.site-packages.openai.resources.vector_stores.file_batches  *(path: .venv/Lib/site-packages/openai/resources/vector_stores/file_batches.py)*
+- .venv.Lib.site-packages.openai.resources.vector_stores.files  *(path: .venv/Lib/site-packages/openai/resources/vector_stores/files.py)*
+- .venv.Lib.site-packages.openai.resources.vector_stores.vector_stores  *(path: .venv/Lib/site-packages/openai/resources/vector_stores/vector_stores.py)*
+- .venv.Lib.site-packages.openai.resources.webhooks  *(path: .venv/Lib/site-packages/openai/resources/webhooks.py)*
+- .venv.Lib.site-packages.openai.types.audio.speech_create_params  *(path: .venv/Lib/site-packages/openai/types/audio/speech_create_params.py)*
+- .venv.Lib.site-packages.openai.types.audio.speech_model  *(path: .venv/Lib/site-packages/openai/types/audio/speech_model.py)*
+- .venv.Lib.site-packages.openai.types.audio.transcription  *(path: .venv/Lib/site-packages/openai/types/audio/transcription.py)*
+- .venv.Lib.site-packages.openai.types.audio.transcription_create_params  *(path: .venv/Lib/site-packages/openai/types/audio/transcription_create_params.py)*
+- .venv.Lib.site-packages.openai.types.audio.transcription_create_response  *(path: .venv/Lib/site-packages/openai/types/audio/transcription_create_response.py)*
+- .venv.Lib.site-packages.openai.types.audio.transcription_include  *(path: .venv/Lib/site-packages/openai/types/audio/transcription_include.py)*
+- .venv.Lib.site-packages.openai.types.audio.transcription_segment  *(path: .venv/Lib/site-packages/openai/types/audio/transcription_segment.py)*
+- .venv.Lib.site-packages.openai.types.audio.transcription_stream_event  *(path: .venv/Lib/site-packages/openai/types/audio/transcription_stream_event.py)*
+- .venv.Lib.site-packages.openai.types.audio.transcription_text_delta_event  *(path: .venv/Lib/site-packages/openai/types/audio/transcription_text_delta_event.py)*
+- .venv.Lib.site-packages.openai.types.audio.transcription_text_done_event  *(path: .venv/Lib/site-packages/openai/types/audio/transcription_text_done_event.py)*
+- .venv.Lib.site-packages.openai.types.audio.transcription_verbose  *(path: .venv/Lib/site-packages/openai/types/audio/transcription_verbose.py)*
+- .venv.Lib.site-packages.openai.types.audio.transcription_word  *(path: .venv/Lib/site-packages/openai/types/audio/transcription_word.py)*
+- .venv.Lib.site-packages.openai.types.audio.translation  *(path: .venv/Lib/site-packages/openai/types/audio/translation.py)*
+- .venv.Lib.site-packages.openai.types.audio.translation_create_params  *(path: .venv/Lib/site-packages/openai/types/audio/translation_create_params.py)*
+- .venv.Lib.site-packages.openai.types.audio.translation_create_response  *(path: .venv/Lib/site-packages/openai/types/audio/translation_create_response.py)*
+- .venv.Lib.site-packages.openai.types.audio.translation_verbose  *(path: .venv/Lib/site-packages/openai/types/audio/translation_verbose.py)*
+- .venv.Lib.site-packages.openai.types.audio_model  *(path: .venv/Lib/site-packages/openai/types/audio_model.py)*
+- .venv.Lib.site-packages.openai.types.audio_response_format  *(path: .venv/Lib/site-packages/openai/types/audio_response_format.py)*
+- .venv.Lib.site-packages.openai.types.auto_file_chunking_strategy_param  *(path: .venv/Lib/site-packages/openai/types/auto_file_chunking_strategy_param.py)*
+- .venv.Lib.site-packages.openai.types.batch  *(path: .venv/Lib/site-packages/openai/types/batch.py)*
+- .venv.Lib.site-packages.openai.types.batch_create_params  *(path: .venv/Lib/site-packages/openai/types/batch_create_params.py)*
+- .venv.Lib.site-packages.openai.types.batch_error  *(path: .venv/Lib/site-packages/openai/types/batch_error.py)*
+- .venv.Lib.site-packages.openai.types.batch_list_params  *(path: .venv/Lib/site-packages/openai/types/batch_list_params.py)*
+- .venv.Lib.site-packages.openai.types.batch_request_counts  *(path: .venv/Lib/site-packages/openai/types/batch_request_counts.py)*
+- .venv.Lib.site-packages.openai.types.beta.assistant  *(path: .venv/Lib/site-packages/openai/types/beta/assistant.py)*
+- .venv.Lib.site-packages.openai.types.beta.assistant_create_params  *(path: .venv/Lib/site-packages/openai/types/beta/assistant_create_params.py)*
+- .venv.Lib.site-packages.openai.types.beta.assistant_deleted  *(path: .venv/Lib/site-packages/openai/types/beta/assistant_deleted.py)*
+- .venv.Lib.site-packages.openai.types.beta.assistant_list_params  *(path: .venv/Lib/site-packages/openai/types/beta/assistant_list_params.py)*
+- .venv.Lib.site-packages.openai.types.beta.assistant_response_format_option  *(path: .venv/Lib/site-packages/openai/types/beta/assistant_response_format_option.py)*
+- .venv.Lib.site-packages.openai.types.beta.assistant_response_format_option_param  *(path: .venv/Lib/site-packages/openai/types/beta/assistant_response_format_option_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.assistant_stream_event  *(path: .venv/Lib/site-packages/openai/types/beta/assistant_stream_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.assistant_tool  *(path: .venv/Lib/site-packages/openai/types/beta/assistant_tool.py)*
+- .venv.Lib.site-packages.openai.types.beta.assistant_tool_choice  *(path: .venv/Lib/site-packages/openai/types/beta/assistant_tool_choice.py)*
+- .venv.Lib.site-packages.openai.types.beta.assistant_tool_choice_function  *(path: .venv/Lib/site-packages/openai/types/beta/assistant_tool_choice_function.py)*
+- .venv.Lib.site-packages.openai.types.beta.assistant_tool_choice_function_param  *(path: .venv/Lib/site-packages/openai/types/beta/assistant_tool_choice_function_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.assistant_tool_choice_option  *(path: .venv/Lib/site-packages/openai/types/beta/assistant_tool_choice_option.py)*
+- .venv.Lib.site-packages.openai.types.beta.assistant_tool_choice_option_param  *(path: .venv/Lib/site-packages/openai/types/beta/assistant_tool_choice_option_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.assistant_tool_choice_param  *(path: .venv/Lib/site-packages/openai/types/beta/assistant_tool_choice_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.assistant_tool_param  *(path: .venv/Lib/site-packages/openai/types/beta/assistant_tool_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.assistant_update_params  *(path: .venv/Lib/site-packages/openai/types/beta/assistant_update_params.py)*
+- .venv.Lib.site-packages.openai.types.beta.code_interpreter_tool  *(path: .venv/Lib/site-packages/openai/types/beta/code_interpreter_tool.py)*
+- .venv.Lib.site-packages.openai.types.beta.code_interpreter_tool_param  *(path: .venv/Lib/site-packages/openai/types/beta/code_interpreter_tool_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.file_search_tool  *(path: .venv/Lib/site-packages/openai/types/beta/file_search_tool.py)*
+- .venv.Lib.site-packages.openai.types.beta.file_search_tool_param  *(path: .venv/Lib/site-packages/openai/types/beta/file_search_tool_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.function_tool  *(path: .venv/Lib/site-packages/openai/types/beta/function_tool.py)*
+- .venv.Lib.site-packages.openai.types.beta.function_tool_param  *(path: .venv/Lib/site-packages/openai/types/beta/function_tool_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.conversation_created_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/conversation_created_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.conversation_item  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/conversation_item.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.conversation_item_content  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/conversation_item_content.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.conversation_item_content_param  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/conversation_item_content_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.conversation_item_create_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/conversation_item_create_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.conversation_item_create_event_param  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/conversation_item_create_event_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.conversation_item_created_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/conversation_item_created_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.conversation_item_delete_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/conversation_item_delete_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.conversation_item_delete_event_param  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/conversation_item_delete_event_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.conversation_item_deleted_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/conversation_item_deleted_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.conversation_item_input_audio_transcription_completed_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/conversation_item_input_audio_transcription_completed_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.conversation_item_input_audio_transcription_delta_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/conversation_item_input_audio_transcription_delta_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.conversation_item_input_audio_transcription_failed_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/conversation_item_input_audio_transcription_failed_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.conversation_item_param  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/conversation_item_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.conversation_item_retrieve_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/conversation_item_retrieve_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.conversation_item_retrieve_event_param  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/conversation_item_retrieve_event_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.conversation_item_truncate_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/conversation_item_truncate_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.conversation_item_truncate_event_param  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/conversation_item_truncate_event_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.conversation_item_truncated_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/conversation_item_truncated_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.conversation_item_with_reference  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/conversation_item_with_reference.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.conversation_item_with_reference_param  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/conversation_item_with_reference_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.error_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/error_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.input_audio_buffer_append_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/input_audio_buffer_append_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.input_audio_buffer_append_event_param  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/input_audio_buffer_append_event_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.input_audio_buffer_clear_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/input_audio_buffer_clear_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.input_audio_buffer_clear_event_param  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/input_audio_buffer_clear_event_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.input_audio_buffer_cleared_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/input_audio_buffer_cleared_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.input_audio_buffer_commit_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/input_audio_buffer_commit_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.input_audio_buffer_commit_event_param  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/input_audio_buffer_commit_event_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.input_audio_buffer_committed_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/input_audio_buffer_committed_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.input_audio_buffer_speech_started_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/input_audio_buffer_speech_started_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.input_audio_buffer_speech_stopped_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/input_audio_buffer_speech_stopped_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.rate_limits_updated_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/rate_limits_updated_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.realtime_client_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/realtime_client_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.realtime_client_event_param  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/realtime_client_event_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.realtime_connect_params  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/realtime_connect_params.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.realtime_response  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/realtime_response.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.realtime_response_status  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/realtime_response_status.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.realtime_response_usage  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/realtime_response_usage.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.realtime_server_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/realtime_server_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.response_audio_delta_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/response_audio_delta_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.response_audio_done_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/response_audio_done_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.response_audio_transcript_delta_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/response_audio_transcript_delta_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.response_audio_transcript_done_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/response_audio_transcript_done_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.response_cancel_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/response_cancel_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.response_cancel_event_param  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/response_cancel_event_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.response_content_part_added_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/response_content_part_added_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.response_content_part_done_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/response_content_part_done_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.response_create_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/response_create_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.response_create_event_param  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/response_create_event_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.response_created_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/response_created_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.response_done_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/response_done_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.response_function_call_arguments_delta_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/response_function_call_arguments_delta_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.response_function_call_arguments_done_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/response_function_call_arguments_done_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.response_output_item_added_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/response_output_item_added_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.response_output_item_done_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/response_output_item_done_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.response_text_delta_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/response_text_delta_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.response_text_done_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/response_text_done_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.session  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/session.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.session_create_params  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/session_create_params.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.session_create_response  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/session_create_response.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.session_created_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/session_created_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.session_update_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/session_update_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.session_update_event_param  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/session_update_event_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.session_updated_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/session_updated_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.transcription_session  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/transcription_session.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.transcription_session_create_params  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/transcription_session_create_params.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.transcription_session_update  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/transcription_session_update.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.transcription_session_update_param  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/transcription_session_update_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.realtime.transcription_session_updated_event  *(path: .venv/Lib/site-packages/openai/types/beta/realtime/transcription_session_updated_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.thread  *(path: .venv/Lib/site-packages/openai/types/beta/thread.py)*
+- .venv.Lib.site-packages.openai.types.beta.thread_create_and_run_params  *(path: .venv/Lib/site-packages/openai/types/beta/thread_create_and_run_params.py)*
+- .venv.Lib.site-packages.openai.types.beta.thread_create_params  *(path: .venv/Lib/site-packages/openai/types/beta/thread_create_params.py)*
+- .venv.Lib.site-packages.openai.types.beta.thread_deleted  *(path: .venv/Lib/site-packages/openai/types/beta/thread_deleted.py)*
+- .venv.Lib.site-packages.openai.types.beta.thread_update_params  *(path: .venv/Lib/site-packages/openai/types/beta/thread_update_params.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.annotation  *(path: .venv/Lib/site-packages/openai/types/beta/threads/annotation.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.annotation_delta  *(path: .venv/Lib/site-packages/openai/types/beta/threads/annotation_delta.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.file_citation_annotation  *(path: .venv/Lib/site-packages/openai/types/beta/threads/file_citation_annotation.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.file_citation_delta_annotation  *(path: .venv/Lib/site-packages/openai/types/beta/threads/file_citation_delta_annotation.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.file_path_annotation  *(path: .venv/Lib/site-packages/openai/types/beta/threads/file_path_annotation.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.file_path_delta_annotation  *(path: .venv/Lib/site-packages/openai/types/beta/threads/file_path_delta_annotation.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.image_file  *(path: .venv/Lib/site-packages/openai/types/beta/threads/image_file.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.image_file_content_block  *(path: .venv/Lib/site-packages/openai/types/beta/threads/image_file_content_block.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.image_file_content_block_param  *(path: .venv/Lib/site-packages/openai/types/beta/threads/image_file_content_block_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.image_file_delta  *(path: .venv/Lib/site-packages/openai/types/beta/threads/image_file_delta.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.image_file_delta_block  *(path: .venv/Lib/site-packages/openai/types/beta/threads/image_file_delta_block.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.image_file_param  *(path: .venv/Lib/site-packages/openai/types/beta/threads/image_file_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.image_url  *(path: .venv/Lib/site-packages/openai/types/beta/threads/image_url.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.image_url_content_block  *(path: .venv/Lib/site-packages/openai/types/beta/threads/image_url_content_block.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.image_url_content_block_param  *(path: .venv/Lib/site-packages/openai/types/beta/threads/image_url_content_block_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.image_url_delta  *(path: .venv/Lib/site-packages/openai/types/beta/threads/image_url_delta.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.image_url_delta_block  *(path: .venv/Lib/site-packages/openai/types/beta/threads/image_url_delta_block.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.image_url_param  *(path: .venv/Lib/site-packages/openai/types/beta/threads/image_url_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.message  *(path: .venv/Lib/site-packages/openai/types/beta/threads/message.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.message_content  *(path: .venv/Lib/site-packages/openai/types/beta/threads/message_content.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.message_content_delta  *(path: .venv/Lib/site-packages/openai/types/beta/threads/message_content_delta.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.message_content_part_param  *(path: .venv/Lib/site-packages/openai/types/beta/threads/message_content_part_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.message_create_params  *(path: .venv/Lib/site-packages/openai/types/beta/threads/message_create_params.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.message_deleted  *(path: .venv/Lib/site-packages/openai/types/beta/threads/message_deleted.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.message_delta  *(path: .venv/Lib/site-packages/openai/types/beta/threads/message_delta.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.message_delta_event  *(path: .venv/Lib/site-packages/openai/types/beta/threads/message_delta_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.message_list_params  *(path: .venv/Lib/site-packages/openai/types/beta/threads/message_list_params.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.message_update_params  *(path: .venv/Lib/site-packages/openai/types/beta/threads/message_update_params.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.refusal_content_block  *(path: .venv/Lib/site-packages/openai/types/beta/threads/refusal_content_block.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.refusal_delta_block  *(path: .venv/Lib/site-packages/openai/types/beta/threads/refusal_delta_block.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.required_action_function_tool_call  *(path: .venv/Lib/site-packages/openai/types/beta/threads/required_action_function_tool_call.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.run  *(path: .venv/Lib/site-packages/openai/types/beta/threads/run.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.run_create_params  *(path: .venv/Lib/site-packages/openai/types/beta/threads/run_create_params.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.run_list_params  *(path: .venv/Lib/site-packages/openai/types/beta/threads/run_list_params.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.run_status  *(path: .venv/Lib/site-packages/openai/types/beta/threads/run_status.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.run_submit_tool_outputs_params  *(path: .venv/Lib/site-packages/openai/types/beta/threads/run_submit_tool_outputs_params.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.run_update_params  *(path: .venv/Lib/site-packages/openai/types/beta/threads/run_update_params.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.runs.code_interpreter_logs  *(path: .venv/Lib/site-packages/openai/types/beta/threads/runs/code_interpreter_logs.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.runs.code_interpreter_output_image  *(path: .venv/Lib/site-packages/openai/types/beta/threads/runs/code_interpreter_output_image.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.runs.code_interpreter_tool_call  *(path: .venv/Lib/site-packages/openai/types/beta/threads/runs/code_interpreter_tool_call.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.runs.code_interpreter_tool_call_delta  *(path: .venv/Lib/site-packages/openai/types/beta/threads/runs/code_interpreter_tool_call_delta.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.runs.file_search_tool_call  *(path: .venv/Lib/site-packages/openai/types/beta/threads/runs/file_search_tool_call.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.runs.file_search_tool_call_delta  *(path: .venv/Lib/site-packages/openai/types/beta/threads/runs/file_search_tool_call_delta.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.runs.function_tool_call  *(path: .venv/Lib/site-packages/openai/types/beta/threads/runs/function_tool_call.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.runs.function_tool_call_delta  *(path: .venv/Lib/site-packages/openai/types/beta/threads/runs/function_tool_call_delta.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.runs.message_creation_step_details  *(path: .venv/Lib/site-packages/openai/types/beta/threads/runs/message_creation_step_details.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.runs.run_step  *(path: .venv/Lib/site-packages/openai/types/beta/threads/runs/run_step.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.runs.run_step_delta  *(path: .venv/Lib/site-packages/openai/types/beta/threads/runs/run_step_delta.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.runs.run_step_delta_event  *(path: .venv/Lib/site-packages/openai/types/beta/threads/runs/run_step_delta_event.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.runs.run_step_delta_message_delta  *(path: .venv/Lib/site-packages/openai/types/beta/threads/runs/run_step_delta_message_delta.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.runs.run_step_include  *(path: .venv/Lib/site-packages/openai/types/beta/threads/runs/run_step_include.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.runs.step_list_params  *(path: .venv/Lib/site-packages/openai/types/beta/threads/runs/step_list_params.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.runs.step_retrieve_params  *(path: .venv/Lib/site-packages/openai/types/beta/threads/runs/step_retrieve_params.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.runs.tool_call  *(path: .venv/Lib/site-packages/openai/types/beta/threads/runs/tool_call.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.runs.tool_call_delta  *(path: .venv/Lib/site-packages/openai/types/beta/threads/runs/tool_call_delta.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.runs.tool_call_delta_object  *(path: .venv/Lib/site-packages/openai/types/beta/threads/runs/tool_call_delta_object.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.runs.tool_calls_step_details  *(path: .venv/Lib/site-packages/openai/types/beta/threads/runs/tool_calls_step_details.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.text  *(path: .venv/Lib/site-packages/openai/types/beta/threads/text.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.text_content_block  *(path: .venv/Lib/site-packages/openai/types/beta/threads/text_content_block.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.text_content_block_param  *(path: .venv/Lib/site-packages/openai/types/beta/threads/text_content_block_param.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.text_delta  *(path: .venv/Lib/site-packages/openai/types/beta/threads/text_delta.py)*
+- .venv.Lib.site-packages.openai.types.beta.threads.text_delta_block  *(path: .venv/Lib/site-packages/openai/types/beta/threads/text_delta_block.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_allowed_tool_choice_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_allowed_tool_choice_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_allowed_tools_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_allowed_tools_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_assistant_message_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_assistant_message_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_audio  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_audio.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_audio_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_audio_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_chunk  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_chunk.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_content_part_image  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_content_part_image.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_content_part_image_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_content_part_image_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_content_part_input_audio_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_content_part_input_audio_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_content_part_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_content_part_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_content_part_refusal_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_content_part_refusal_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_content_part_text  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_content_part_text.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_content_part_text_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_content_part_text_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_custom_tool_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_custom_tool_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_deleted  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_deleted.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_developer_message_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_developer_message_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_function_call_option_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_function_call_option_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_function_message_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_function_message_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_function_tool  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_function_tool.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_function_tool_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_function_tool_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_message  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_message.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_message_custom_tool_call  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_message_custom_tool_call.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_message_custom_tool_call_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_message_custom_tool_call_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_message_function_tool_call  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_message_function_tool_call.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_message_function_tool_call_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_message_function_tool_call_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_message_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_message_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_message_tool_call  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_message_tool_call.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_message_tool_call_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_message_tool_call_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_message_tool_call_union_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_message_tool_call_union_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_modality  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_modality.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_named_tool_choice_custom_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_named_tool_choice_custom_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_named_tool_choice_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_named_tool_choice_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_prediction_content_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_prediction_content_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_reasoning_effort  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_reasoning_effort.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_role  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_role.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_store_message  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_store_message.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_stream_options_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_stream_options_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_system_message_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_system_message_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_token_logprob  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_token_logprob.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_tool_choice_option_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_tool_choice_option_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_tool_message_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_tool_message_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_tool_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_tool_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_tool_union_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_tool_union_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.chat_completion_user_message_param  *(path: .venv/Lib/site-packages/openai/types/chat/chat_completion_user_message_param.py)*
+- .venv.Lib.site-packages.openai.types.chat.completion_create_params  *(path: .venv/Lib/site-packages/openai/types/chat/completion_create_params.py)*
+- .venv.Lib.site-packages.openai.types.chat.completion_list_params  *(path: .venv/Lib/site-packages/openai/types/chat/completion_list_params.py)*
+- .venv.Lib.site-packages.openai.types.chat.completion_update_params  *(path: .venv/Lib/site-packages/openai/types/chat/completion_update_params.py)*
+- .venv.Lib.site-packages.openai.types.chat.completions.message_list_params  *(path: .venv/Lib/site-packages/openai/types/chat/completions/message_list_params.py)*
+- .venv.Lib.site-packages.openai.types.chat.parsed_chat_completion  *(path: .venv/Lib/site-packages/openai/types/chat/parsed_chat_completion.py)*
+- .venv.Lib.site-packages.openai.types.chat.parsed_function_tool_call  *(path: .venv/Lib/site-packages/openai/types/chat/parsed_function_tool_call.py)*
+- .venv.Lib.site-packages.openai.types.chat_model  *(path: .venv/Lib/site-packages/openai/types/chat_model.py)*
+- .venv.Lib.site-packages.openai.types.completion  *(path: .venv/Lib/site-packages/openai/types/completion.py)*
+- .venv.Lib.site-packages.openai.types.completion_choice  *(path: .venv/Lib/site-packages/openai/types/completion_choice.py)*
+- .venv.Lib.site-packages.openai.types.completion_create_params  *(path: .venv/Lib/site-packages/openai/types/completion_create_params.py)*
+- .venv.Lib.site-packages.openai.types.completion_usage  *(path: .venv/Lib/site-packages/openai/types/completion_usage.py)*
+- .venv.Lib.site-packages.openai.types.container_create_params  *(path: .venv/Lib/site-packages/openai/types/container_create_params.py)*
+- .venv.Lib.site-packages.openai.types.container_create_response  *(path: .venv/Lib/site-packages/openai/types/container_create_response.py)*
+- .venv.Lib.site-packages.openai.types.container_list_params  *(path: .venv/Lib/site-packages/openai/types/container_list_params.py)*
+- .venv.Lib.site-packages.openai.types.container_list_response  *(path: .venv/Lib/site-packages/openai/types/container_list_response.py)*
+- .venv.Lib.site-packages.openai.types.container_retrieve_response  *(path: .venv/Lib/site-packages/openai/types/container_retrieve_response.py)*
+- .venv.Lib.site-packages.openai.types.containers.file_create_params  *(path: .venv/Lib/site-packages/openai/types/containers/file_create_params.py)*
+- .venv.Lib.site-packages.openai.types.containers.file_create_response  *(path: .venv/Lib/site-packages/openai/types/containers/file_create_response.py)*
+- .venv.Lib.site-packages.openai.types.containers.file_list_params  *(path: .venv/Lib/site-packages/openai/types/containers/file_list_params.py)*
+- .venv.Lib.site-packages.openai.types.containers.file_list_response  *(path: .venv/Lib/site-packages/openai/types/containers/file_list_response.py)*
+- .venv.Lib.site-packages.openai.types.containers.file_retrieve_response  *(path: .venv/Lib/site-packages/openai/types/containers/file_retrieve_response.py)*
+- .venv.Lib.site-packages.openai.types.create_embedding_response  *(path: .venv/Lib/site-packages/openai/types/create_embedding_response.py)*
+- .venv.Lib.site-packages.openai.types.embedding  *(path: .venv/Lib/site-packages/openai/types/embedding.py)*
+- .venv.Lib.site-packages.openai.types.embedding_create_params  *(path: .venv/Lib/site-packages/openai/types/embedding_create_params.py)*
+- .venv.Lib.site-packages.openai.types.embedding_model  *(path: .venv/Lib/site-packages/openai/types/embedding_model.py)*
+- .venv.Lib.site-packages.openai.types.eval_create_params  *(path: .venv/Lib/site-packages/openai/types/eval_create_params.py)*
+- .venv.Lib.site-packages.openai.types.eval_create_response  *(path: .venv/Lib/site-packages/openai/types/eval_create_response.py)*
+- .venv.Lib.site-packages.openai.types.eval_custom_data_source_config  *(path: .venv/Lib/site-packages/openai/types/eval_custom_data_source_config.py)*
+- .venv.Lib.site-packages.openai.types.eval_delete_response  *(path: .venv/Lib/site-packages/openai/types/eval_delete_response.py)*
+- .venv.Lib.site-packages.openai.types.eval_list_params  *(path: .venv/Lib/site-packages/openai/types/eval_list_params.py)*
+- .venv.Lib.site-packages.openai.types.eval_list_response  *(path: .venv/Lib/site-packages/openai/types/eval_list_response.py)*
+- .venv.Lib.site-packages.openai.types.eval_retrieve_response  *(path: .venv/Lib/site-packages/openai/types/eval_retrieve_response.py)*
+- .venv.Lib.site-packages.openai.types.eval_stored_completions_data_source_config  *(path: .venv/Lib/site-packages/openai/types/eval_stored_completions_data_source_config.py)*
+- .venv.Lib.site-packages.openai.types.eval_update_params  *(path: .venv/Lib/site-packages/openai/types/eval_update_params.py)*
+- .venv.Lib.site-packages.openai.types.eval_update_response  *(path: .venv/Lib/site-packages/openai/types/eval_update_response.py)*
+- .venv.Lib.site-packages.openai.types.evals.create_eval_completions_run_data_source  *(path: .venv/Lib/site-packages/openai/types/evals/create_eval_completions_run_data_source.py)*
+- .venv.Lib.site-packages.openai.types.evals.create_eval_completions_run_data_source_param  *(path: .venv/Lib/site-packages/openai/types/evals/create_eval_completions_run_data_source_param.py)*
+- .venv.Lib.site-packages.openai.types.evals.create_eval_jsonl_run_data_source  *(path: .venv/Lib/site-packages/openai/types/evals/create_eval_jsonl_run_data_source.py)*
+- .venv.Lib.site-packages.openai.types.evals.create_eval_jsonl_run_data_source_param  *(path: .venv/Lib/site-packages/openai/types/evals/create_eval_jsonl_run_data_source_param.py)*
+- .venv.Lib.site-packages.openai.types.evals.eval_api_error  *(path: .venv/Lib/site-packages/openai/types/evals/eval_api_error.py)*
+- .venv.Lib.site-packages.openai.types.evals.run_cancel_response  *(path: .venv/Lib/site-packages/openai/types/evals/run_cancel_response.py)*
+- .venv.Lib.site-packages.openai.types.evals.run_create_params  *(path: .venv/Lib/site-packages/openai/types/evals/run_create_params.py)*
+- .venv.Lib.site-packages.openai.types.evals.run_create_response  *(path: .venv/Lib/site-packages/openai/types/evals/run_create_response.py)*
+- .venv.Lib.site-packages.openai.types.evals.run_delete_response  *(path: .venv/Lib/site-packages/openai/types/evals/run_delete_response.py)*
+- .venv.Lib.site-packages.openai.types.evals.run_list_params  *(path: .venv/Lib/site-packages/openai/types/evals/run_list_params.py)*
+- .venv.Lib.site-packages.openai.types.evals.run_list_response  *(path: .venv/Lib/site-packages/openai/types/evals/run_list_response.py)*
+- .venv.Lib.site-packages.openai.types.evals.run_retrieve_response  *(path: .venv/Lib/site-packages/openai/types/evals/run_retrieve_response.py)*
+- .venv.Lib.site-packages.openai.types.evals.runs.output_item_list_params  *(path: .venv/Lib/site-packages/openai/types/evals/runs/output_item_list_params.py)*
+- .venv.Lib.site-packages.openai.types.evals.runs.output_item_list_response  *(path: .venv/Lib/site-packages/openai/types/evals/runs/output_item_list_response.py)*
+- .venv.Lib.site-packages.openai.types.evals.runs.output_item_retrieve_response  *(path: .venv/Lib/site-packages/openai/types/evals/runs/output_item_retrieve_response.py)*
+- .venv.Lib.site-packages.openai.types.file_chunking_strategy  *(path: .venv/Lib/site-packages/openai/types/file_chunking_strategy.py)*
+- .venv.Lib.site-packages.openai.types.file_chunking_strategy_param  *(path: .venv/Lib/site-packages/openai/types/file_chunking_strategy_param.py)*
+- .venv.Lib.site-packages.openai.types.file_content  *(path: .venv/Lib/site-packages/openai/types/file_content.py)*
+- .venv.Lib.site-packages.openai.types.file_create_params  *(path: .venv/Lib/site-packages/openai/types/file_create_params.py)*
+- .venv.Lib.site-packages.openai.types.file_deleted  *(path: .venv/Lib/site-packages/openai/types/file_deleted.py)*
+- .venv.Lib.site-packages.openai.types.file_list_params  *(path: .venv/Lib/site-packages/openai/types/file_list_params.py)*
+- .venv.Lib.site-packages.openai.types.file_object  *(path: .venv/Lib/site-packages/openai/types/file_object.py)*
+- .venv.Lib.site-packages.openai.types.file_purpose  *(path: .venv/Lib/site-packages/openai/types/file_purpose.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.alpha.grader_run_params  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/alpha/grader_run_params.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.alpha.grader_run_response  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/alpha/grader_run_response.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.alpha.grader_validate_params  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/alpha/grader_validate_params.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.alpha.grader_validate_response  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/alpha/grader_validate_response.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.checkpoints.permission_create_params  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/checkpoints/permission_create_params.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.checkpoints.permission_create_response  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/checkpoints/permission_create_response.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.checkpoints.permission_delete_response  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/checkpoints/permission_delete_response.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.checkpoints.permission_retrieve_params  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/checkpoints/permission_retrieve_params.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.checkpoints.permission_retrieve_response  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/checkpoints/permission_retrieve_response.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.dpo_hyperparameters  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/dpo_hyperparameters.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.dpo_hyperparameters_param  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/dpo_hyperparameters_param.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.dpo_method  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/dpo_method.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.dpo_method_param  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/dpo_method_param.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.fine_tuning_job  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/fine_tuning_job.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.fine_tuning_job_event  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/fine_tuning_job_event.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.fine_tuning_job_integration  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/fine_tuning_job_integration.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.fine_tuning_job_wandb_integration  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/fine_tuning_job_wandb_integration.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.fine_tuning_job_wandb_integration_object  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/fine_tuning_job_wandb_integration_object.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.job_create_params  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/job_create_params.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.job_list_events_params  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/job_list_events_params.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.job_list_params  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/job_list_params.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.jobs.checkpoint_list_params  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/jobs/checkpoint_list_params.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.jobs.fine_tuning_job_checkpoint  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/jobs/fine_tuning_job_checkpoint.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.reinforcement_hyperparameters  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/reinforcement_hyperparameters.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.reinforcement_hyperparameters_param  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/reinforcement_hyperparameters_param.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.reinforcement_method  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/reinforcement_method.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.reinforcement_method_param  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/reinforcement_method_param.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.supervised_hyperparameters  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/supervised_hyperparameters.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.supervised_hyperparameters_param  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/supervised_hyperparameters_param.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.supervised_method  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/supervised_method.py)*
+- .venv.Lib.site-packages.openai.types.fine_tuning.supervised_method_param  *(path: .venv/Lib/site-packages/openai/types/fine_tuning/supervised_method_param.py)*
+- .venv.Lib.site-packages.openai.types.graders.label_model_grader  *(path: .venv/Lib/site-packages/openai/types/graders/label_model_grader.py)*
+- .venv.Lib.site-packages.openai.types.graders.label_model_grader_param  *(path: .venv/Lib/site-packages/openai/types/graders/label_model_grader_param.py)*
+- .venv.Lib.site-packages.openai.types.graders.multi_grader  *(path: .venv/Lib/site-packages/openai/types/graders/multi_grader.py)*
+- .venv.Lib.site-packages.openai.types.graders.multi_grader_param  *(path: .venv/Lib/site-packages/openai/types/graders/multi_grader_param.py)*
+- .venv.Lib.site-packages.openai.types.graders.python_grader  *(path: .venv/Lib/site-packages/openai/types/graders/python_grader.py)*
+- .venv.Lib.site-packages.openai.types.graders.python_grader_param  *(path: .venv/Lib/site-packages/openai/types/graders/python_grader_param.py)*
+- .venv.Lib.site-packages.openai.types.graders.score_model_grader  *(path: .venv/Lib/site-packages/openai/types/graders/score_model_grader.py)*
+- .venv.Lib.site-packages.openai.types.graders.score_model_grader_param  *(path: .venv/Lib/site-packages/openai/types/graders/score_model_grader_param.py)*
+- .venv.Lib.site-packages.openai.types.graders.string_check_grader  *(path: .venv/Lib/site-packages/openai/types/graders/string_check_grader.py)*
+- .venv.Lib.site-packages.openai.types.graders.string_check_grader_param  *(path: .venv/Lib/site-packages/openai/types/graders/string_check_grader_param.py)*
+- .venv.Lib.site-packages.openai.types.graders.text_similarity_grader  *(path: .venv/Lib/site-packages/openai/types/graders/text_similarity_grader.py)*
+- .venv.Lib.site-packages.openai.types.graders.text_similarity_grader_param  *(path: .venv/Lib/site-packages/openai/types/graders/text_similarity_grader_param.py)*
+- .venv.Lib.site-packages.openai.types.image  *(path: .venv/Lib/site-packages/openai/types/image.py)*
+- .venv.Lib.site-packages.openai.types.image_create_variation_params  *(path: .venv/Lib/site-packages/openai/types/image_create_variation_params.py)*
+- .venv.Lib.site-packages.openai.types.image_edit_completed_event  *(path: .venv/Lib/site-packages/openai/types/image_edit_completed_event.py)*
+- .venv.Lib.site-packages.openai.types.image_edit_params  *(path: .venv/Lib/site-packages/openai/types/image_edit_params.py)*
+- .venv.Lib.site-packages.openai.types.image_edit_partial_image_event  *(path: .venv/Lib/site-packages/openai/types/image_edit_partial_image_event.py)*
+- .venv.Lib.site-packages.openai.types.image_edit_stream_event  *(path: .venv/Lib/site-packages/openai/types/image_edit_stream_event.py)*
+- .venv.Lib.site-packages.openai.types.image_gen_completed_event  *(path: .venv/Lib/site-packages/openai/types/image_gen_completed_event.py)*
+- .venv.Lib.site-packages.openai.types.image_gen_partial_image_event  *(path: .venv/Lib/site-packages/openai/types/image_gen_partial_image_event.py)*
+- .venv.Lib.site-packages.openai.types.image_gen_stream_event  *(path: .venv/Lib/site-packages/openai/types/image_gen_stream_event.py)*
+- .venv.Lib.site-packages.openai.types.image_generate_params  *(path: .venv/Lib/site-packages/openai/types/image_generate_params.py)*
+- .venv.Lib.site-packages.openai.types.image_model  *(path: .venv/Lib/site-packages/openai/types/image_model.py)*
+- .venv.Lib.site-packages.openai.types.images_response  *(path: .venv/Lib/site-packages/openai/types/images_response.py)*
+- .venv.Lib.site-packages.openai.types.model  *(path: .venv/Lib/site-packages/openai/types/model.py)*
+- .venv.Lib.site-packages.openai.types.model_deleted  *(path: .venv/Lib/site-packages/openai/types/model_deleted.py)*
+- .venv.Lib.site-packages.openai.types.moderation  *(path: .venv/Lib/site-packages/openai/types/moderation.py)*
+- .venv.Lib.site-packages.openai.types.moderation_create_params  *(path: .venv/Lib/site-packages/openai/types/moderation_create_params.py)*
+- .venv.Lib.site-packages.openai.types.moderation_create_response  *(path: .venv/Lib/site-packages/openai/types/moderation_create_response.py)*
+- .venv.Lib.site-packages.openai.types.moderation_image_url_input_param  *(path: .venv/Lib/site-packages/openai/types/moderation_image_url_input_param.py)*
+- .venv.Lib.site-packages.openai.types.moderation_model  *(path: .venv/Lib/site-packages/openai/types/moderation_model.py)*
+- .venv.Lib.site-packages.openai.types.moderation_multi_modal_input_param  *(path: .venv/Lib/site-packages/openai/types/moderation_multi_modal_input_param.py)*
+- .venv.Lib.site-packages.openai.types.moderation_text_input_param  *(path: .venv/Lib/site-packages/openai/types/moderation_text_input_param.py)*
+- .venv.Lib.site-packages.openai.types.other_file_chunking_strategy_object  *(path: .venv/Lib/site-packages/openai/types/other_file_chunking_strategy_object.py)*
+- .venv.Lib.site-packages.openai.types.responses.computer_tool  *(path: .venv/Lib/site-packages/openai/types/responses/computer_tool.py)*
+- .venv.Lib.site-packages.openai.types.responses.computer_tool_param  *(path: .venv/Lib/site-packages/openai/types/responses/computer_tool_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.custom_tool  *(path: .venv/Lib/site-packages/openai/types/responses/custom_tool.py)*
+- .venv.Lib.site-packages.openai.types.responses.custom_tool_param  *(path: .venv/Lib/site-packages/openai/types/responses/custom_tool_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.easy_input_message  *(path: .venv/Lib/site-packages/openai/types/responses/easy_input_message.py)*
+- .venv.Lib.site-packages.openai.types.responses.easy_input_message_param  *(path: .venv/Lib/site-packages/openai/types/responses/easy_input_message_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.file_search_tool  *(path: .venv/Lib/site-packages/openai/types/responses/file_search_tool.py)*
+- .venv.Lib.site-packages.openai.types.responses.file_search_tool_param  *(path: .venv/Lib/site-packages/openai/types/responses/file_search_tool_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.function_tool  *(path: .venv/Lib/site-packages/openai/types/responses/function_tool.py)*
+- .venv.Lib.site-packages.openai.types.responses.function_tool_param  *(path: .venv/Lib/site-packages/openai/types/responses/function_tool_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.input_item_list_params  *(path: .venv/Lib/site-packages/openai/types/responses/input_item_list_params.py)*
+- .venv.Lib.site-packages.openai.types.responses.parsed_response  *(path: .venv/Lib/site-packages/openai/types/responses/parsed_response.py)*
+- .venv.Lib.site-packages.openai.types.responses.response  *(path: .venv/Lib/site-packages/openai/types/responses/response.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_audio_delta_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_audio_delta_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_audio_done_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_audio_done_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_audio_transcript_delta_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_audio_transcript_delta_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_audio_transcript_done_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_audio_transcript_done_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_code_interpreter_call_code_delta_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_code_interpreter_call_code_delta_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_code_interpreter_call_code_done_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_code_interpreter_call_code_done_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_code_interpreter_call_completed_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_code_interpreter_call_completed_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_code_interpreter_call_in_progress_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_code_interpreter_call_in_progress_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_code_interpreter_call_interpreting_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_code_interpreter_call_interpreting_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_code_interpreter_tool_call  *(path: .venv/Lib/site-packages/openai/types/responses/response_code_interpreter_tool_call.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_code_interpreter_tool_call_param  *(path: .venv/Lib/site-packages/openai/types/responses/response_code_interpreter_tool_call_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_completed_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_completed_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_computer_tool_call  *(path: .venv/Lib/site-packages/openai/types/responses/response_computer_tool_call.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_computer_tool_call_output_item  *(path: .venv/Lib/site-packages/openai/types/responses/response_computer_tool_call_output_item.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_computer_tool_call_output_screenshot  *(path: .venv/Lib/site-packages/openai/types/responses/response_computer_tool_call_output_screenshot.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_computer_tool_call_output_screenshot_param  *(path: .venv/Lib/site-packages/openai/types/responses/response_computer_tool_call_output_screenshot_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_computer_tool_call_param  *(path: .venv/Lib/site-packages/openai/types/responses/response_computer_tool_call_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_content_part_added_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_content_part_added_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_content_part_done_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_content_part_done_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_create_params  *(path: .venv/Lib/site-packages/openai/types/responses/response_create_params.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_created_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_created_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_custom_tool_call  *(path: .venv/Lib/site-packages/openai/types/responses/response_custom_tool_call.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_custom_tool_call_input_delta_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_custom_tool_call_input_delta_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_custom_tool_call_input_done_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_custom_tool_call_input_done_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_custom_tool_call_output  *(path: .venv/Lib/site-packages/openai/types/responses/response_custom_tool_call_output.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_custom_tool_call_output_param  *(path: .venv/Lib/site-packages/openai/types/responses/response_custom_tool_call_output_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_custom_tool_call_param  *(path: .venv/Lib/site-packages/openai/types/responses/response_custom_tool_call_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_error  *(path: .venv/Lib/site-packages/openai/types/responses/response_error.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_error_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_error_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_failed_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_failed_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_file_search_call_completed_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_file_search_call_completed_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_file_search_call_in_progress_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_file_search_call_in_progress_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_file_search_call_searching_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_file_search_call_searching_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_file_search_tool_call  *(path: .venv/Lib/site-packages/openai/types/responses/response_file_search_tool_call.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_file_search_tool_call_param  *(path: .venv/Lib/site-packages/openai/types/responses/response_file_search_tool_call_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_format_text_config  *(path: .venv/Lib/site-packages/openai/types/responses/response_format_text_config.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_format_text_config_param  *(path: .venv/Lib/site-packages/openai/types/responses/response_format_text_config_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_format_text_json_schema_config  *(path: .venv/Lib/site-packages/openai/types/responses/response_format_text_json_schema_config.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_format_text_json_schema_config_param  *(path: .venv/Lib/site-packages/openai/types/responses/response_format_text_json_schema_config_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_function_call_arguments_delta_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_function_call_arguments_delta_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_function_call_arguments_done_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_function_call_arguments_done_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_function_tool_call  *(path: .venv/Lib/site-packages/openai/types/responses/response_function_tool_call.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_function_tool_call_item  *(path: .venv/Lib/site-packages/openai/types/responses/response_function_tool_call_item.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_function_tool_call_output_item  *(path: .venv/Lib/site-packages/openai/types/responses/response_function_tool_call_output_item.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_function_tool_call_param  *(path: .venv/Lib/site-packages/openai/types/responses/response_function_tool_call_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_function_web_search  *(path: .venv/Lib/site-packages/openai/types/responses/response_function_web_search.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_function_web_search_param  *(path: .venv/Lib/site-packages/openai/types/responses/response_function_web_search_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_image_gen_call_completed_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_image_gen_call_completed_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_image_gen_call_generating_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_image_gen_call_generating_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_image_gen_call_in_progress_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_image_gen_call_in_progress_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_image_gen_call_partial_image_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_image_gen_call_partial_image_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_in_progress_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_in_progress_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_includable  *(path: .venv/Lib/site-packages/openai/types/responses/response_includable.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_incomplete_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_incomplete_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_input_content  *(path: .venv/Lib/site-packages/openai/types/responses/response_input_content.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_input_content_param  *(path: .venv/Lib/site-packages/openai/types/responses/response_input_content_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_input_file  *(path: .venv/Lib/site-packages/openai/types/responses/response_input_file.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_input_file_param  *(path: .venv/Lib/site-packages/openai/types/responses/response_input_file_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_input_image  *(path: .venv/Lib/site-packages/openai/types/responses/response_input_image.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_input_image_param  *(path: .venv/Lib/site-packages/openai/types/responses/response_input_image_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_input_item  *(path: .venv/Lib/site-packages/openai/types/responses/response_input_item.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_input_item_param  *(path: .venv/Lib/site-packages/openai/types/responses/response_input_item_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_input_message_content_list  *(path: .venv/Lib/site-packages/openai/types/responses/response_input_message_content_list.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_input_message_content_list_param  *(path: .venv/Lib/site-packages/openai/types/responses/response_input_message_content_list_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_input_message_item  *(path: .venv/Lib/site-packages/openai/types/responses/response_input_message_item.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_input_param  *(path: .venv/Lib/site-packages/openai/types/responses/response_input_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_input_text  *(path: .venv/Lib/site-packages/openai/types/responses/response_input_text.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_input_text_param  *(path: .venv/Lib/site-packages/openai/types/responses/response_input_text_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_item  *(path: .venv/Lib/site-packages/openai/types/responses/response_item.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_item_list  *(path: .venv/Lib/site-packages/openai/types/responses/response_item_list.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_mcp_call_arguments_delta_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_mcp_call_arguments_delta_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_mcp_call_arguments_done_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_mcp_call_arguments_done_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_mcp_call_completed_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_mcp_call_completed_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_mcp_call_failed_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_mcp_call_failed_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_mcp_call_in_progress_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_mcp_call_in_progress_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_mcp_list_tools_completed_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_mcp_list_tools_completed_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_mcp_list_tools_failed_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_mcp_list_tools_failed_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_mcp_list_tools_in_progress_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_mcp_list_tools_in_progress_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_output_item  *(path: .venv/Lib/site-packages/openai/types/responses/response_output_item.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_output_item_added_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_output_item_added_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_output_item_done_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_output_item_done_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_output_message  *(path: .venv/Lib/site-packages/openai/types/responses/response_output_message.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_output_message_param  *(path: .venv/Lib/site-packages/openai/types/responses/response_output_message_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_output_refusal  *(path: .venv/Lib/site-packages/openai/types/responses/response_output_refusal.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_output_refusal_param  *(path: .venv/Lib/site-packages/openai/types/responses/response_output_refusal_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_output_text  *(path: .venv/Lib/site-packages/openai/types/responses/response_output_text.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_output_text_annotation_added_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_output_text_annotation_added_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_output_text_param  *(path: .venv/Lib/site-packages/openai/types/responses/response_output_text_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_prompt  *(path: .venv/Lib/site-packages/openai/types/responses/response_prompt.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_prompt_param  *(path: .venv/Lib/site-packages/openai/types/responses/response_prompt_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_queued_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_queued_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_reasoning_item  *(path: .venv/Lib/site-packages/openai/types/responses/response_reasoning_item.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_reasoning_item_param  *(path: .venv/Lib/site-packages/openai/types/responses/response_reasoning_item_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_reasoning_summary_part_added_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_reasoning_summary_part_added_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_reasoning_summary_part_done_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_reasoning_summary_part_done_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_reasoning_summary_text_delta_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_reasoning_summary_text_delta_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_reasoning_summary_text_done_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_reasoning_summary_text_done_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_reasoning_text_delta_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_reasoning_text_delta_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_reasoning_text_done_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_reasoning_text_done_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_refusal_delta_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_refusal_delta_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_refusal_done_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_refusal_done_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_retrieve_params  *(path: .venv/Lib/site-packages/openai/types/responses/response_retrieve_params.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_status  *(path: .venv/Lib/site-packages/openai/types/responses/response_status.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_stream_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_stream_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_text_config  *(path: .venv/Lib/site-packages/openai/types/responses/response_text_config.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_text_config_param  *(path: .venv/Lib/site-packages/openai/types/responses/response_text_config_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_text_delta_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_text_delta_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_text_done_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_text_done_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_usage  *(path: .venv/Lib/site-packages/openai/types/responses/response_usage.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_web_search_call_completed_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_web_search_call_completed_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_web_search_call_in_progress_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_web_search_call_in_progress_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.response_web_search_call_searching_event  *(path: .venv/Lib/site-packages/openai/types/responses/response_web_search_call_searching_event.py)*
+- .venv.Lib.site-packages.openai.types.responses.tool  *(path: .venv/Lib/site-packages/openai/types/responses/tool.py)*
+- .venv.Lib.site-packages.openai.types.responses.tool_choice_allowed  *(path: .venv/Lib/site-packages/openai/types/responses/tool_choice_allowed.py)*
+- .venv.Lib.site-packages.openai.types.responses.tool_choice_allowed_param  *(path: .venv/Lib/site-packages/openai/types/responses/tool_choice_allowed_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.tool_choice_custom  *(path: .venv/Lib/site-packages/openai/types/responses/tool_choice_custom.py)*
+- .venv.Lib.site-packages.openai.types.responses.tool_choice_custom_param  *(path: .venv/Lib/site-packages/openai/types/responses/tool_choice_custom_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.tool_choice_function  *(path: .venv/Lib/site-packages/openai/types/responses/tool_choice_function.py)*
+- .venv.Lib.site-packages.openai.types.responses.tool_choice_function_param  *(path: .venv/Lib/site-packages/openai/types/responses/tool_choice_function_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.tool_choice_mcp  *(path: .venv/Lib/site-packages/openai/types/responses/tool_choice_mcp.py)*
+- .venv.Lib.site-packages.openai.types.responses.tool_choice_mcp_param  *(path: .venv/Lib/site-packages/openai/types/responses/tool_choice_mcp_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.tool_choice_options  *(path: .venv/Lib/site-packages/openai/types/responses/tool_choice_options.py)*
+- .venv.Lib.site-packages.openai.types.responses.tool_choice_types  *(path: .venv/Lib/site-packages/openai/types/responses/tool_choice_types.py)*
+- .venv.Lib.site-packages.openai.types.responses.tool_choice_types_param  *(path: .venv/Lib/site-packages/openai/types/responses/tool_choice_types_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.tool_param  *(path: .venv/Lib/site-packages/openai/types/responses/tool_param.py)*
+- .venv.Lib.site-packages.openai.types.responses.web_search_tool  *(path: .venv/Lib/site-packages/openai/types/responses/web_search_tool.py)*
+- .venv.Lib.site-packages.openai.types.responses.web_search_tool_param  *(path: .venv/Lib/site-packages/openai/types/responses/web_search_tool_param.py)*
+- .venv.Lib.site-packages.openai.types.shared.all_models  *(path: .venv/Lib/site-packages/openai/types/shared/all_models.py)*
+- .venv.Lib.site-packages.openai.types.shared.chat_model  *(path: .venv/Lib/site-packages/openai/types/shared/chat_model.py)*
+- .venv.Lib.site-packages.openai.types.shared.comparison_filter  *(path: .venv/Lib/site-packages/openai/types/shared/comparison_filter.py)*
+- .venv.Lib.site-packages.openai.types.shared.compound_filter  *(path: .venv/Lib/site-packages/openai/types/shared/compound_filter.py)*
+- .venv.Lib.site-packages.openai.types.shared.custom_tool_input_format  *(path: .venv/Lib/site-packages/openai/types/shared/custom_tool_input_format.py)*
+- .venv.Lib.site-packages.openai.types.shared.error_object  *(path: .venv/Lib/site-packages/openai/types/shared/error_object.py)*
+- .venv.Lib.site-packages.openai.types.shared.function_definition  *(path: .venv/Lib/site-packages/openai/types/shared/function_definition.py)*
+- .venv.Lib.site-packages.openai.types.shared.function_parameters  *(path: .venv/Lib/site-packages/openai/types/shared/function_parameters.py)*
+- .venv.Lib.site-packages.openai.types.shared.metadata  *(path: .venv/Lib/site-packages/openai/types/shared/metadata.py)*
+- .venv.Lib.site-packages.openai.types.shared.reasoning  *(path: .venv/Lib/site-packages/openai/types/shared/reasoning.py)*
+- .venv.Lib.site-packages.openai.types.shared.reasoning_effort  *(path: .venv/Lib/site-packages/openai/types/shared/reasoning_effort.py)*
+- .venv.Lib.site-packages.openai.types.shared.response_format_json_object  *(path: .venv/Lib/site-packages/openai/types/shared/response_format_json_object.py)*
+- .venv.Lib.site-packages.openai.types.shared.response_format_json_schema  *(path: .venv/Lib/site-packages/openai/types/shared/response_format_json_schema.py)*
+- .venv.Lib.site-packages.openai.types.shared.response_format_text  *(path: .venv/Lib/site-packages/openai/types/shared/response_format_text.py)*
+- .venv.Lib.site-packages.openai.types.shared.response_format_text_grammar  *(path: .venv/Lib/site-packages/openai/types/shared/response_format_text_grammar.py)*
+- .venv.Lib.site-packages.openai.types.shared.response_format_text_python  *(path: .venv/Lib/site-packages/openai/types/shared/response_format_text_python.py)*
+- .venv.Lib.site-packages.openai.types.shared.responses_model  *(path: .venv/Lib/site-packages/openai/types/shared/responses_model.py)*
+- .venv.Lib.site-packages.openai.types.shared_params.chat_model  *(path: .venv/Lib/site-packages/openai/types/shared_params/chat_model.py)*
+- .venv.Lib.site-packages.openai.types.shared_params.comparison_filter  *(path: .venv/Lib/site-packages/openai/types/shared_params/comparison_filter.py)*
+- .venv.Lib.site-packages.openai.types.shared_params.compound_filter  *(path: .venv/Lib/site-packages/openai/types/shared_params/compound_filter.py)*
+- .venv.Lib.site-packages.openai.types.shared_params.custom_tool_input_format  *(path: .venv/Lib/site-packages/openai/types/shared_params/custom_tool_input_format.py)*
+- .venv.Lib.site-packages.openai.types.shared_params.function_definition  *(path: .venv/Lib/site-packages/openai/types/shared_params/function_definition.py)*
+- .venv.Lib.site-packages.openai.types.shared_params.function_parameters  *(path: .venv/Lib/site-packages/openai/types/shared_params/function_parameters.py)*
+- .venv.Lib.site-packages.openai.types.shared_params.metadata  *(path: .venv/Lib/site-packages/openai/types/shared_params/metadata.py)*
+- .venv.Lib.site-packages.openai.types.shared_params.reasoning  *(path: .venv/Lib/site-packages/openai/types/shared_params/reasoning.py)*
+- .venv.Lib.site-packages.openai.types.shared_params.reasoning_effort  *(path: .venv/Lib/site-packages/openai/types/shared_params/reasoning_effort.py)*
+- .venv.Lib.site-packages.openai.types.shared_params.response_format_json_object  *(path: .venv/Lib/site-packages/openai/types/shared_params/response_format_json_object.py)*
+- .venv.Lib.site-packages.openai.types.shared_params.response_format_json_schema  *(path: .venv/Lib/site-packages/openai/types/shared_params/response_format_json_schema.py)*
+- .venv.Lib.site-packages.openai.types.shared_params.response_format_text  *(path: .venv/Lib/site-packages/openai/types/shared_params/response_format_text.py)*
+- .venv.Lib.site-packages.openai.types.shared_params.responses_model  *(path: .venv/Lib/site-packages/openai/types/shared_params/responses_model.py)*
+- .venv.Lib.site-packages.openai.types.static_file_chunking_strategy  *(path: .venv/Lib/site-packages/openai/types/static_file_chunking_strategy.py)*
+- .venv.Lib.site-packages.openai.types.static_file_chunking_strategy_object  *(path: .venv/Lib/site-packages/openai/types/static_file_chunking_strategy_object.py)*
+- .venv.Lib.site-packages.openai.types.static_file_chunking_strategy_object_param  *(path: .venv/Lib/site-packages/openai/types/static_file_chunking_strategy_object_param.py)*
+- .venv.Lib.site-packages.openai.types.static_file_chunking_strategy_param  *(path: .venv/Lib/site-packages/openai/types/static_file_chunking_strategy_param.py)*
+- .venv.Lib.site-packages.openai.types.upload  *(path: .venv/Lib/site-packages/openai/types/upload.py)*
+- .venv.Lib.site-packages.openai.types.upload_complete_params  *(path: .venv/Lib/site-packages/openai/types/upload_complete_params.py)*
+- .venv.Lib.site-packages.openai.types.upload_create_params  *(path: .venv/Lib/site-packages/openai/types/upload_create_params.py)*
+- .venv.Lib.site-packages.openai.types.uploads.part_create_params  *(path: .venv/Lib/site-packages/openai/types/uploads/part_create_params.py)*
+- .venv.Lib.site-packages.openai.types.uploads.upload_part  *(path: .venv/Lib/site-packages/openai/types/uploads/upload_part.py)*
+- .venv.Lib.site-packages.openai.types.vector_store  *(path: .venv/Lib/site-packages/openai/types/vector_store.py)*
+- .venv.Lib.site-packages.openai.types.vector_store_create_params  *(path: .venv/Lib/site-packages/openai/types/vector_store_create_params.py)*
+- .venv.Lib.site-packages.openai.types.vector_store_deleted  *(path: .venv/Lib/site-packages/openai/types/vector_store_deleted.py)*
+- .venv.Lib.site-packages.openai.types.vector_store_list_params  *(path: .venv/Lib/site-packages/openai/types/vector_store_list_params.py)*
+- .venv.Lib.site-packages.openai.types.vector_store_search_params  *(path: .venv/Lib/site-packages/openai/types/vector_store_search_params.py)*
+- .venv.Lib.site-packages.openai.types.vector_store_search_response  *(path: .venv/Lib/site-packages/openai/types/vector_store_search_response.py)*
+- .venv.Lib.site-packages.openai.types.vector_store_update_params  *(path: .venv/Lib/site-packages/openai/types/vector_store_update_params.py)*
+- .venv.Lib.site-packages.openai.types.vector_stores.file_batch_create_params  *(path: .venv/Lib/site-packages/openai/types/vector_stores/file_batch_create_params.py)*
+- .venv.Lib.site-packages.openai.types.vector_stores.file_batch_list_files_params  *(path: .venv/Lib/site-packages/openai/types/vector_stores/file_batch_list_files_params.py)*
+- .venv.Lib.site-packages.openai.types.vector_stores.file_content_response  *(path: .venv/Lib/site-packages/openai/types/vector_stores/file_content_response.py)*
+- .venv.Lib.site-packages.openai.types.vector_stores.file_create_params  *(path: .venv/Lib/site-packages/openai/types/vector_stores/file_create_params.py)*
+- .venv.Lib.site-packages.openai.types.vector_stores.file_list_params  *(path: .venv/Lib/site-packages/openai/types/vector_stores/file_list_params.py)*
+- .venv.Lib.site-packages.openai.types.vector_stores.file_update_params  *(path: .venv/Lib/site-packages/openai/types/vector_stores/file_update_params.py)*
+- .venv.Lib.site-packages.openai.types.vector_stores.vector_store_file  *(path: .venv/Lib/site-packages/openai/types/vector_stores/vector_store_file.py)*
+- .venv.Lib.site-packages.openai.types.vector_stores.vector_store_file_batch  *(path: .venv/Lib/site-packages/openai/types/vector_stores/vector_store_file_batch.py)*
+- .venv.Lib.site-packages.openai.types.vector_stores.vector_store_file_deleted  *(path: .venv/Lib/site-packages/openai/types/vector_stores/vector_store_file_deleted.py)*
+- .venv.Lib.site-packages.openai.types.webhooks.batch_cancelled_webhook_event  *(path: .venv/Lib/site-packages/openai/types/webhooks/batch_cancelled_webhook_event.py)*
+- .venv.Lib.site-packages.openai.types.webhooks.batch_completed_webhook_event  *(path: .venv/Lib/site-packages/openai/types/webhooks/batch_completed_webhook_event.py)*
+- .venv.Lib.site-packages.openai.types.webhooks.batch_expired_webhook_event  *(path: .venv/Lib/site-packages/openai/types/webhooks/batch_expired_webhook_event.py)*
+- .venv.Lib.site-packages.openai.types.webhooks.batch_failed_webhook_event  *(path: .venv/Lib/site-packages/openai/types/webhooks/batch_failed_webhook_event.py)*
+- .venv.Lib.site-packages.openai.types.webhooks.eval_run_canceled_webhook_event  *(path: .venv/Lib/site-packages/openai/types/webhooks/eval_run_canceled_webhook_event.py)*
+- .venv.Lib.site-packages.openai.types.webhooks.eval_run_failed_webhook_event  *(path: .venv/Lib/site-packages/openai/types/webhooks/eval_run_failed_webhook_event.py)*
+- .venv.Lib.site-packages.openai.types.webhooks.eval_run_succeeded_webhook_event  *(path: .venv/Lib/site-packages/openai/types/webhooks/eval_run_succeeded_webhook_event.py)*
+- .venv.Lib.site-packages.openai.types.webhooks.fine_tuning_job_cancelled_webhook_event  *(path: .venv/Lib/site-packages/openai/types/webhooks/fine_tuning_job_cancelled_webhook_event.py)*
+- .venv.Lib.site-packages.openai.types.webhooks.fine_tuning_job_failed_webhook_event  *(path: .venv/Lib/site-packages/openai/types/webhooks/fine_tuning_job_failed_webhook_event.py)*
+- .venv.Lib.site-packages.openai.types.webhooks.fine_tuning_job_succeeded_webhook_event  *(path: .venv/Lib/site-packages/openai/types/webhooks/fine_tuning_job_succeeded_webhook_event.py)*
+- .venv.Lib.site-packages.openai.types.webhooks.response_cancelled_webhook_event  *(path: .venv/Lib/site-packages/openai/types/webhooks/response_cancelled_webhook_event.py)*
+- .venv.Lib.site-packages.openai.types.webhooks.response_completed_webhook_event  *(path: .venv/Lib/site-packages/openai/types/webhooks/response_completed_webhook_event.py)*
+- .venv.Lib.site-packages.openai.types.webhooks.response_failed_webhook_event  *(path: .venv/Lib/site-packages/openai/types/webhooks/response_failed_webhook_event.py)*
+- .venv.Lib.site-packages.openai.types.webhooks.response_incomplete_webhook_event  *(path: .venv/Lib/site-packages/openai/types/webhooks/response_incomplete_webhook_event.py)*
+- .venv.Lib.site-packages.openai.types.webhooks.unwrap_webhook_event  *(path: .venv/Lib/site-packages/openai/types/webhooks/unwrap_webhook_event.py)*
+- .venv.Lib.site-packages.openai.types.websocket_connection_options  *(path: .venv/Lib/site-packages/openai/types/websocket_connection_options.py)*
+- .venv.Lib.site-packages.openai.version  *(path: .venv/Lib/site-packages/openai/version.py)*
+- .venv.Lib.site-packages.packaging._elffile  *(path: .venv/Lib/site-packages/packaging/_elffile.py)*
+- .venv.Lib.site-packages.packaging._manylinux  *(path: .venv/Lib/site-packages/packaging/_manylinux.py)*
+- .venv.Lib.site-packages.packaging._musllinux  *(path: .venv/Lib/site-packages/packaging/_musllinux.py)*
+- .venv.Lib.site-packages.packaging._parser  *(path: .venv/Lib/site-packages/packaging/_parser.py)*
+- .venv.Lib.site-packages.packaging._structures  *(path: .venv/Lib/site-packages/packaging/_structures.py)*
+- .venv.Lib.site-packages.packaging._tokenizer  *(path: .venv/Lib/site-packages/packaging/_tokenizer.py)*
+- .venv.Lib.site-packages.packaging.licenses._spdx  *(path: .venv/Lib/site-packages/packaging/licenses/_spdx.py)*
+- .venv.Lib.site-packages.packaging.markers  *(path: .venv/Lib/site-packages/packaging/markers.py)*
+- .venv.Lib.site-packages.packaging.metadata  *(path: .venv/Lib/site-packages/packaging/metadata.py)*
+- .venv.Lib.site-packages.packaging.requirements  *(path: .venv/Lib/site-packages/packaging/requirements.py)*
+- .venv.Lib.site-packages.packaging.specifiers  *(path: .venv/Lib/site-packages/packaging/specifiers.py)*
+- .venv.Lib.site-packages.packaging.tags  *(path: .venv/Lib/site-packages/packaging/tags.py)*
+- .venv.Lib.site-packages.packaging.utils  *(path: .venv/Lib/site-packages/packaging/utils.py)*
+- .venv.Lib.site-packages.packaging.version  *(path: .venv/Lib/site-packages/packaging/version.py)*
+- .venv.Lib.site-packages.pip.__main__  *(path: .venv/Lib/site-packages/pip/__main__.py)*
+- .venv.Lib.site-packages.pip.__pip-runner__  *(path: .venv/Lib/site-packages/pip/__pip-runner__.py)*
+- .venv.Lib.site-packages.pip._internal.build_env  *(path: .venv/Lib/site-packages/pip/_internal/build_env.py)*
+- .venv.Lib.site-packages.pip._internal.cache  *(path: .venv/Lib/site-packages/pip/_internal/cache.py)*
+- .venv.Lib.site-packages.pip._internal.cli.autocompletion  *(path: .venv/Lib/site-packages/pip/_internal/cli/autocompletion.py)*
+- .venv.Lib.site-packages.pip._internal.cli.base_command  *(path: .venv/Lib/site-packages/pip/_internal/cli/base_command.py)*
+- .venv.Lib.site-packages.pip._internal.cli.cmdoptions  *(path: .venv/Lib/site-packages/pip/_internal/cli/cmdoptions.py)*
+- .venv.Lib.site-packages.pip._internal.cli.command_context  *(path: .venv/Lib/site-packages/pip/_internal/cli/command_context.py)*
+- .venv.Lib.site-packages.pip._internal.cli.index_command  *(path: .venv/Lib/site-packages/pip/_internal/cli/index_command.py)*
+- .venv.Lib.site-packages.pip._internal.cli.main_parser  *(path: .venv/Lib/site-packages/pip/_internal/cli/main_parser.py)*
+- .venv.Lib.site-packages.pip._internal.cli.parser  *(path: .venv/Lib/site-packages/pip/_internal/cli/parser.py)*
+- .venv.Lib.site-packages.pip._internal.cli.progress_bars  *(path: .venv/Lib/site-packages/pip/_internal/cli/progress_bars.py)*
+- .venv.Lib.site-packages.pip._internal.cli.req_command  *(path: .venv/Lib/site-packages/pip/_internal/cli/req_command.py)*
+- .venv.Lib.site-packages.pip._internal.cli.spinners  *(path: .venv/Lib/site-packages/pip/_internal/cli/spinners.py)*
+- .venv.Lib.site-packages.pip._internal.cli.status_codes  *(path: .venv/Lib/site-packages/pip/_internal/cli/status_codes.py)*
+- .venv.Lib.site-packages.pip._internal.commands.cache  *(path: .venv/Lib/site-packages/pip/_internal/commands/cache.py)*
+- .venv.Lib.site-packages.pip._internal.commands.check  *(path: .venv/Lib/site-packages/pip/_internal/commands/check.py)*
+- .venv.Lib.site-packages.pip._internal.commands.completion  *(path: .venv/Lib/site-packages/pip/_internal/commands/completion.py)*
+- .venv.Lib.site-packages.pip._internal.commands.configuration  *(path: .venv/Lib/site-packages/pip/_internal/commands/configuration.py)*
+- .venv.Lib.site-packages.pip._internal.commands.debug  *(path: .venv/Lib/site-packages/pip/_internal/commands/debug.py)*
+- .venv.Lib.site-packages.pip._internal.commands.download  *(path: .venv/Lib/site-packages/pip/_internal/commands/download.py)*
+- .venv.Lib.site-packages.pip._internal.commands.freeze  *(path: .venv/Lib/site-packages/pip/_internal/commands/freeze.py)*
+- .venv.Lib.site-packages.pip._internal.commands.hash  *(path: .venv/Lib/site-packages/pip/_internal/commands/hash.py)*
+- .venv.Lib.site-packages.pip._internal.commands.help  *(path: .venv/Lib/site-packages/pip/_internal/commands/help.py)*
+- .venv.Lib.site-packages.pip._internal.commands.index  *(path: .venv/Lib/site-packages/pip/_internal/commands/index.py)*
+- .venv.Lib.site-packages.pip._internal.commands.inspect  *(path: .venv/Lib/site-packages/pip/_internal/commands/inspect.py)*
+- .venv.Lib.site-packages.pip._internal.commands.install  *(path: .venv/Lib/site-packages/pip/_internal/commands/install.py)*
+- .venv.Lib.site-packages.pip._internal.commands.list  *(path: .venv/Lib/site-packages/pip/_internal/commands/list.py)*
+- .venv.Lib.site-packages.pip._internal.commands.lock  *(path: .venv/Lib/site-packages/pip/_internal/commands/lock.py)*
+- .venv.Lib.site-packages.pip._internal.commands.search  *(path: .venv/Lib/site-packages/pip/_internal/commands/search.py)*
+- .venv.Lib.site-packages.pip._internal.commands.show  *(path: .venv/Lib/site-packages/pip/_internal/commands/show.py)*
+- .venv.Lib.site-packages.pip._internal.commands.uninstall  *(path: .venv/Lib/site-packages/pip/_internal/commands/uninstall.py)*
+- .venv.Lib.site-packages.pip._internal.commands.wheel  *(path: .venv/Lib/site-packages/pip/_internal/commands/wheel.py)*
+- .venv.Lib.site-packages.pip._internal.configuration  *(path: .venv/Lib/site-packages/pip/_internal/configuration.py)*
+- .venv.Lib.site-packages.pip._internal.distributions.base  *(path: .venv/Lib/site-packages/pip/_internal/distributions/base.py)*
+- .venv.Lib.site-packages.pip._internal.distributions.installed  *(path: .venv/Lib/site-packages/pip/_internal/distributions/installed.py)*
+- .venv.Lib.site-packages.pip._internal.distributions.sdist  *(path: .venv/Lib/site-packages/pip/_internal/distributions/sdist.py)*
+- .venv.Lib.site-packages.pip._internal.distributions.wheel  *(path: .venv/Lib/site-packages/pip/_internal/distributions/wheel.py)*
+- .venv.Lib.site-packages.pip._internal.exceptions  *(path: .venv/Lib/site-packages/pip/_internal/exceptions.py)*
+- .venv.Lib.site-packages.pip._internal.index.collector  *(path: .venv/Lib/site-packages/pip/_internal/index/collector.py)*
+- .venv.Lib.site-packages.pip._internal.index.package_finder  *(path: .venv/Lib/site-packages/pip/_internal/index/package_finder.py)*
+- .venv.Lib.site-packages.pip._internal.index.sources  *(path: .venv/Lib/site-packages/pip/_internal/index/sources.py)*
+- .venv.Lib.site-packages.pip._internal.locations._distutils  *(path: .venv/Lib/site-packages/pip/_internal/locations/_distutils.py)*
+- .venv.Lib.site-packages.pip._internal.locations._sysconfig  *(path: .venv/Lib/site-packages/pip/_internal/locations/_sysconfig.py)*
+- .venv.Lib.site-packages.pip._internal.locations.base  *(path: .venv/Lib/site-packages/pip/_internal/locations/base.py)*
+- .venv.Lib.site-packages.pip._internal.metadata._json  *(path: .venv/Lib/site-packages/pip/_internal/metadata/_json.py)*
+- .venv.Lib.site-packages.pip._internal.metadata.base  *(path: .venv/Lib/site-packages/pip/_internal/metadata/base.py)*
+- .venv.Lib.site-packages.pip._internal.metadata.importlib._compat  *(path: .venv/Lib/site-packages/pip/_internal/metadata/importlib/_compat.py)*
+- .venv.Lib.site-packages.pip._internal.metadata.importlib._dists  *(path: .venv/Lib/site-packages/pip/_internal/metadata/importlib/_dists.py)*
+- .venv.Lib.site-packages.pip._internal.metadata.importlib._envs  *(path: .venv/Lib/site-packages/pip/_internal/metadata/importlib/_envs.py)*
+- .venv.Lib.site-packages.pip._internal.metadata.pkg_resources  *(path: .venv/Lib/site-packages/pip/_internal/metadata/pkg_resources.py)*
+- .venv.Lib.site-packages.pip._internal.models.candidate  *(path: .venv/Lib/site-packages/pip/_internal/models/candidate.py)*
+- .venv.Lib.site-packages.pip._internal.models.direct_url  *(path: .venv/Lib/site-packages/pip/_internal/models/direct_url.py)*
+- .venv.Lib.site-packages.pip._internal.models.format_control  *(path: .venv/Lib/site-packages/pip/_internal/models/format_control.py)*
+- .venv.Lib.site-packages.pip._internal.models.index  *(path: .venv/Lib/site-packages/pip/_internal/models/index.py)*
+- .venv.Lib.site-packages.pip._internal.models.installation_report  *(path: .venv/Lib/site-packages/pip/_internal/models/installation_report.py)*
+- .venv.Lib.site-packages.pip._internal.models.link  *(path: .venv/Lib/site-packages/pip/_internal/models/link.py)*
+- .venv.Lib.site-packages.pip._internal.models.pylock  *(path: .venv/Lib/site-packages/pip/_internal/models/pylock.py)*
+- .venv.Lib.site-packages.pip._internal.models.scheme  *(path: .venv/Lib/site-packages/pip/_internal/models/scheme.py)*
+- .venv.Lib.site-packages.pip._internal.models.search_scope  *(path: .venv/Lib/site-packages/pip/_internal/models/search_scope.py)*
+- .venv.Lib.site-packages.pip._internal.models.selection_prefs  *(path: .venv/Lib/site-packages/pip/_internal/models/selection_prefs.py)*
+- .venv.Lib.site-packages.pip._internal.models.target_python  *(path: .venv/Lib/site-packages/pip/_internal/models/target_python.py)*
+- .venv.Lib.site-packages.pip._internal.models.wheel  *(path: .venv/Lib/site-packages/pip/_internal/models/wheel.py)*
+- .venv.Lib.site-packages.pip._internal.network.auth  *(path: .venv/Lib/site-packages/pip/_internal/network/auth.py)*
+- .venv.Lib.site-packages.pip._internal.network.cache  *(path: .venv/Lib/site-packages/pip/_internal/network/cache.py)*
+- .venv.Lib.site-packages.pip._internal.network.download  *(path: .venv/Lib/site-packages/pip/_internal/network/download.py)*
+- .venv.Lib.site-packages.pip._internal.network.lazy_wheel  *(path: .venv/Lib/site-packages/pip/_internal/network/lazy_wheel.py)*
+- .venv.Lib.site-packages.pip._internal.network.session  *(path: .venv/Lib/site-packages/pip/_internal/network/session.py)*
+- .venv.Lib.site-packages.pip._internal.network.utils  *(path: .venv/Lib/site-packages/pip/_internal/network/utils.py)*
+- .venv.Lib.site-packages.pip._internal.network.xmlrpc  *(path: .venv/Lib/site-packages/pip/_internal/network/xmlrpc.py)*
+- .venv.Lib.site-packages.pip._internal.operations.check  *(path: .venv/Lib/site-packages/pip/_internal/operations/check.py)*
+- .venv.Lib.site-packages.pip._internal.operations.freeze  *(path: .venv/Lib/site-packages/pip/_internal/operations/freeze.py)*
+- .venv.Lib.site-packages.pip._internal.operations.install.editable_legacy  *(path: .venv/Lib/site-packages/pip/_internal/operations/install/editable_legacy.py)*
+- .venv.Lib.site-packages.pip._internal.operations.install.wheel  *(path: .venv/Lib/site-packages/pip/_internal/operations/install/wheel.py)*
+- .venv.Lib.site-packages.pip._internal.operations.prepare  *(path: .venv/Lib/site-packages/pip/_internal/operations/prepare.py)*
+- .venv.Lib.site-packages.pip._internal.pyproject  *(path: .venv/Lib/site-packages/pip/_internal/pyproject.py)*
+- .venv.Lib.site-packages.pip._internal.req.constructors  *(path: .venv/Lib/site-packages/pip/_internal/req/constructors.py)*
+- .venv.Lib.site-packages.pip._internal.req.req_dependency_group  *(path: .venv/Lib/site-packages/pip/_internal/req/req_dependency_group.py)*
+- .venv.Lib.site-packages.pip._internal.req.req_file  *(path: .venv/Lib/site-packages/pip/_internal/req/req_file.py)*
+- .venv.Lib.site-packages.pip._internal.req.req_install  *(path: .venv/Lib/site-packages/pip/_internal/req/req_install.py)*
+- .venv.Lib.site-packages.pip._internal.req.req_set  *(path: .venv/Lib/site-packages/pip/_internal/req/req_set.py)*
+- .venv.Lib.site-packages.pip._internal.req.req_uninstall  *(path: .venv/Lib/site-packages/pip/_internal/req/req_uninstall.py)*
+- .venv.Lib.site-packages.pip._internal.resolution.base  *(path: .venv/Lib/site-packages/pip/_internal/resolution/base.py)*
+- .venv.Lib.site-packages.pip._internal.resolution.legacy.resolver  *(path: .venv/Lib/site-packages/pip/_internal/resolution/legacy/resolver.py)*
+- .venv.Lib.site-packages.pip._internal.resolution.resolvelib.base  *(path: .venv/Lib/site-packages/pip/_internal/resolution/resolvelib/base.py)*
+- .venv.Lib.site-packages.pip._internal.resolution.resolvelib.candidates  *(path: .venv/Lib/site-packages/pip/_internal/resolution/resolvelib/candidates.py)*
+- .venv.Lib.site-packages.pip._internal.resolution.resolvelib.factory  *(path: .venv/Lib/site-packages/pip/_internal/resolution/resolvelib/factory.py)*
+- .venv.Lib.site-packages.pip._internal.resolution.resolvelib.found_candidates  *(path: .venv/Lib/site-packages/pip/_internal/resolution/resolvelib/found_candidates.py)*
+- .venv.Lib.site-packages.pip._internal.resolution.resolvelib.provider  *(path: .venv/Lib/site-packages/pip/_internal/resolution/resolvelib/provider.py)*
+- .venv.Lib.site-packages.pip._internal.resolution.resolvelib.reporter  *(path: .venv/Lib/site-packages/pip/_internal/resolution/resolvelib/reporter.py)*
+- .venv.Lib.site-packages.pip._internal.resolution.resolvelib.requirements  *(path: .venv/Lib/site-packages/pip/_internal/resolution/resolvelib/requirements.py)*
+- .venv.Lib.site-packages.pip._internal.resolution.resolvelib.resolver  *(path: .venv/Lib/site-packages/pip/_internal/resolution/resolvelib/resolver.py)*
+- .venv.Lib.site-packages.pip._internal.self_outdated_check  *(path: .venv/Lib/site-packages/pip/_internal/self_outdated_check.py)*
+- .venv.Lib.site-packages.pip._internal.utils._jaraco_text  *(path: .venv/Lib/site-packages/pip/_internal/utils/_jaraco_text.py)*
+- .venv.Lib.site-packages.pip._internal.utils._log  *(path: .venv/Lib/site-packages/pip/_internal/utils/_log.py)*
+- .venv.Lib.site-packages.pip._internal.utils.appdirs  *(path: .venv/Lib/site-packages/pip/_internal/utils/appdirs.py)*
+- .venv.Lib.site-packages.pip._internal.utils.compat  *(path: .venv/Lib/site-packages/pip/_internal/utils/compat.py)*
+- .venv.Lib.site-packages.pip._internal.utils.compatibility_tags  *(path: .venv/Lib/site-packages/pip/_internal/utils/compatibility_tags.py)*
+- .venv.Lib.site-packages.pip._internal.utils.datetime  *(path: .venv/Lib/site-packages/pip/_internal/utils/datetime.py)*
+- .venv.Lib.site-packages.pip._internal.utils.deprecation  *(path: .venv/Lib/site-packages/pip/_internal/utils/deprecation.py)*
+- .venv.Lib.site-packages.pip._internal.utils.direct_url_helpers  *(path: .venv/Lib/site-packages/pip/_internal/utils/direct_url_helpers.py)*
+- .venv.Lib.site-packages.pip._internal.utils.egg_link  *(path: .venv/Lib/site-packages/pip/_internal/utils/egg_link.py)*
+- .venv.Lib.site-packages.pip._internal.utils.entrypoints  *(path: .venv/Lib/site-packages/pip/_internal/utils/entrypoints.py)*
+- .venv.Lib.site-packages.pip._internal.utils.filesystem  *(path: .venv/Lib/site-packages/pip/_internal/utils/filesystem.py)*
+- .venv.Lib.site-packages.pip._internal.utils.filetypes  *(path: .venv/Lib/site-packages/pip/_internal/utils/filetypes.py)*
+- .venv.Lib.site-packages.pip._internal.utils.glibc  *(path: .venv/Lib/site-packages/pip/_internal/utils/glibc.py)*
+- .venv.Lib.site-packages.pip._internal.utils.hashes  *(path: .venv/Lib/site-packages/pip/_internal/utils/hashes.py)*
+- .venv.Lib.site-packages.pip._internal.utils.logging  *(path: .venv/Lib/site-packages/pip/_internal/utils/logging.py)*
+- .venv.Lib.site-packages.pip._internal.utils.misc  *(path: .venv/Lib/site-packages/pip/_internal/utils/misc.py)*
+- .venv.Lib.site-packages.pip._internal.utils.packaging  *(path: .venv/Lib/site-packages/pip/_internal/utils/packaging.py)*
+- .venv.Lib.site-packages.pip._internal.utils.retry  *(path: .venv/Lib/site-packages/pip/_internal/utils/retry.py)*
+- .venv.Lib.site-packages.pip._internal.utils.setuptools_build  *(path: .venv/Lib/site-packages/pip/_internal/utils/setuptools_build.py)*
+- .venv.Lib.site-packages.pip._internal.utils.subprocess  *(path: .venv/Lib/site-packages/pip/_internal/utils/subprocess.py)*
+- .venv.Lib.site-packages.pip._internal.utils.temp_dir  *(path: .venv/Lib/site-packages/pip/_internal/utils/temp_dir.py)*
+- .venv.Lib.site-packages.pip._internal.utils.unpacking  *(path: .venv/Lib/site-packages/pip/_internal/utils/unpacking.py)*
+- .venv.Lib.site-packages.pip._internal.utils.urls  *(path: .venv/Lib/site-packages/pip/_internal/utils/urls.py)*
+- .venv.Lib.site-packages.pip._internal.utils.virtualenv  *(path: .venv/Lib/site-packages/pip/_internal/utils/virtualenv.py)*
+- .venv.Lib.site-packages.pip._internal.utils.wheel  *(path: .venv/Lib/site-packages/pip/_internal/utils/wheel.py)*
+- .venv.Lib.site-packages.pip._internal.vcs.bazaar  *(path: .venv/Lib/site-packages/pip/_internal/vcs/bazaar.py)*
+- .venv.Lib.site-packages.pip._internal.vcs.git  *(path: .venv/Lib/site-packages/pip/_internal/vcs/git.py)*
+- .venv.Lib.site-packages.pip._internal.vcs.mercurial  *(path: .venv/Lib/site-packages/pip/_internal/vcs/mercurial.py)*
+- .venv.Lib.site-packages.pip._internal.vcs.subversion  *(path: .venv/Lib/site-packages/pip/_internal/vcs/subversion.py)*
+- .venv.Lib.site-packages.pip._internal.vcs.versioncontrol  *(path: .venv/Lib/site-packages/pip/_internal/vcs/versioncontrol.py)*
+- .venv.Lib.site-packages.pip._internal.wheel_builder  *(path: .venv/Lib/site-packages/pip/_internal/wheel_builder.py)*
+- .venv.Lib.site-packages.pip._vendor.cachecontrol._cmd  *(path: .venv/Lib/site-packages/pip/_vendor/cachecontrol/_cmd.py)*
+- .venv.Lib.site-packages.pip._vendor.cachecontrol.adapter  *(path: .venv/Lib/site-packages/pip/_vendor/cachecontrol/adapter.py)*
+- .venv.Lib.site-packages.pip._vendor.cachecontrol.cache  *(path: .venv/Lib/site-packages/pip/_vendor/cachecontrol/cache.py)*
+- .venv.Lib.site-packages.pip._vendor.cachecontrol.caches.file_cache  *(path: .venv/Lib/site-packages/pip/_vendor/cachecontrol/caches/file_cache.py)*
+- .venv.Lib.site-packages.pip._vendor.cachecontrol.caches.redis_cache  *(path: .venv/Lib/site-packages/pip/_vendor/cachecontrol/caches/redis_cache.py)*
+- .venv.Lib.site-packages.pip._vendor.cachecontrol.controller  *(path: .venv/Lib/site-packages/pip/_vendor/cachecontrol/controller.py)*
+- .venv.Lib.site-packages.pip._vendor.cachecontrol.filewrapper  *(path: .venv/Lib/site-packages/pip/_vendor/cachecontrol/filewrapper.py)*
+- .venv.Lib.site-packages.pip._vendor.cachecontrol.heuristics  *(path: .venv/Lib/site-packages/pip/_vendor/cachecontrol/heuristics.py)*
+- .venv.Lib.site-packages.pip._vendor.cachecontrol.serialize  *(path: .venv/Lib/site-packages/pip/_vendor/cachecontrol/serialize.py)*
+- .venv.Lib.site-packages.pip._vendor.cachecontrol.wrapper  *(path: .venv/Lib/site-packages/pip/_vendor/cachecontrol/wrapper.py)*
+- .venv.Lib.site-packages.pip._vendor.certifi.__main__  *(path: .venv/Lib/site-packages/pip/_vendor/certifi/__main__.py)*
+- .venv.Lib.site-packages.pip._vendor.certifi.core  *(path: .venv/Lib/site-packages/pip/_vendor/certifi/core.py)*
+- .venv.Lib.site-packages.pip._vendor.dependency_groups.__main__  *(path: .venv/Lib/site-packages/pip/_vendor/dependency_groups/__main__.py)*
+- .venv.Lib.site-packages.pip._vendor.dependency_groups._implementation  *(path: .venv/Lib/site-packages/pip/_vendor/dependency_groups/_implementation.py)*
+- .venv.Lib.site-packages.pip._vendor.dependency_groups._lint_dependency_groups  *(path: .venv/Lib/site-packages/pip/_vendor/dependency_groups/_lint_dependency_groups.py)*
+- .venv.Lib.site-packages.pip._vendor.dependency_groups._pip_wrapper  *(path: .venv/Lib/site-packages/pip/_vendor/dependency_groups/_pip_wrapper.py)*
+- .venv.Lib.site-packages.pip._vendor.dependency_groups._toml_compat  *(path: .venv/Lib/site-packages/pip/_vendor/dependency_groups/_toml_compat.py)*
+- .venv.Lib.site-packages.pip._vendor.distlib.compat  *(path: .venv/Lib/site-packages/pip/_vendor/distlib/compat.py)*
+- .venv.Lib.site-packages.pip._vendor.distlib.resources  *(path: .venv/Lib/site-packages/pip/_vendor/distlib/resources.py)*
+- .venv.Lib.site-packages.pip._vendor.distlib.scripts  *(path: .venv/Lib/site-packages/pip/_vendor/distlib/scripts.py)*
+- .venv.Lib.site-packages.pip._vendor.distlib.util  *(path: .venv/Lib/site-packages/pip/_vendor/distlib/util.py)*
+- .venv.Lib.site-packages.pip._vendor.distro.__main__  *(path: .venv/Lib/site-packages/pip/_vendor/distro/__main__.py)*
+- .venv.Lib.site-packages.pip._vendor.distro.distro  *(path: .venv/Lib/site-packages/pip/_vendor/distro/distro.py)*
+- .venv.Lib.site-packages.pip._vendor.idna.codec  *(path: .venv/Lib/site-packages/pip/_vendor/idna/codec.py)*
+- .venv.Lib.site-packages.pip._vendor.idna.compat  *(path: .venv/Lib/site-packages/pip/_vendor/idna/compat.py)*
+- .venv.Lib.site-packages.pip._vendor.idna.core  *(path: .venv/Lib/site-packages/pip/_vendor/idna/core.py)*
+- .venv.Lib.site-packages.pip._vendor.idna.idnadata  *(path: .venv/Lib/site-packages/pip/_vendor/idna/idnadata.py)*
+- .venv.Lib.site-packages.pip._vendor.idna.intranges  *(path: .venv/Lib/site-packages/pip/_vendor/idna/intranges.py)*
+- .venv.Lib.site-packages.pip._vendor.idna.package_data  *(path: .venv/Lib/site-packages/pip/_vendor/idna/package_data.py)*
+- .venv.Lib.site-packages.pip._vendor.idna.uts46data  *(path: .venv/Lib/site-packages/pip/_vendor/idna/uts46data.py)*
+- .venv.Lib.site-packages.pip._vendor.msgpack.exceptions  *(path: .venv/Lib/site-packages/pip/_vendor/msgpack/exceptions.py)*
+- .venv.Lib.site-packages.pip._vendor.msgpack.ext  *(path: .venv/Lib/site-packages/pip/_vendor/msgpack/ext.py)*
+- .venv.Lib.site-packages.pip._vendor.msgpack.fallback  *(path: .venv/Lib/site-packages/pip/_vendor/msgpack/fallback.py)*
+- .venv.Lib.site-packages.pip._vendor.packaging._elffile  *(path: .venv/Lib/site-packages/pip/_vendor/packaging/_elffile.py)*
+- .venv.Lib.site-packages.pip._vendor.packaging._manylinux  *(path: .venv/Lib/site-packages/pip/_vendor/packaging/_manylinux.py)*
+- .venv.Lib.site-packages.pip._vendor.packaging._musllinux  *(path: .venv/Lib/site-packages/pip/_vendor/packaging/_musllinux.py)*
+- .venv.Lib.site-packages.pip._vendor.packaging._parser  *(path: .venv/Lib/site-packages/pip/_vendor/packaging/_parser.py)*
+- .venv.Lib.site-packages.pip._vendor.packaging._structures  *(path: .venv/Lib/site-packages/pip/_vendor/packaging/_structures.py)*
+- .venv.Lib.site-packages.pip._vendor.packaging._tokenizer  *(path: .venv/Lib/site-packages/pip/_vendor/packaging/_tokenizer.py)*
+- .venv.Lib.site-packages.pip._vendor.packaging.licenses._spdx  *(path: .venv/Lib/site-packages/pip/_vendor/packaging/licenses/_spdx.py)*
+- .venv.Lib.site-packages.pip._vendor.packaging.markers  *(path: .venv/Lib/site-packages/pip/_vendor/packaging/markers.py)*
+- .venv.Lib.site-packages.pip._vendor.packaging.metadata  *(path: .venv/Lib/site-packages/pip/_vendor/packaging/metadata.py)*
+- .venv.Lib.site-packages.pip._vendor.packaging.requirements  *(path: .venv/Lib/site-packages/pip/_vendor/packaging/requirements.py)*
+- .venv.Lib.site-packages.pip._vendor.packaging.specifiers  *(path: .venv/Lib/site-packages/pip/_vendor/packaging/specifiers.py)*
+- .venv.Lib.site-packages.pip._vendor.packaging.tags  *(path: .venv/Lib/site-packages/pip/_vendor/packaging/tags.py)*
+- .venv.Lib.site-packages.pip._vendor.packaging.utils  *(path: .venv/Lib/site-packages/pip/_vendor/packaging/utils.py)*
+- .venv.Lib.site-packages.pip._vendor.packaging.version  *(path: .venv/Lib/site-packages/pip/_vendor/packaging/version.py)*
+- .venv.Lib.site-packages.pip._vendor.platformdirs.__main__  *(path: .venv/Lib/site-packages/pip/_vendor/platformdirs/__main__.py)*
+- .venv.Lib.site-packages.pip._vendor.platformdirs.android  *(path: .venv/Lib/site-packages/pip/_vendor/platformdirs/android.py)*
+- .venv.Lib.site-packages.pip._vendor.platformdirs.api  *(path: .venv/Lib/site-packages/pip/_vendor/platformdirs/api.py)*
+- .venv.Lib.site-packages.pip._vendor.platformdirs.macos  *(path: .venv/Lib/site-packages/pip/_vendor/platformdirs/macos.py)*
+- .venv.Lib.site-packages.pip._vendor.platformdirs.unix  *(path: .venv/Lib/site-packages/pip/_vendor/platformdirs/unix.py)*
+- .venv.Lib.site-packages.pip._vendor.platformdirs.version  *(path: .venv/Lib/site-packages/pip/_vendor/platformdirs/version.py)*
+- .venv.Lib.site-packages.pip._vendor.platformdirs.windows  *(path: .venv/Lib/site-packages/pip/_vendor/platformdirs/windows.py)*
+- .venv.Lib.site-packages.pip._vendor.pygments.__main__  *(path: .venv/Lib/site-packages/pip/_vendor/pygments/__main__.py)*
+- .venv.Lib.site-packages.pip._vendor.pygments.console  *(path: .venv/Lib/site-packages/pip/_vendor/pygments/console.py)*
+- .venv.Lib.site-packages.pip._vendor.pygments.filter  *(path: .venv/Lib/site-packages/pip/_vendor/pygments/filter.py)*
+- .venv.Lib.site-packages.pip._vendor.pygments.formatter  *(path: .venv/Lib/site-packages/pip/_vendor/pygments/formatter.py)*
+- .venv.Lib.site-packages.pip._vendor.pygments.formatters._mapping  *(path: .venv/Lib/site-packages/pip/_vendor/pygments/formatters/_mapping.py)*
+- .venv.Lib.site-packages.pip._vendor.pygments.lexer  *(path: .venv/Lib/site-packages/pip/_vendor/pygments/lexer.py)*
+- .venv.Lib.site-packages.pip._vendor.pygments.lexers._mapping  *(path: .venv/Lib/site-packages/pip/_vendor/pygments/lexers/_mapping.py)*
+- .venv.Lib.site-packages.pip._vendor.pygments.lexers.python  *(path: .venv/Lib/site-packages/pip/_vendor/pygments/lexers/python.py)*
+- .venv.Lib.site-packages.pip._vendor.pygments.modeline  *(path: .venv/Lib/site-packages/pip/_vendor/pygments/modeline.py)*
+- .venv.Lib.site-packages.pip._vendor.pygments.plugin  *(path: .venv/Lib/site-packages/pip/_vendor/pygments/plugin.py)*
+- .venv.Lib.site-packages.pip._vendor.pygments.regexopt  *(path: .venv/Lib/site-packages/pip/_vendor/pygments/regexopt.py)*
+- .venv.Lib.site-packages.pip._vendor.pygments.scanner  *(path: .venv/Lib/site-packages/pip/_vendor/pygments/scanner.py)*
+- .venv.Lib.site-packages.pip._vendor.pygments.sphinxext  *(path: .venv/Lib/site-packages/pip/_vendor/pygments/sphinxext.py)*
+- .venv.Lib.site-packages.pip._vendor.pygments.style  *(path: .venv/Lib/site-packages/pip/_vendor/pygments/style.py)*
+- .venv.Lib.site-packages.pip._vendor.pygments.styles._mapping  *(path: .venv/Lib/site-packages/pip/_vendor/pygments/styles/_mapping.py)*
+- .venv.Lib.site-packages.pip._vendor.pygments.token  *(path: .venv/Lib/site-packages/pip/_vendor/pygments/token.py)*
+- .venv.Lib.site-packages.pip._vendor.pygments.unistring  *(path: .venv/Lib/site-packages/pip/_vendor/pygments/unistring.py)*
+- .venv.Lib.site-packages.pip._vendor.pygments.util  *(path: .venv/Lib/site-packages/pip/_vendor/pygments/util.py)*
+- .venv.Lib.site-packages.pip._vendor.pyproject_hooks._impl  *(path: .venv/Lib/site-packages/pip/_vendor/pyproject_hooks/_impl.py)*
+- .venv.Lib.site-packages.pip._vendor.pyproject_hooks._in_process._in_process  *(path: .venv/Lib/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py)*
+- .venv.Lib.site-packages.pip._vendor.requests.__version__  *(path: .venv/Lib/site-packages/pip/_vendor/requests/__version__.py)*
+- .venv.Lib.site-packages.pip._vendor.requests._internal_utils  *(path: .venv/Lib/site-packages/pip/_vendor/requests/_internal_utils.py)*
+- .venv.Lib.site-packages.pip._vendor.requests.adapters  *(path: .venv/Lib/site-packages/pip/_vendor/requests/adapters.py)*
+- .venv.Lib.site-packages.pip._vendor.requests.api  *(path: .venv/Lib/site-packages/pip/_vendor/requests/api.py)*
+- .venv.Lib.site-packages.pip._vendor.requests.auth  *(path: .venv/Lib/site-packages/pip/_vendor/requests/auth.py)*
+- .venv.Lib.site-packages.pip._vendor.requests.certs  *(path: .venv/Lib/site-packages/pip/_vendor/requests/certs.py)*
+- .venv.Lib.site-packages.pip._vendor.requests.compat  *(path: .venv/Lib/site-packages/pip/_vendor/requests/compat.py)*
+- .venv.Lib.site-packages.pip._vendor.requests.cookies  *(path: .venv/Lib/site-packages/pip/_vendor/requests/cookies.py)*
+- .venv.Lib.site-packages.pip._vendor.requests.exceptions  *(path: .venv/Lib/site-packages/pip/_vendor/requests/exceptions.py)*
+- .venv.Lib.site-packages.pip._vendor.requests.help  *(path: .venv/Lib/site-packages/pip/_vendor/requests/help.py)*
+- .venv.Lib.site-packages.pip._vendor.requests.hooks  *(path: .venv/Lib/site-packages/pip/_vendor/requests/hooks.py)*
+- .venv.Lib.site-packages.pip._vendor.requests.models  *(path: .venv/Lib/site-packages/pip/_vendor/requests/models.py)*
+- .venv.Lib.site-packages.pip._vendor.requests.packages  *(path: .venv/Lib/site-packages/pip/_vendor/requests/packages.py)*
+- .venv.Lib.site-packages.pip._vendor.requests.sessions  *(path: .venv/Lib/site-packages/pip/_vendor/requests/sessions.py)*
+- .venv.Lib.site-packages.pip._vendor.requests.status_codes  *(path: .venv/Lib/site-packages/pip/_vendor/requests/status_codes.py)*
+- .venv.Lib.site-packages.pip._vendor.requests.structures  *(path: .venv/Lib/site-packages/pip/_vendor/requests/structures.py)*
+- .venv.Lib.site-packages.pip._vendor.requests.utils  *(path: .venv/Lib/site-packages/pip/_vendor/requests/utils.py)*
+- .venv.Lib.site-packages.pip._vendor.resolvelib.providers  *(path: .venv/Lib/site-packages/pip/_vendor/resolvelib/providers.py)*
+- .venv.Lib.site-packages.pip._vendor.resolvelib.reporters  *(path: .venv/Lib/site-packages/pip/_vendor/resolvelib/reporters.py)*
+- .venv.Lib.site-packages.pip._vendor.resolvelib.resolvers.abstract  *(path: .venv/Lib/site-packages/pip/_vendor/resolvelib/resolvers/abstract.py)*
+- .venv.Lib.site-packages.pip._vendor.resolvelib.resolvers.criterion  *(path: .venv/Lib/site-packages/pip/_vendor/resolvelib/resolvers/criterion.py)*
+- .venv.Lib.site-packages.pip._vendor.resolvelib.resolvers.exceptions  *(path: .venv/Lib/site-packages/pip/_vendor/resolvelib/resolvers/exceptions.py)*
+- .venv.Lib.site-packages.pip._vendor.resolvelib.resolvers.resolution  *(path: .venv/Lib/site-packages/pip/_vendor/resolvelib/resolvers/resolution.py)*
+- .venv.Lib.site-packages.pip._vendor.resolvelib.structs  *(path: .venv/Lib/site-packages/pip/_vendor/resolvelib/structs.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.__main__  *(path: .venv/Lib/site-packages/pip/_vendor/rich/__main__.py)*
+- .venv.Lib.site-packages.pip._vendor.rich._cell_widths  *(path: .venv/Lib/site-packages/pip/_vendor/rich/_cell_widths.py)*
+- .venv.Lib.site-packages.pip._vendor.rich._emoji_codes  *(path: .venv/Lib/site-packages/pip/_vendor/rich/_emoji_codes.py)*
+- .venv.Lib.site-packages.pip._vendor.rich._emoji_replace  *(path: .venv/Lib/site-packages/pip/_vendor/rich/_emoji_replace.py)*
+- .venv.Lib.site-packages.pip._vendor.rich._export_format  *(path: .venv/Lib/site-packages/pip/_vendor/rich/_export_format.py)*
+- .venv.Lib.site-packages.pip._vendor.rich._extension  *(path: .venv/Lib/site-packages/pip/_vendor/rich/_extension.py)*
+- .venv.Lib.site-packages.pip._vendor.rich._fileno  *(path: .venv/Lib/site-packages/pip/_vendor/rich/_fileno.py)*
+- .venv.Lib.site-packages.pip._vendor.rich._inspect  *(path: .venv/Lib/site-packages/pip/_vendor/rich/_inspect.py)*
+- .venv.Lib.site-packages.pip._vendor.rich._log_render  *(path: .venv/Lib/site-packages/pip/_vendor/rich/_log_render.py)*
+- .venv.Lib.site-packages.pip._vendor.rich._loop  *(path: .venv/Lib/site-packages/pip/_vendor/rich/_loop.py)*
+- .venv.Lib.site-packages.pip._vendor.rich._null_file  *(path: .venv/Lib/site-packages/pip/_vendor/rich/_null_file.py)*
+- .venv.Lib.site-packages.pip._vendor.rich._palettes  *(path: .venv/Lib/site-packages/pip/_vendor/rich/_palettes.py)*
+- .venv.Lib.site-packages.pip._vendor.rich._pick  *(path: .venv/Lib/site-packages/pip/_vendor/rich/_pick.py)*
+- .venv.Lib.site-packages.pip._vendor.rich._ratio  *(path: .venv/Lib/site-packages/pip/_vendor/rich/_ratio.py)*
+- .venv.Lib.site-packages.pip._vendor.rich._spinners  *(path: .venv/Lib/site-packages/pip/_vendor/rich/_spinners.py)*
+- .venv.Lib.site-packages.pip._vendor.rich._stack  *(path: .venv/Lib/site-packages/pip/_vendor/rich/_stack.py)*
+- .venv.Lib.site-packages.pip._vendor.rich._timer  *(path: .venv/Lib/site-packages/pip/_vendor/rich/_timer.py)*
+- .venv.Lib.site-packages.pip._vendor.rich._win32_console  *(path: .venv/Lib/site-packages/pip/_vendor/rich/_win32_console.py)*
+- .venv.Lib.site-packages.pip._vendor.rich._windows  *(path: .venv/Lib/site-packages/pip/_vendor/rich/_windows.py)*
+- .venv.Lib.site-packages.pip._vendor.rich._windows_renderer  *(path: .venv/Lib/site-packages/pip/_vendor/rich/_windows_renderer.py)*
+- .venv.Lib.site-packages.pip._vendor.rich._wrap  *(path: .venv/Lib/site-packages/pip/_vendor/rich/_wrap.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.abc  *(path: .venv/Lib/site-packages/pip/_vendor/rich/abc.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.align  *(path: .venv/Lib/site-packages/pip/_vendor/rich/align.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.ansi  *(path: .venv/Lib/site-packages/pip/_vendor/rich/ansi.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.bar  *(path: .venv/Lib/site-packages/pip/_vendor/rich/bar.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.box  *(path: .venv/Lib/site-packages/pip/_vendor/rich/box.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.cells  *(path: .venv/Lib/site-packages/pip/_vendor/rich/cells.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.color  *(path: .venv/Lib/site-packages/pip/_vendor/rich/color.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.color_triplet  *(path: .venv/Lib/site-packages/pip/_vendor/rich/color_triplet.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.columns  *(path: .venv/Lib/site-packages/pip/_vendor/rich/columns.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.console  *(path: .venv/Lib/site-packages/pip/_vendor/rich/console.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.constrain  *(path: .venv/Lib/site-packages/pip/_vendor/rich/constrain.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.containers  *(path: .venv/Lib/site-packages/pip/_vendor/rich/containers.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.control  *(path: .venv/Lib/site-packages/pip/_vendor/rich/control.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.default_styles  *(path: .venv/Lib/site-packages/pip/_vendor/rich/default_styles.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.diagnose  *(path: .venv/Lib/site-packages/pip/_vendor/rich/diagnose.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.emoji  *(path: .venv/Lib/site-packages/pip/_vendor/rich/emoji.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.errors  *(path: .venv/Lib/site-packages/pip/_vendor/rich/errors.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.file_proxy  *(path: .venv/Lib/site-packages/pip/_vendor/rich/file_proxy.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.filesize  *(path: .venv/Lib/site-packages/pip/_vendor/rich/filesize.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.highlighter  *(path: .venv/Lib/site-packages/pip/_vendor/rich/highlighter.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.json  *(path: .venv/Lib/site-packages/pip/_vendor/rich/json.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.jupyter  *(path: .venv/Lib/site-packages/pip/_vendor/rich/jupyter.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.layout  *(path: .venv/Lib/site-packages/pip/_vendor/rich/layout.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.live  *(path: .venv/Lib/site-packages/pip/_vendor/rich/live.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.live_render  *(path: .venv/Lib/site-packages/pip/_vendor/rich/live_render.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.logging  *(path: .venv/Lib/site-packages/pip/_vendor/rich/logging.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.markup  *(path: .venv/Lib/site-packages/pip/_vendor/rich/markup.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.measure  *(path: .venv/Lib/site-packages/pip/_vendor/rich/measure.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.padding  *(path: .venv/Lib/site-packages/pip/_vendor/rich/padding.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.pager  *(path: .venv/Lib/site-packages/pip/_vendor/rich/pager.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.palette  *(path: .venv/Lib/site-packages/pip/_vendor/rich/palette.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.panel  *(path: .venv/Lib/site-packages/pip/_vendor/rich/panel.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.pretty  *(path: .venv/Lib/site-packages/pip/_vendor/rich/pretty.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.progress  *(path: .venv/Lib/site-packages/pip/_vendor/rich/progress.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.progress_bar  *(path: .venv/Lib/site-packages/pip/_vendor/rich/progress_bar.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.prompt  *(path: .venv/Lib/site-packages/pip/_vendor/rich/prompt.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.protocol  *(path: .venv/Lib/site-packages/pip/_vendor/rich/protocol.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.region  *(path: .venv/Lib/site-packages/pip/_vendor/rich/region.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.repr  *(path: .venv/Lib/site-packages/pip/_vendor/rich/repr.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.rule  *(path: .venv/Lib/site-packages/pip/_vendor/rich/rule.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.scope  *(path: .venv/Lib/site-packages/pip/_vendor/rich/scope.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.screen  *(path: .venv/Lib/site-packages/pip/_vendor/rich/screen.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.segment  *(path: .venv/Lib/site-packages/pip/_vendor/rich/segment.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.spinner  *(path: .venv/Lib/site-packages/pip/_vendor/rich/spinner.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.status  *(path: .venv/Lib/site-packages/pip/_vendor/rich/status.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.style  *(path: .venv/Lib/site-packages/pip/_vendor/rich/style.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.styled  *(path: .venv/Lib/site-packages/pip/_vendor/rich/styled.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.syntax  *(path: .venv/Lib/site-packages/pip/_vendor/rich/syntax.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.table  *(path: .venv/Lib/site-packages/pip/_vendor/rich/table.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.terminal_theme  *(path: .venv/Lib/site-packages/pip/_vendor/rich/terminal_theme.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.text  *(path: .venv/Lib/site-packages/pip/_vendor/rich/text.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.theme  *(path: .venv/Lib/site-packages/pip/_vendor/rich/theme.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.themes  *(path: .venv/Lib/site-packages/pip/_vendor/rich/themes.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.traceback  *(path: .venv/Lib/site-packages/pip/_vendor/rich/traceback.py)*
+- .venv.Lib.site-packages.pip._vendor.rich.tree  *(path: .venv/Lib/site-packages/pip/_vendor/rich/tree.py)*
+- .venv.Lib.site-packages.pip._vendor.tomli._parser  *(path: .venv/Lib/site-packages/pip/_vendor/tomli/_parser.py)*
+- .venv.Lib.site-packages.pip._vendor.tomli._re  *(path: .venv/Lib/site-packages/pip/_vendor/tomli/_re.py)*
+- .venv.Lib.site-packages.pip._vendor.tomli._types  *(path: .venv/Lib/site-packages/pip/_vendor/tomli/_types.py)*
+- .venv.Lib.site-packages.pip._vendor.tomli_w._writer  *(path: .venv/Lib/site-packages/pip/_vendor/tomli_w/_writer.py)*
+- .venv.Lib.site-packages.pip._vendor.truststore._api  *(path: .venv/Lib/site-packages/pip/_vendor/truststore/_api.py)*
+- .venv.Lib.site-packages.pip._vendor.truststore._macos  *(path: .venv/Lib/site-packages/pip/_vendor/truststore/_macos.py)*
+- .venv.Lib.site-packages.pip._vendor.truststore._openssl  *(path: .venv/Lib/site-packages/pip/_vendor/truststore/_openssl.py)*
+- .venv.Lib.site-packages.pip._vendor.truststore._ssl_constants  *(path: .venv/Lib/site-packages/pip/_vendor/truststore/_ssl_constants.py)*
+- .venv.Lib.site-packages.pip._vendor.truststore._windows  *(path: .venv/Lib/site-packages/pip/_vendor/truststore/_windows.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3._collections  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/_collections.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3._version  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/_version.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.connection  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/connection.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.connectionpool  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/connectionpool.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.contrib._appengine_environ  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_appengine_environ.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.contrib._securetransport.bindings  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport/bindings.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.contrib._securetransport.low_level  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport/low_level.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.contrib.appengine  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/contrib/appengine.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.contrib.ntlmpool  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/contrib/ntlmpool.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.contrib.pyopenssl  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/contrib/pyopenssl.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.contrib.securetransport  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/contrib/securetransport.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.contrib.socks  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/contrib/socks.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.exceptions  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/exceptions.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.fields  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/fields.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.filepost  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/filepost.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.packages.backports.makefile  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/packages/backports/makefile.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.packages.backports.weakref_finalize  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/packages/backports/weakref_finalize.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.packages.six  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/packages/six.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.poolmanager  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/poolmanager.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.request  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/request.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.response  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/response.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.util.connection  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/util/connection.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.util.proxy  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/util/proxy.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.util.queue  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/util/queue.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.util.request  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/util/request.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.util.response  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/util/response.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.util.retry  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/util/retry.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.util.ssl_  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/util/ssl_.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.util.ssl_match_hostname  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/util/ssl_match_hostname.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.util.ssltransport  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/util/ssltransport.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.util.timeout  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/util/timeout.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.util.url  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/util/url.py)*
+- .venv.Lib.site-packages.pip._vendor.urllib3.util.wait  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/util/wait.py)*
+- .venv.Lib.site-packages.pluggy._callers  *(path: .venv/Lib/site-packages/pluggy/_callers.py)*
+- .venv.Lib.site-packages.pluggy._hooks  *(path: .venv/Lib/site-packages/pluggy/_hooks.py)*
+- .venv.Lib.site-packages.pluggy._manager  *(path: .venv/Lib/site-packages/pluggy/_manager.py)*
+- .venv.Lib.site-packages.pluggy._result  *(path: .venv/Lib/site-packages/pluggy/_result.py)*
+- .venv.Lib.site-packages.pluggy._tracing  *(path: .venv/Lib/site-packages/pluggy/_tracing.py)*
+- .venv.Lib.site-packages.pluggy._version  *(path: .venv/Lib/site-packages/pluggy/_version.py)*
+- .venv.Lib.site-packages.pluggy._warnings  *(path: .venv/Lib/site-packages/pluggy/_warnings.py)*
+- .venv.Lib.site-packages.py  *(path: .venv/Lib/site-packages/py.py)*
+- .venv.Lib.site-packages.pydantic._internal._config  *(path: .venv/Lib/site-packages/pydantic/_internal/_config.py)*
+- .venv.Lib.site-packages.pydantic._internal._core_metadata  *(path: .venv/Lib/site-packages/pydantic/_internal/_core_metadata.py)*
+- .venv.Lib.site-packages.pydantic._internal._core_utils  *(path: .venv/Lib/site-packages/pydantic/_internal/_core_utils.py)*
+- .venv.Lib.site-packages.pydantic._internal._dataclasses  *(path: .venv/Lib/site-packages/pydantic/_internal/_dataclasses.py)*
+- .venv.Lib.site-packages.pydantic._internal._decorators  *(path: .venv/Lib/site-packages/pydantic/_internal/_decorators.py)*
+- .venv.Lib.site-packages.pydantic._internal._decorators_v1  *(path: .venv/Lib/site-packages/pydantic/_internal/_decorators_v1.py)*
+- .venv.Lib.site-packages.pydantic._internal._discriminated_union  *(path: .venv/Lib/site-packages/pydantic/_internal/_discriminated_union.py)*
+- .venv.Lib.site-packages.pydantic._internal._docs_extraction  *(path: .venv/Lib/site-packages/pydantic/_internal/_docs_extraction.py)*
+- .venv.Lib.site-packages.pydantic._internal._fields  *(path: .venv/Lib/site-packages/pydantic/_internal/_fields.py)*
+- .venv.Lib.site-packages.pydantic._internal._forward_ref  *(path: .venv/Lib/site-packages/pydantic/_internal/_forward_ref.py)*
+- .venv.Lib.site-packages.pydantic._internal._generate_schema  *(path: .venv/Lib/site-packages/pydantic/_internal/_generate_schema.py)*
+- .venv.Lib.site-packages.pydantic._internal._generics  *(path: .venv/Lib/site-packages/pydantic/_internal/_generics.py)*
+- .venv.Lib.site-packages.pydantic._internal._git  *(path: .venv/Lib/site-packages/pydantic/_internal/_git.py)*
+- .venv.Lib.site-packages.pydantic._internal._import_utils  *(path: .venv/Lib/site-packages/pydantic/_internal/_import_utils.py)*
+- .venv.Lib.site-packages.pydantic._internal._internal_dataclass  *(path: .venv/Lib/site-packages/pydantic/_internal/_internal_dataclass.py)*
+- .venv.Lib.site-packages.pydantic._internal._known_annotated_metadata  *(path: .venv/Lib/site-packages/pydantic/_internal/_known_annotated_metadata.py)*
+- .venv.Lib.site-packages.pydantic._internal._mock_val_ser  *(path: .venv/Lib/site-packages/pydantic/_internal/_mock_val_ser.py)*
+- .venv.Lib.site-packages.pydantic._internal._model_construction  *(path: .venv/Lib/site-packages/pydantic/_internal/_model_construction.py)*
+- .venv.Lib.site-packages.pydantic._internal._namespace_utils  *(path: .venv/Lib/site-packages/pydantic/_internal/_namespace_utils.py)*
+- .venv.Lib.site-packages.pydantic._internal._repr  *(path: .venv/Lib/site-packages/pydantic/_internal/_repr.py)*
+- .venv.Lib.site-packages.pydantic._internal._schema_gather  *(path: .venv/Lib/site-packages/pydantic/_internal/_schema_gather.py)*
+- .venv.Lib.site-packages.pydantic._internal._schema_generation_shared  *(path: .venv/Lib/site-packages/pydantic/_internal/_schema_generation_shared.py)*
+- .venv.Lib.site-packages.pydantic._internal._serializers  *(path: .venv/Lib/site-packages/pydantic/_internal/_serializers.py)*
+- .venv.Lib.site-packages.pydantic._internal._signature  *(path: .venv/Lib/site-packages/pydantic/_internal/_signature.py)*
+- .venv.Lib.site-packages.pydantic._internal._typing_extra  *(path: .venv/Lib/site-packages/pydantic/_internal/_typing_extra.py)*
+- .venv.Lib.site-packages.pydantic._internal._utils  *(path: .venv/Lib/site-packages/pydantic/_internal/_utils.py)*
+- .venv.Lib.site-packages.pydantic._internal._validate_call  *(path: .venv/Lib/site-packages/pydantic/_internal/_validate_call.py)*
+- .venv.Lib.site-packages.pydantic._internal._validators  *(path: .venv/Lib/site-packages/pydantic/_internal/_validators.py)*
+- .venv.Lib.site-packages.pydantic._migration  *(path: .venv/Lib/site-packages/pydantic/_migration.py)*
+- .venv.Lib.site-packages.pydantic.alias_generators  *(path: .venv/Lib/site-packages/pydantic/alias_generators.py)*
+- .venv.Lib.site-packages.pydantic.aliases  *(path: .venv/Lib/site-packages/pydantic/aliases.py)*
+- .venv.Lib.site-packages.pydantic.annotated_handlers  *(path: .venv/Lib/site-packages/pydantic/annotated_handlers.py)*
+- .venv.Lib.site-packages.pydantic.class_validators  *(path: .venv/Lib/site-packages/pydantic/class_validators.py)*
+- .venv.Lib.site-packages.pydantic.color  *(path: .venv/Lib/site-packages/pydantic/color.py)*
+- .venv.Lib.site-packages.pydantic.config  *(path: .venv/Lib/site-packages/pydantic/config.py)*
+- .venv.Lib.site-packages.pydantic.dataclasses  *(path: .venv/Lib/site-packages/pydantic/dataclasses.py)*
+- .venv.Lib.site-packages.pydantic.datetime_parse  *(path: .venv/Lib/site-packages/pydantic/datetime_parse.py)*
+- .venv.Lib.site-packages.pydantic.decorator  *(path: .venv/Lib/site-packages/pydantic/decorator.py)*
+- .venv.Lib.site-packages.pydantic.deprecated.class_validators  *(path: .venv/Lib/site-packages/pydantic/deprecated/class_validators.py)*
+- .venv.Lib.site-packages.pydantic.deprecated.config  *(path: .venv/Lib/site-packages/pydantic/deprecated/config.py)*
+- .venv.Lib.site-packages.pydantic.deprecated.copy_internals  *(path: .venv/Lib/site-packages/pydantic/deprecated/copy_internals.py)*
+- .venv.Lib.site-packages.pydantic.deprecated.decorator  *(path: .venv/Lib/site-packages/pydantic/deprecated/decorator.py)*
+- .venv.Lib.site-packages.pydantic.deprecated.json  *(path: .venv/Lib/site-packages/pydantic/deprecated/json.py)*
+- .venv.Lib.site-packages.pydantic.deprecated.parse  *(path: .venv/Lib/site-packages/pydantic/deprecated/parse.py)*
+- .venv.Lib.site-packages.pydantic.deprecated.tools  *(path: .venv/Lib/site-packages/pydantic/deprecated/tools.py)*
+- .venv.Lib.site-packages.pydantic.env_settings  *(path: .venv/Lib/site-packages/pydantic/env_settings.py)*
+- .venv.Lib.site-packages.pydantic.error_wrappers  *(path: .venv/Lib/site-packages/pydantic/error_wrappers.py)*
+- .venv.Lib.site-packages.pydantic.errors  *(path: .venv/Lib/site-packages/pydantic/errors.py)*
+- .venv.Lib.site-packages.pydantic.experimental.arguments_schema  *(path: .venv/Lib/site-packages/pydantic/experimental/arguments_schema.py)*
+- .venv.Lib.site-packages.pydantic.experimental.pipeline  *(path: .venv/Lib/site-packages/pydantic/experimental/pipeline.py)*
+- .venv.Lib.site-packages.pydantic.fields  *(path: .venv/Lib/site-packages/pydantic/fields.py)*
+- .venv.Lib.site-packages.pydantic.functional_serializers  *(path: .venv/Lib/site-packages/pydantic/functional_serializers.py)*
+- .venv.Lib.site-packages.pydantic.functional_validators  *(path: .venv/Lib/site-packages/pydantic/functional_validators.py)*
+- .venv.Lib.site-packages.pydantic.generics  *(path: .venv/Lib/site-packages/pydantic/generics.py)*
+- .venv.Lib.site-packages.pydantic.json  *(path: .venv/Lib/site-packages/pydantic/json.py)*
+- .venv.Lib.site-packages.pydantic.json_schema  *(path: .venv/Lib/site-packages/pydantic/json_schema.py)*
+- .venv.Lib.site-packages.pydantic.mypy  *(path: .venv/Lib/site-packages/pydantic/mypy.py)*
+- .venv.Lib.site-packages.pydantic.networks  *(path: .venv/Lib/site-packages/pydantic/networks.py)*
+- .venv.Lib.site-packages.pydantic.parse  *(path: .venv/Lib/site-packages/pydantic/parse.py)*
+- .venv.Lib.site-packages.pydantic.plugin._loader  *(path: .venv/Lib/site-packages/pydantic/plugin/_loader.py)*
+- .venv.Lib.site-packages.pydantic.plugin._schema_validator  *(path: .venv/Lib/site-packages/pydantic/plugin/_schema_validator.py)*
+- .venv.Lib.site-packages.pydantic.root_model  *(path: .venv/Lib/site-packages/pydantic/root_model.py)*
+- .venv.Lib.site-packages.pydantic.schema  *(path: .venv/Lib/site-packages/pydantic/schema.py)*
+- .venv.Lib.site-packages.pydantic.tools  *(path: .venv/Lib/site-packages/pydantic/tools.py)*
+- .venv.Lib.site-packages.pydantic.type_adapter  *(path: .venv/Lib/site-packages/pydantic/type_adapter.py)*
+- .venv.Lib.site-packages.pydantic.types  *(path: .venv/Lib/site-packages/pydantic/types.py)*
+- .venv.Lib.site-packages.pydantic.typing  *(path: .venv/Lib/site-packages/pydantic/typing.py)*
+- .venv.Lib.site-packages.pydantic.utils  *(path: .venv/Lib/site-packages/pydantic/utils.py)*
+- .venv.Lib.site-packages.pydantic.v1._hypothesis_plugin  *(path: .venv/Lib/site-packages/pydantic/v1/_hypothesis_plugin.py)*
+- .venv.Lib.site-packages.pydantic.v1.annotated_types  *(path: .venv/Lib/site-packages/pydantic/v1/annotated_types.py)*
+- .venv.Lib.site-packages.pydantic.v1.class_validators  *(path: .venv/Lib/site-packages/pydantic/v1/class_validators.py)*
+- .venv.Lib.site-packages.pydantic.v1.color  *(path: .venv/Lib/site-packages/pydantic/v1/color.py)*
+- .venv.Lib.site-packages.pydantic.v1.config  *(path: .venv/Lib/site-packages/pydantic/v1/config.py)*
+- .venv.Lib.site-packages.pydantic.v1.dataclasses  *(path: .venv/Lib/site-packages/pydantic/v1/dataclasses.py)*
+- .venv.Lib.site-packages.pydantic.v1.datetime_parse  *(path: .venv/Lib/site-packages/pydantic/v1/datetime_parse.py)*
+- .venv.Lib.site-packages.pydantic.v1.decorator  *(path: .venv/Lib/site-packages/pydantic/v1/decorator.py)*
+- .venv.Lib.site-packages.pydantic.v1.env_settings  *(path: .venv/Lib/site-packages/pydantic/v1/env_settings.py)*
+- .venv.Lib.site-packages.pydantic.v1.error_wrappers  *(path: .venv/Lib/site-packages/pydantic/v1/error_wrappers.py)*
+- .venv.Lib.site-packages.pydantic.v1.errors  *(path: .venv/Lib/site-packages/pydantic/v1/errors.py)*
+- .venv.Lib.site-packages.pydantic.v1.fields  *(path: .venv/Lib/site-packages/pydantic/v1/fields.py)*
+- .venv.Lib.site-packages.pydantic.v1.generics  *(path: .venv/Lib/site-packages/pydantic/v1/generics.py)*
+- .venv.Lib.site-packages.pydantic.v1.json  *(path: .venv/Lib/site-packages/pydantic/v1/json.py)*
+- .venv.Lib.site-packages.pydantic.v1.mypy  *(path: .venv/Lib/site-packages/pydantic/v1/mypy.py)*
+- .venv.Lib.site-packages.pydantic.v1.networks  *(path: .venv/Lib/site-packages/pydantic/v1/networks.py)*
+- .venv.Lib.site-packages.pydantic.v1.parse  *(path: .venv/Lib/site-packages/pydantic/v1/parse.py)*
+- .venv.Lib.site-packages.pydantic.v1.schema  *(path: .venv/Lib/site-packages/pydantic/v1/schema.py)*
+- .venv.Lib.site-packages.pydantic.v1.tools  *(path: .venv/Lib/site-packages/pydantic/v1/tools.py)*
+- .venv.Lib.site-packages.pydantic.v1.types  *(path: .venv/Lib/site-packages/pydantic/v1/types.py)*
+- .venv.Lib.site-packages.pydantic.v1.typing  *(path: .venv/Lib/site-packages/pydantic/v1/typing.py)*
+- .venv.Lib.site-packages.pydantic.v1.utils  *(path: .venv/Lib/site-packages/pydantic/v1/utils.py)*
+- .venv.Lib.site-packages.pydantic.v1.validators  *(path: .venv/Lib/site-packages/pydantic/v1/validators.py)*
+- .venv.Lib.site-packages.pydantic.v1.version  *(path: .venv/Lib/site-packages/pydantic/v1/version.py)*
+- .venv.Lib.site-packages.pydantic.validate_call_decorator  *(path: .venv/Lib/site-packages/pydantic/validate_call_decorator.py)*
+- .venv.Lib.site-packages.pydantic.validators  *(path: .venv/Lib/site-packages/pydantic/validators.py)*
+- .venv.Lib.site-packages.pydantic.version  *(path: .venv/Lib/site-packages/pydantic/version.py)*
+- .venv.Lib.site-packages.pydantic.warnings  *(path: .venv/Lib/site-packages/pydantic/warnings.py)*
+- .venv.Lib.site-packages.pydantic_core.core_schema  *(path: .venv/Lib/site-packages/pydantic_core/core_schema.py)*
+- .venv.Lib.site-packages.pygments.__main__  *(path: .venv/Lib/site-packages/pygments/__main__.py)*
+- .venv.Lib.site-packages.pygments.cmdline  *(path: .venv/Lib/site-packages/pygments/cmdline.py)*
+- .venv.Lib.site-packages.pygments.console  *(path: .venv/Lib/site-packages/pygments/console.py)*
+- .venv.Lib.site-packages.pygments.filter  *(path: .venv/Lib/site-packages/pygments/filter.py)*
+- .venv.Lib.site-packages.pygments.formatter  *(path: .venv/Lib/site-packages/pygments/formatter.py)*
+- .venv.Lib.site-packages.pygments.formatters._mapping  *(path: .venv/Lib/site-packages/pygments/formatters/_mapping.py)*
+- .venv.Lib.site-packages.pygments.formatters.bbcode  *(path: .venv/Lib/site-packages/pygments/formatters/bbcode.py)*
+- .venv.Lib.site-packages.pygments.formatters.groff  *(path: .venv/Lib/site-packages/pygments/formatters/groff.py)*
+- .venv.Lib.site-packages.pygments.formatters.html  *(path: .venv/Lib/site-packages/pygments/formatters/html.py)*
+- .venv.Lib.site-packages.pygments.formatters.img  *(path: .venv/Lib/site-packages/pygments/formatters/img.py)*
+- .venv.Lib.site-packages.pygments.formatters.irc  *(path: .venv/Lib/site-packages/pygments/formatters/irc.py)*
+- .venv.Lib.site-packages.pygments.formatters.latex  *(path: .venv/Lib/site-packages/pygments/formatters/latex.py)*
+- .venv.Lib.site-packages.pygments.formatters.other  *(path: .venv/Lib/site-packages/pygments/formatters/other.py)*
+- .venv.Lib.site-packages.pygments.formatters.pangomarkup  *(path: .venv/Lib/site-packages/pygments/formatters/pangomarkup.py)*
+- .venv.Lib.site-packages.pygments.formatters.rtf  *(path: .venv/Lib/site-packages/pygments/formatters/rtf.py)*
+- .venv.Lib.site-packages.pygments.formatters.svg  *(path: .venv/Lib/site-packages/pygments/formatters/svg.py)*
+- .venv.Lib.site-packages.pygments.formatters.terminal  *(path: .venv/Lib/site-packages/pygments/formatters/terminal.py)*
+- .venv.Lib.site-packages.pygments.formatters.terminal256  *(path: .venv/Lib/site-packages/pygments/formatters/terminal256.py)*
+- .venv.Lib.site-packages.pygments.lexer  *(path: .venv/Lib/site-packages/pygments/lexer.py)*
+- .venv.Lib.site-packages.pygments.lexers._ada_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_ada_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._asy_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_asy_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._cl_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_cl_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._cocoa_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_cocoa_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._csound_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_csound_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._css_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_css_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._googlesql_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_googlesql_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._julia_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_julia_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._lasso_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_lasso_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._lilypond_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_lilypond_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._lua_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_lua_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._luau_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_luau_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._mapping  *(path: .venv/Lib/site-packages/pygments/lexers/_mapping.py)*
+- .venv.Lib.site-packages.pygments.lexers._mql_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_mql_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._mysql_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_mysql_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._openedge_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_openedge_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._php_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_php_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._postgres_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_postgres_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._qlik_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_qlik_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._scheme_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_scheme_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._scilab_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_scilab_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._sourcemod_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_sourcemod_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._sql_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_sql_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._stan_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_stan_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._stata_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_stata_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._tsql_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_tsql_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._usd_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_usd_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._vbscript_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_vbscript_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers._vim_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_vim_builtins.py)*
+- .venv.Lib.site-packages.pygments.lexers.actionscript  *(path: .venv/Lib/site-packages/pygments/lexers/actionscript.py)*
+- .venv.Lib.site-packages.pygments.lexers.ada  *(path: .venv/Lib/site-packages/pygments/lexers/ada.py)*
+- .venv.Lib.site-packages.pygments.lexers.agile  *(path: .venv/Lib/site-packages/pygments/lexers/agile.py)*
+- .venv.Lib.site-packages.pygments.lexers.algebra  *(path: .venv/Lib/site-packages/pygments/lexers/algebra.py)*
+- .venv.Lib.site-packages.pygments.lexers.ambient  *(path: .venv/Lib/site-packages/pygments/lexers/ambient.py)*
+- .venv.Lib.site-packages.pygments.lexers.amdgpu  *(path: .venv/Lib/site-packages/pygments/lexers/amdgpu.py)*
+- .venv.Lib.site-packages.pygments.lexers.ampl  *(path: .venv/Lib/site-packages/pygments/lexers/ampl.py)*
+- .venv.Lib.site-packages.pygments.lexers.apdlexer  *(path: .venv/Lib/site-packages/pygments/lexers/apdlexer.py)*
+- .venv.Lib.site-packages.pygments.lexers.apl  *(path: .venv/Lib/site-packages/pygments/lexers/apl.py)*
+- .venv.Lib.site-packages.pygments.lexers.archetype  *(path: .venv/Lib/site-packages/pygments/lexers/archetype.py)*
+- .venv.Lib.site-packages.pygments.lexers.arrow  *(path: .venv/Lib/site-packages/pygments/lexers/arrow.py)*
+- .venv.Lib.site-packages.pygments.lexers.arturo  *(path: .venv/Lib/site-packages/pygments/lexers/arturo.py)*
+- .venv.Lib.site-packages.pygments.lexers.asc  *(path: .venv/Lib/site-packages/pygments/lexers/asc.py)*
+- .venv.Lib.site-packages.pygments.lexers.asm  *(path: .venv/Lib/site-packages/pygments/lexers/asm.py)*
+- .venv.Lib.site-packages.pygments.lexers.asn1  *(path: .venv/Lib/site-packages/pygments/lexers/asn1.py)*
+- .venv.Lib.site-packages.pygments.lexers.automation  *(path: .venv/Lib/site-packages/pygments/lexers/automation.py)*
+- .venv.Lib.site-packages.pygments.lexers.bare  *(path: .venv/Lib/site-packages/pygments/lexers/bare.py)*
+- .venv.Lib.site-packages.pygments.lexers.basic  *(path: .venv/Lib/site-packages/pygments/lexers/basic.py)*
+- .venv.Lib.site-packages.pygments.lexers.bdd  *(path: .venv/Lib/site-packages/pygments/lexers/bdd.py)*
+- .venv.Lib.site-packages.pygments.lexers.berry  *(path: .venv/Lib/site-packages/pygments/lexers/berry.py)*
+- .venv.Lib.site-packages.pygments.lexers.bibtex  *(path: .venv/Lib/site-packages/pygments/lexers/bibtex.py)*
+- .venv.Lib.site-packages.pygments.lexers.blueprint  *(path: .venv/Lib/site-packages/pygments/lexers/blueprint.py)*
+- .venv.Lib.site-packages.pygments.lexers.boa  *(path: .venv/Lib/site-packages/pygments/lexers/boa.py)*
+- .venv.Lib.site-packages.pygments.lexers.bqn  *(path: .venv/Lib/site-packages/pygments/lexers/bqn.py)*
+- .venv.Lib.site-packages.pygments.lexers.business  *(path: .venv/Lib/site-packages/pygments/lexers/business.py)*
+- .venv.Lib.site-packages.pygments.lexers.c_cpp  *(path: .venv/Lib/site-packages/pygments/lexers/c_cpp.py)*
+- .venv.Lib.site-packages.pygments.lexers.c_like  *(path: .venv/Lib/site-packages/pygments/lexers/c_like.py)*
+- .venv.Lib.site-packages.pygments.lexers.capnproto  *(path: .venv/Lib/site-packages/pygments/lexers/capnproto.py)*
+- .venv.Lib.site-packages.pygments.lexers.carbon  *(path: .venv/Lib/site-packages/pygments/lexers/carbon.py)*
+- .venv.Lib.site-packages.pygments.lexers.cddl  *(path: .venv/Lib/site-packages/pygments/lexers/cddl.py)*
+- .venv.Lib.site-packages.pygments.lexers.chapel  *(path: .venv/Lib/site-packages/pygments/lexers/chapel.py)*
+- .venv.Lib.site-packages.pygments.lexers.clean  *(path: .venv/Lib/site-packages/pygments/lexers/clean.py)*
+- .venv.Lib.site-packages.pygments.lexers.codeql  *(path: .venv/Lib/site-packages/pygments/lexers/codeql.py)*
+- .venv.Lib.site-packages.pygments.lexers.comal  *(path: .venv/Lib/site-packages/pygments/lexers/comal.py)*
+- .venv.Lib.site-packages.pygments.lexers.compiled  *(path: .venv/Lib/site-packages/pygments/lexers/compiled.py)*
+- .venv.Lib.site-packages.pygments.lexers.configs  *(path: .venv/Lib/site-packages/pygments/lexers/configs.py)*
+- .venv.Lib.site-packages.pygments.lexers.console  *(path: .venv/Lib/site-packages/pygments/lexers/console.py)*
+- .venv.Lib.site-packages.pygments.lexers.cplint  *(path: .venv/Lib/site-packages/pygments/lexers/cplint.py)*
+- .venv.Lib.site-packages.pygments.lexers.crystal  *(path: .venv/Lib/site-packages/pygments/lexers/crystal.py)*
+- .venv.Lib.site-packages.pygments.lexers.csound  *(path: .venv/Lib/site-packages/pygments/lexers/csound.py)*
+- .venv.Lib.site-packages.pygments.lexers.css  *(path: .venv/Lib/site-packages/pygments/lexers/css.py)*
+- .venv.Lib.site-packages.pygments.lexers.d  *(path: .venv/Lib/site-packages/pygments/lexers/d.py)*
+- .venv.Lib.site-packages.pygments.lexers.dalvik  *(path: .venv/Lib/site-packages/pygments/lexers/dalvik.py)*
+- .venv.Lib.site-packages.pygments.lexers.data  *(path: .venv/Lib/site-packages/pygments/lexers/data.py)*
+- .venv.Lib.site-packages.pygments.lexers.dax  *(path: .venv/Lib/site-packages/pygments/lexers/dax.py)*
+- .venv.Lib.site-packages.pygments.lexers.devicetree  *(path: .venv/Lib/site-packages/pygments/lexers/devicetree.py)*
+- .venv.Lib.site-packages.pygments.lexers.diff  *(path: .venv/Lib/site-packages/pygments/lexers/diff.py)*
+- .venv.Lib.site-packages.pygments.lexers.dns  *(path: .venv/Lib/site-packages/pygments/lexers/dns.py)*
+- .venv.Lib.site-packages.pygments.lexers.dotnet  *(path: .venv/Lib/site-packages/pygments/lexers/dotnet.py)*
+- .venv.Lib.site-packages.pygments.lexers.dsls  *(path: .venv/Lib/site-packages/pygments/lexers/dsls.py)*
+- .venv.Lib.site-packages.pygments.lexers.dylan  *(path: .venv/Lib/site-packages/pygments/lexers/dylan.py)*
+- .venv.Lib.site-packages.pygments.lexers.ecl  *(path: .venv/Lib/site-packages/pygments/lexers/ecl.py)*
+- .venv.Lib.site-packages.pygments.lexers.eiffel  *(path: .venv/Lib/site-packages/pygments/lexers/eiffel.py)*
+- .venv.Lib.site-packages.pygments.lexers.elm  *(path: .venv/Lib/site-packages/pygments/lexers/elm.py)*
+- .venv.Lib.site-packages.pygments.lexers.elpi  *(path: .venv/Lib/site-packages/pygments/lexers/elpi.py)*
+- .venv.Lib.site-packages.pygments.lexers.email  *(path: .venv/Lib/site-packages/pygments/lexers/email.py)*
+- .venv.Lib.site-packages.pygments.lexers.erlang  *(path: .venv/Lib/site-packages/pygments/lexers/erlang.py)*
+- .venv.Lib.site-packages.pygments.lexers.esoteric  *(path: .venv/Lib/site-packages/pygments/lexers/esoteric.py)*
+- .venv.Lib.site-packages.pygments.lexers.ezhil  *(path: .venv/Lib/site-packages/pygments/lexers/ezhil.py)*
+- .venv.Lib.site-packages.pygments.lexers.factor  *(path: .venv/Lib/site-packages/pygments/lexers/factor.py)*
+- .venv.Lib.site-packages.pygments.lexers.fantom  *(path: .venv/Lib/site-packages/pygments/lexers/fantom.py)*
+- .venv.Lib.site-packages.pygments.lexers.felix  *(path: .venv/Lib/site-packages/pygments/lexers/felix.py)*
+- .venv.Lib.site-packages.pygments.lexers.fift  *(path: .venv/Lib/site-packages/pygments/lexers/fift.py)*
+- .venv.Lib.site-packages.pygments.lexers.floscript  *(path: .venv/Lib/site-packages/pygments/lexers/floscript.py)*
+- .venv.Lib.site-packages.pygments.lexers.forth  *(path: .venv/Lib/site-packages/pygments/lexers/forth.py)*
+- .venv.Lib.site-packages.pygments.lexers.fortran  *(path: .venv/Lib/site-packages/pygments/lexers/fortran.py)*
+- .venv.Lib.site-packages.pygments.lexers.foxpro  *(path: .venv/Lib/site-packages/pygments/lexers/foxpro.py)*
+- .venv.Lib.site-packages.pygments.lexers.freefem  *(path: .venv/Lib/site-packages/pygments/lexers/freefem.py)*
+- .venv.Lib.site-packages.pygments.lexers.func  *(path: .venv/Lib/site-packages/pygments/lexers/func.py)*
+- .venv.Lib.site-packages.pygments.lexers.functional  *(path: .venv/Lib/site-packages/pygments/lexers/functional.py)*
+- .venv.Lib.site-packages.pygments.lexers.futhark  *(path: .venv/Lib/site-packages/pygments/lexers/futhark.py)*
+- .venv.Lib.site-packages.pygments.lexers.gcodelexer  *(path: .venv/Lib/site-packages/pygments/lexers/gcodelexer.py)*
+- .venv.Lib.site-packages.pygments.lexers.gdscript  *(path: .venv/Lib/site-packages/pygments/lexers/gdscript.py)*
+- .venv.Lib.site-packages.pygments.lexers.gleam  *(path: .venv/Lib/site-packages/pygments/lexers/gleam.py)*
+- .venv.Lib.site-packages.pygments.lexers.go  *(path: .venv/Lib/site-packages/pygments/lexers/go.py)*
+- .venv.Lib.site-packages.pygments.lexers.grammar_notation  *(path: .venv/Lib/site-packages/pygments/lexers/grammar_notation.py)*
+- .venv.Lib.site-packages.pygments.lexers.graph  *(path: .venv/Lib/site-packages/pygments/lexers/graph.py)*
+- .venv.Lib.site-packages.pygments.lexers.graphics  *(path: .venv/Lib/site-packages/pygments/lexers/graphics.py)*
+- .venv.Lib.site-packages.pygments.lexers.graphql  *(path: .venv/Lib/site-packages/pygments/lexers/graphql.py)*
+- .venv.Lib.site-packages.pygments.lexers.graphviz  *(path: .venv/Lib/site-packages/pygments/lexers/graphviz.py)*
+- .venv.Lib.site-packages.pygments.lexers.gsql  *(path: .venv/Lib/site-packages/pygments/lexers/gsql.py)*
+- .venv.Lib.site-packages.pygments.lexers.hare  *(path: .venv/Lib/site-packages/pygments/lexers/hare.py)*
+- .venv.Lib.site-packages.pygments.lexers.haskell  *(path: .venv/Lib/site-packages/pygments/lexers/haskell.py)*
+- .venv.Lib.site-packages.pygments.lexers.haxe  *(path: .venv/Lib/site-packages/pygments/lexers/haxe.py)*
+- .venv.Lib.site-packages.pygments.lexers.hdl  *(path: .venv/Lib/site-packages/pygments/lexers/hdl.py)*
+- .venv.Lib.site-packages.pygments.lexers.hexdump  *(path: .venv/Lib/site-packages/pygments/lexers/hexdump.py)*
+- .venv.Lib.site-packages.pygments.lexers.html  *(path: .venv/Lib/site-packages/pygments/lexers/html.py)*
+- .venv.Lib.site-packages.pygments.lexers.idl  *(path: .venv/Lib/site-packages/pygments/lexers/idl.py)*
+- .venv.Lib.site-packages.pygments.lexers.igor  *(path: .venv/Lib/site-packages/pygments/lexers/igor.py)*
+- .venv.Lib.site-packages.pygments.lexers.inferno  *(path: .venv/Lib/site-packages/pygments/lexers/inferno.py)*
+- .venv.Lib.site-packages.pygments.lexers.installers  *(path: .venv/Lib/site-packages/pygments/lexers/installers.py)*
+- .venv.Lib.site-packages.pygments.lexers.int_fiction  *(path: .venv/Lib/site-packages/pygments/lexers/int_fiction.py)*
+- .venv.Lib.site-packages.pygments.lexers.iolang  *(path: .venv/Lib/site-packages/pygments/lexers/iolang.py)*
+- .venv.Lib.site-packages.pygments.lexers.j  *(path: .venv/Lib/site-packages/pygments/lexers/j.py)*
+- .venv.Lib.site-packages.pygments.lexers.javascript  *(path: .venv/Lib/site-packages/pygments/lexers/javascript.py)*
+- .venv.Lib.site-packages.pygments.lexers.jmespath  *(path: .venv/Lib/site-packages/pygments/lexers/jmespath.py)*
+- .venv.Lib.site-packages.pygments.lexers.jslt  *(path: .venv/Lib/site-packages/pygments/lexers/jslt.py)*
+- .venv.Lib.site-packages.pygments.lexers.json5  *(path: .venv/Lib/site-packages/pygments/lexers/json5.py)*
+- .venv.Lib.site-packages.pygments.lexers.jsonnet  *(path: .venv/Lib/site-packages/pygments/lexers/jsonnet.py)*
+- .venv.Lib.site-packages.pygments.lexers.jsx  *(path: .venv/Lib/site-packages/pygments/lexers/jsx.py)*
+- .venv.Lib.site-packages.pygments.lexers.julia  *(path: .venv/Lib/site-packages/pygments/lexers/julia.py)*
+- .venv.Lib.site-packages.pygments.lexers.jvm  *(path: .venv/Lib/site-packages/pygments/lexers/jvm.py)*
+- .venv.Lib.site-packages.pygments.lexers.kuin  *(path: .venv/Lib/site-packages/pygments/lexers/kuin.py)*
+- .venv.Lib.site-packages.pygments.lexers.kusto  *(path: .venv/Lib/site-packages/pygments/lexers/kusto.py)*
+- .venv.Lib.site-packages.pygments.lexers.ldap  *(path: .venv/Lib/site-packages/pygments/lexers/ldap.py)*
+- .venv.Lib.site-packages.pygments.lexers.lean  *(path: .venv/Lib/site-packages/pygments/lexers/lean.py)*
+- .venv.Lib.site-packages.pygments.lexers.lilypond  *(path: .venv/Lib/site-packages/pygments/lexers/lilypond.py)*
+- .venv.Lib.site-packages.pygments.lexers.lisp  *(path: .venv/Lib/site-packages/pygments/lexers/lisp.py)*
+- .venv.Lib.site-packages.pygments.lexers.macaulay2  *(path: .venv/Lib/site-packages/pygments/lexers/macaulay2.py)*
+- .venv.Lib.site-packages.pygments.lexers.make  *(path: .venv/Lib/site-packages/pygments/lexers/make.py)*
+- .venv.Lib.site-packages.pygments.lexers.maple  *(path: .venv/Lib/site-packages/pygments/lexers/maple.py)*
+- .venv.Lib.site-packages.pygments.lexers.markup  *(path: .venv/Lib/site-packages/pygments/lexers/markup.py)*
+- .venv.Lib.site-packages.pygments.lexers.math  *(path: .venv/Lib/site-packages/pygments/lexers/math.py)*
+- .venv.Lib.site-packages.pygments.lexers.matlab  *(path: .venv/Lib/site-packages/pygments/lexers/matlab.py)*
+- .venv.Lib.site-packages.pygments.lexers.maxima  *(path: .venv/Lib/site-packages/pygments/lexers/maxima.py)*
+- .venv.Lib.site-packages.pygments.lexers.meson  *(path: .venv/Lib/site-packages/pygments/lexers/meson.py)*
+- .venv.Lib.site-packages.pygments.lexers.mime  *(path: .venv/Lib/site-packages/pygments/lexers/mime.py)*
+- .venv.Lib.site-packages.pygments.lexers.minecraft  *(path: .venv/Lib/site-packages/pygments/lexers/minecraft.py)*
+- .venv.Lib.site-packages.pygments.lexers.mips  *(path: .venv/Lib/site-packages/pygments/lexers/mips.py)*
+- .venv.Lib.site-packages.pygments.lexers.ml  *(path: .venv/Lib/site-packages/pygments/lexers/ml.py)*
+- .venv.Lib.site-packages.pygments.lexers.modeling  *(path: .venv/Lib/site-packages/pygments/lexers/modeling.py)*
+- .venv.Lib.site-packages.pygments.lexers.modula2  *(path: .venv/Lib/site-packages/pygments/lexers/modula2.py)*
+- .venv.Lib.site-packages.pygments.lexers.mojo  *(path: .venv/Lib/site-packages/pygments/lexers/mojo.py)*
+- .venv.Lib.site-packages.pygments.lexers.monte  *(path: .venv/Lib/site-packages/pygments/lexers/monte.py)*
+- .venv.Lib.site-packages.pygments.lexers.mosel  *(path: .venv/Lib/site-packages/pygments/lexers/mosel.py)*
+- .venv.Lib.site-packages.pygments.lexers.ncl  *(path: .venv/Lib/site-packages/pygments/lexers/ncl.py)*
+- .venv.Lib.site-packages.pygments.lexers.nimrod  *(path: .venv/Lib/site-packages/pygments/lexers/nimrod.py)*
+- .venv.Lib.site-packages.pygments.lexers.nit  *(path: .venv/Lib/site-packages/pygments/lexers/nit.py)*
+- .venv.Lib.site-packages.pygments.lexers.nix  *(path: .venv/Lib/site-packages/pygments/lexers/nix.py)*
+- .venv.Lib.site-packages.pygments.lexers.numbair  *(path: .venv/Lib/site-packages/pygments/lexers/numbair.py)*
+- .venv.Lib.site-packages.pygments.lexers.oberon  *(path: .venv/Lib/site-packages/pygments/lexers/oberon.py)*
+- .venv.Lib.site-packages.pygments.lexers.objective  *(path: .venv/Lib/site-packages/pygments/lexers/objective.py)*
+- .venv.Lib.site-packages.pygments.lexers.ooc  *(path: .venv/Lib/site-packages/pygments/lexers/ooc.py)*
+- .venv.Lib.site-packages.pygments.lexers.openscad  *(path: .venv/Lib/site-packages/pygments/lexers/openscad.py)*
+- .venv.Lib.site-packages.pygments.lexers.other  *(path: .venv/Lib/site-packages/pygments/lexers/other.py)*
+- .venv.Lib.site-packages.pygments.lexers.parasail  *(path: .venv/Lib/site-packages/pygments/lexers/parasail.py)*
+- .venv.Lib.site-packages.pygments.lexers.parsers  *(path: .venv/Lib/site-packages/pygments/lexers/parsers.py)*
+- .venv.Lib.site-packages.pygments.lexers.pascal  *(path: .venv/Lib/site-packages/pygments/lexers/pascal.py)*
+- .venv.Lib.site-packages.pygments.lexers.pawn  *(path: .venv/Lib/site-packages/pygments/lexers/pawn.py)*
+- .venv.Lib.site-packages.pygments.lexers.pddl  *(path: .venv/Lib/site-packages/pygments/lexers/pddl.py)*
+- .venv.Lib.site-packages.pygments.lexers.perl  *(path: .venv/Lib/site-packages/pygments/lexers/perl.py)*
+- .venv.Lib.site-packages.pygments.lexers.phix  *(path: .venv/Lib/site-packages/pygments/lexers/phix.py)*
+- .venv.Lib.site-packages.pygments.lexers.php  *(path: .venv/Lib/site-packages/pygments/lexers/php.py)*
+- .venv.Lib.site-packages.pygments.lexers.pointless  *(path: .venv/Lib/site-packages/pygments/lexers/pointless.py)*
+- .venv.Lib.site-packages.pygments.lexers.pony  *(path: .venv/Lib/site-packages/pygments/lexers/pony.py)*
+- .venv.Lib.site-packages.pygments.lexers.praat  *(path: .venv/Lib/site-packages/pygments/lexers/praat.py)*
+- .venv.Lib.site-packages.pygments.lexers.procfile  *(path: .venv/Lib/site-packages/pygments/lexers/procfile.py)*
+- .venv.Lib.site-packages.pygments.lexers.prolog  *(path: .venv/Lib/site-packages/pygments/lexers/prolog.py)*
+- .venv.Lib.site-packages.pygments.lexers.promql  *(path: .venv/Lib/site-packages/pygments/lexers/promql.py)*
+- .venv.Lib.site-packages.pygments.lexers.prql  *(path: .venv/Lib/site-packages/pygments/lexers/prql.py)*
+- .venv.Lib.site-packages.pygments.lexers.ptx  *(path: .venv/Lib/site-packages/pygments/lexers/ptx.py)*
+- .venv.Lib.site-packages.pygments.lexers.python  *(path: .venv/Lib/site-packages/pygments/lexers/python.py)*
+- .venv.Lib.site-packages.pygments.lexers.q  *(path: .venv/Lib/site-packages/pygments/lexers/q.py)*
+- .venv.Lib.site-packages.pygments.lexers.qlik  *(path: .venv/Lib/site-packages/pygments/lexers/qlik.py)*
+- .venv.Lib.site-packages.pygments.lexers.qvt  *(path: .venv/Lib/site-packages/pygments/lexers/qvt.py)*
+- .venv.Lib.site-packages.pygments.lexers.r  *(path: .venv/Lib/site-packages/pygments/lexers/r.py)*
+- .venv.Lib.site-packages.pygments.lexers.rdf  *(path: .venv/Lib/site-packages/pygments/lexers/rdf.py)*
+- .venv.Lib.site-packages.pygments.lexers.rebol  *(path: .venv/Lib/site-packages/pygments/lexers/rebol.py)*
+- .venv.Lib.site-packages.pygments.lexers.rego  *(path: .venv/Lib/site-packages/pygments/lexers/rego.py)*
+- .venv.Lib.site-packages.pygments.lexers.resource  *(path: .venv/Lib/site-packages/pygments/lexers/resource.py)*
+- .venv.Lib.site-packages.pygments.lexers.ride  *(path: .venv/Lib/site-packages/pygments/lexers/ride.py)*
+- .venv.Lib.site-packages.pygments.lexers.rita  *(path: .venv/Lib/site-packages/pygments/lexers/rita.py)*
+- .venv.Lib.site-packages.pygments.lexers.rnc  *(path: .venv/Lib/site-packages/pygments/lexers/rnc.py)*
+- .venv.Lib.site-packages.pygments.lexers.roboconf  *(path: .venv/Lib/site-packages/pygments/lexers/roboconf.py)*
+- .venv.Lib.site-packages.pygments.lexers.robotframework  *(path: .venv/Lib/site-packages/pygments/lexers/robotframework.py)*
+- .venv.Lib.site-packages.pygments.lexers.ruby  *(path: .venv/Lib/site-packages/pygments/lexers/ruby.py)*
+- .venv.Lib.site-packages.pygments.lexers.rust  *(path: .venv/Lib/site-packages/pygments/lexers/rust.py)*
+- .venv.Lib.site-packages.pygments.lexers.sas  *(path: .venv/Lib/site-packages/pygments/lexers/sas.py)*
+- .venv.Lib.site-packages.pygments.lexers.savi  *(path: .venv/Lib/site-packages/pygments/lexers/savi.py)*
+- .venv.Lib.site-packages.pygments.lexers.scdoc  *(path: .venv/Lib/site-packages/pygments/lexers/scdoc.py)*
+- .venv.Lib.site-packages.pygments.lexers.scripting  *(path: .venv/Lib/site-packages/pygments/lexers/scripting.py)*
+- .venv.Lib.site-packages.pygments.lexers.sgf  *(path: .venv/Lib/site-packages/pygments/lexers/sgf.py)*
+- .venv.Lib.site-packages.pygments.lexers.shell  *(path: .venv/Lib/site-packages/pygments/lexers/shell.py)*
+- .venv.Lib.site-packages.pygments.lexers.sieve  *(path: .venv/Lib/site-packages/pygments/lexers/sieve.py)*
+- .venv.Lib.site-packages.pygments.lexers.slash  *(path: .venv/Lib/site-packages/pygments/lexers/slash.py)*
+- .venv.Lib.site-packages.pygments.lexers.smalltalk  *(path: .venv/Lib/site-packages/pygments/lexers/smalltalk.py)*
+- .venv.Lib.site-packages.pygments.lexers.smithy  *(path: .venv/Lib/site-packages/pygments/lexers/smithy.py)*
+- .venv.Lib.site-packages.pygments.lexers.smv  *(path: .venv/Lib/site-packages/pygments/lexers/smv.py)*
+- .venv.Lib.site-packages.pygments.lexers.snobol  *(path: .venv/Lib/site-packages/pygments/lexers/snobol.py)*
+- .venv.Lib.site-packages.pygments.lexers.solidity  *(path: .venv/Lib/site-packages/pygments/lexers/solidity.py)*
+- .venv.Lib.site-packages.pygments.lexers.soong  *(path: .venv/Lib/site-packages/pygments/lexers/soong.py)*
+- .venv.Lib.site-packages.pygments.lexers.sophia  *(path: .venv/Lib/site-packages/pygments/lexers/sophia.py)*
+- .venv.Lib.site-packages.pygments.lexers.special  *(path: .venv/Lib/site-packages/pygments/lexers/special.py)*
+- .venv.Lib.site-packages.pygments.lexers.spice  *(path: .venv/Lib/site-packages/pygments/lexers/spice.py)*
+- .venv.Lib.site-packages.pygments.lexers.sql  *(path: .venv/Lib/site-packages/pygments/lexers/sql.py)*
+- .venv.Lib.site-packages.pygments.lexers.srcinfo  *(path: .venv/Lib/site-packages/pygments/lexers/srcinfo.py)*
+- .venv.Lib.site-packages.pygments.lexers.stata  *(path: .venv/Lib/site-packages/pygments/lexers/stata.py)*
+- .venv.Lib.site-packages.pygments.lexers.supercollider  *(path: .venv/Lib/site-packages/pygments/lexers/supercollider.py)*
+- .venv.Lib.site-packages.pygments.lexers.tablegen  *(path: .venv/Lib/site-packages/pygments/lexers/tablegen.py)*
+- .venv.Lib.site-packages.pygments.lexers.tact  *(path: .venv/Lib/site-packages/pygments/lexers/tact.py)*
+- .venv.Lib.site-packages.pygments.lexers.tal  *(path: .venv/Lib/site-packages/pygments/lexers/tal.py)*
+- .venv.Lib.site-packages.pygments.lexers.tcl  *(path: .venv/Lib/site-packages/pygments/lexers/tcl.py)*
+- .venv.Lib.site-packages.pygments.lexers.teal  *(path: .venv/Lib/site-packages/pygments/lexers/teal.py)*
+- .venv.Lib.site-packages.pygments.lexers.templates  *(path: .venv/Lib/site-packages/pygments/lexers/templates.py)*
+- .venv.Lib.site-packages.pygments.lexers.teraterm  *(path: .venv/Lib/site-packages/pygments/lexers/teraterm.py)*
+- .venv.Lib.site-packages.pygments.lexers.testing  *(path: .venv/Lib/site-packages/pygments/lexers/testing.py)*
+- .venv.Lib.site-packages.pygments.lexers.text  *(path: .venv/Lib/site-packages/pygments/lexers/text.py)*
+- .venv.Lib.site-packages.pygments.lexers.textedit  *(path: .venv/Lib/site-packages/pygments/lexers/textedit.py)*
+- .venv.Lib.site-packages.pygments.lexers.textfmts  *(path: .venv/Lib/site-packages/pygments/lexers/textfmts.py)*
+- .venv.Lib.site-packages.pygments.lexers.theorem  *(path: .venv/Lib/site-packages/pygments/lexers/theorem.py)*
+- .venv.Lib.site-packages.pygments.lexers.thingsdb  *(path: .venv/Lib/site-packages/pygments/lexers/thingsdb.py)*
+- .venv.Lib.site-packages.pygments.lexers.tlb  *(path: .venv/Lib/site-packages/pygments/lexers/tlb.py)*
+- .venv.Lib.site-packages.pygments.lexers.tls  *(path: .venv/Lib/site-packages/pygments/lexers/tls.py)*
+- .venv.Lib.site-packages.pygments.lexers.tnt  *(path: .venv/Lib/site-packages/pygments/lexers/tnt.py)*
+- .venv.Lib.site-packages.pygments.lexers.trafficscript  *(path: .venv/Lib/site-packages/pygments/lexers/trafficscript.py)*
+- .venv.Lib.site-packages.pygments.lexers.typoscript  *(path: .venv/Lib/site-packages/pygments/lexers/typoscript.py)*
+- .venv.Lib.site-packages.pygments.lexers.typst  *(path: .venv/Lib/site-packages/pygments/lexers/typst.py)*
+- .venv.Lib.site-packages.pygments.lexers.ul4  *(path: .venv/Lib/site-packages/pygments/lexers/ul4.py)*
+- .venv.Lib.site-packages.pygments.lexers.unicon  *(path: .venv/Lib/site-packages/pygments/lexers/unicon.py)*
+- .venv.Lib.site-packages.pygments.lexers.urbi  *(path: .venv/Lib/site-packages/pygments/lexers/urbi.py)*
+- .venv.Lib.site-packages.pygments.lexers.usd  *(path: .venv/Lib/site-packages/pygments/lexers/usd.py)*
+- .venv.Lib.site-packages.pygments.lexers.varnish  *(path: .venv/Lib/site-packages/pygments/lexers/varnish.py)*
+- .venv.Lib.site-packages.pygments.lexers.verification  *(path: .venv/Lib/site-packages/pygments/lexers/verification.py)*
+- .venv.Lib.site-packages.pygments.lexers.verifpal  *(path: .venv/Lib/site-packages/pygments/lexers/verifpal.py)*
+- .venv.Lib.site-packages.pygments.lexers.vip  *(path: .venv/Lib/site-packages/pygments/lexers/vip.py)*
+- .venv.Lib.site-packages.pygments.lexers.vyper  *(path: .venv/Lib/site-packages/pygments/lexers/vyper.py)*
+- .venv.Lib.site-packages.pygments.lexers.web  *(path: .venv/Lib/site-packages/pygments/lexers/web.py)*
+- .venv.Lib.site-packages.pygments.lexers.webassembly  *(path: .venv/Lib/site-packages/pygments/lexers/webassembly.py)*
+- .venv.Lib.site-packages.pygments.lexers.webidl  *(path: .venv/Lib/site-packages/pygments/lexers/webidl.py)*
+- .venv.Lib.site-packages.pygments.lexers.webmisc  *(path: .venv/Lib/site-packages/pygments/lexers/webmisc.py)*
+- .venv.Lib.site-packages.pygments.lexers.wgsl  *(path: .venv/Lib/site-packages/pygments/lexers/wgsl.py)*
+- .venv.Lib.site-packages.pygments.lexers.whiley  *(path: .venv/Lib/site-packages/pygments/lexers/whiley.py)*
+- .venv.Lib.site-packages.pygments.lexers.wowtoc  *(path: .venv/Lib/site-packages/pygments/lexers/wowtoc.py)*
+- .venv.Lib.site-packages.pygments.lexers.wren  *(path: .venv/Lib/site-packages/pygments/lexers/wren.py)*
+- .venv.Lib.site-packages.pygments.lexers.x10  *(path: .venv/Lib/site-packages/pygments/lexers/x10.py)*
+- .venv.Lib.site-packages.pygments.lexers.xorg  *(path: .venv/Lib/site-packages/pygments/lexers/xorg.py)*
+- .venv.Lib.site-packages.pygments.lexers.yang  *(path: .venv/Lib/site-packages/pygments/lexers/yang.py)*
+- .venv.Lib.site-packages.pygments.lexers.yara  *(path: .venv/Lib/site-packages/pygments/lexers/yara.py)*
+- .venv.Lib.site-packages.pygments.lexers.zig  *(path: .venv/Lib/site-packages/pygments/lexers/zig.py)*
+- .venv.Lib.site-packages.pygments.modeline  *(path: .venv/Lib/site-packages/pygments/modeline.py)*
+- .venv.Lib.site-packages.pygments.plugin  *(path: .venv/Lib/site-packages/pygments/plugin.py)*
+- .venv.Lib.site-packages.pygments.regexopt  *(path: .venv/Lib/site-packages/pygments/regexopt.py)*
+- .venv.Lib.site-packages.pygments.scanner  *(path: .venv/Lib/site-packages/pygments/scanner.py)*
+- .venv.Lib.site-packages.pygments.sphinxext  *(path: .venv/Lib/site-packages/pygments/sphinxext.py)*
+- .venv.Lib.site-packages.pygments.style  *(path: .venv/Lib/site-packages/pygments/style.py)*
+- .venv.Lib.site-packages.pygments.styles._mapping  *(path: .venv/Lib/site-packages/pygments/styles/_mapping.py)*
+- .venv.Lib.site-packages.pygments.styles.abap  *(path: .venv/Lib/site-packages/pygments/styles/abap.py)*
+- .venv.Lib.site-packages.pygments.styles.algol  *(path: .venv/Lib/site-packages/pygments/styles/algol.py)*
+- .venv.Lib.site-packages.pygments.styles.algol_nu  *(path: .venv/Lib/site-packages/pygments/styles/algol_nu.py)*
+- .venv.Lib.site-packages.pygments.styles.arduino  *(path: .venv/Lib/site-packages/pygments/styles/arduino.py)*
+- .venv.Lib.site-packages.pygments.styles.autumn  *(path: .venv/Lib/site-packages/pygments/styles/autumn.py)*
+- .venv.Lib.site-packages.pygments.styles.borland  *(path: .venv/Lib/site-packages/pygments/styles/borland.py)*
+- .venv.Lib.site-packages.pygments.styles.bw  *(path: .venv/Lib/site-packages/pygments/styles/bw.py)*
+- .venv.Lib.site-packages.pygments.styles.coffee  *(path: .venv/Lib/site-packages/pygments/styles/coffee.py)*
+- .venv.Lib.site-packages.pygments.styles.colorful  *(path: .venv/Lib/site-packages/pygments/styles/colorful.py)*
+- .venv.Lib.site-packages.pygments.styles.default  *(path: .venv/Lib/site-packages/pygments/styles/default.py)*
+- .venv.Lib.site-packages.pygments.styles.dracula  *(path: .venv/Lib/site-packages/pygments/styles/dracula.py)*
+- .venv.Lib.site-packages.pygments.styles.emacs  *(path: .venv/Lib/site-packages/pygments/styles/emacs.py)*
+- .venv.Lib.site-packages.pygments.styles.friendly  *(path: .venv/Lib/site-packages/pygments/styles/friendly.py)*
+- .venv.Lib.site-packages.pygments.styles.friendly_grayscale  *(path: .venv/Lib/site-packages/pygments/styles/friendly_grayscale.py)*
+- .venv.Lib.site-packages.pygments.styles.fruity  *(path: .venv/Lib/site-packages/pygments/styles/fruity.py)*
+- .venv.Lib.site-packages.pygments.styles.gh_dark  *(path: .venv/Lib/site-packages/pygments/styles/gh_dark.py)*
+- .venv.Lib.site-packages.pygments.styles.gruvbox  *(path: .venv/Lib/site-packages/pygments/styles/gruvbox.py)*
+- .venv.Lib.site-packages.pygments.styles.igor  *(path: .venv/Lib/site-packages/pygments/styles/igor.py)*
+- .venv.Lib.site-packages.pygments.styles.inkpot  *(path: .venv/Lib/site-packages/pygments/styles/inkpot.py)*
+- .venv.Lib.site-packages.pygments.styles.lightbulb  *(path: .venv/Lib/site-packages/pygments/styles/lightbulb.py)*
+- .venv.Lib.site-packages.pygments.styles.lilypond  *(path: .venv/Lib/site-packages/pygments/styles/lilypond.py)*
+- .venv.Lib.site-packages.pygments.styles.lovelace  *(path: .venv/Lib/site-packages/pygments/styles/lovelace.py)*
+- .venv.Lib.site-packages.pygments.styles.manni  *(path: .venv/Lib/site-packages/pygments/styles/manni.py)*
+- .venv.Lib.site-packages.pygments.styles.material  *(path: .venv/Lib/site-packages/pygments/styles/material.py)*
+- .venv.Lib.site-packages.pygments.styles.monokai  *(path: .venv/Lib/site-packages/pygments/styles/monokai.py)*
+- .venv.Lib.site-packages.pygments.styles.murphy  *(path: .venv/Lib/site-packages/pygments/styles/murphy.py)*
+- .venv.Lib.site-packages.pygments.styles.native  *(path: .venv/Lib/site-packages/pygments/styles/native.py)*
+- .venv.Lib.site-packages.pygments.styles.nord  *(path: .venv/Lib/site-packages/pygments/styles/nord.py)*
+- .venv.Lib.site-packages.pygments.styles.onedark  *(path: .venv/Lib/site-packages/pygments/styles/onedark.py)*
+- .venv.Lib.site-packages.pygments.styles.paraiso_dark  *(path: .venv/Lib/site-packages/pygments/styles/paraiso_dark.py)*
+- .venv.Lib.site-packages.pygments.styles.paraiso_light  *(path: .venv/Lib/site-packages/pygments/styles/paraiso_light.py)*
+- .venv.Lib.site-packages.pygments.styles.pastie  *(path: .venv/Lib/site-packages/pygments/styles/pastie.py)*
+- .venv.Lib.site-packages.pygments.styles.perldoc  *(path: .venv/Lib/site-packages/pygments/styles/perldoc.py)*
+- .venv.Lib.site-packages.pygments.styles.rainbow_dash  *(path: .venv/Lib/site-packages/pygments/styles/rainbow_dash.py)*
+- .venv.Lib.site-packages.pygments.styles.rrt  *(path: .venv/Lib/site-packages/pygments/styles/rrt.py)*
+- .venv.Lib.site-packages.pygments.styles.sas  *(path: .venv/Lib/site-packages/pygments/styles/sas.py)*
+- .venv.Lib.site-packages.pygments.styles.solarized  *(path: .venv/Lib/site-packages/pygments/styles/solarized.py)*
+- .venv.Lib.site-packages.pygments.styles.staroffice  *(path: .venv/Lib/site-packages/pygments/styles/staroffice.py)*
+- .venv.Lib.site-packages.pygments.styles.stata_dark  *(path: .venv/Lib/site-packages/pygments/styles/stata_dark.py)*
+- .venv.Lib.site-packages.pygments.styles.stata_light  *(path: .venv/Lib/site-packages/pygments/styles/stata_light.py)*
+- .venv.Lib.site-packages.pygments.styles.tango  *(path: .venv/Lib/site-packages/pygments/styles/tango.py)*
+- .venv.Lib.site-packages.pygments.styles.trac  *(path: .venv/Lib/site-packages/pygments/styles/trac.py)*
+- .venv.Lib.site-packages.pygments.styles.vim  *(path: .venv/Lib/site-packages/pygments/styles/vim.py)*
+- .venv.Lib.site-packages.pygments.styles.vs  *(path: .venv/Lib/site-packages/pygments/styles/vs.py)*
+- .venv.Lib.site-packages.pygments.styles.xcode  *(path: .venv/Lib/site-packages/pygments/styles/xcode.py)*
+- .venv.Lib.site-packages.pygments.styles.zenburn  *(path: .venv/Lib/site-packages/pygments/styles/zenburn.py)*
+- .venv.Lib.site-packages.pygments.token  *(path: .venv/Lib/site-packages/pygments/token.py)*
+- .venv.Lib.site-packages.pygments.unistring  *(path: .venv/Lib/site-packages/pygments/unistring.py)*
+- .venv.Lib.site-packages.pygments.util  *(path: .venv/Lib/site-packages/pygments/util.py)*
+- .venv.Lib.site-packages.pytest.__main__  *(path: .venv/Lib/site-packages/pytest/__main__.py)*
+- .venv.Lib.site-packages.rich.__main__  *(path: .venv/Lib/site-packages/rich/__main__.py)*
+- .venv.Lib.site-packages.rich._cell_widths  *(path: .venv/Lib/site-packages/rich/_cell_widths.py)*
+- .venv.Lib.site-packages.rich._emoji_codes  *(path: .venv/Lib/site-packages/rich/_emoji_codes.py)*
+- .venv.Lib.site-packages.rich._emoji_replace  *(path: .venv/Lib/site-packages/rich/_emoji_replace.py)*
+- .venv.Lib.site-packages.rich._export_format  *(path: .venv/Lib/site-packages/rich/_export_format.py)*
+- .venv.Lib.site-packages.rich._extension  *(path: .venv/Lib/site-packages/rich/_extension.py)*
+- .venv.Lib.site-packages.rich._fileno  *(path: .venv/Lib/site-packages/rich/_fileno.py)*
+- .venv.Lib.site-packages.rich._inspect  *(path: .venv/Lib/site-packages/rich/_inspect.py)*
+- .venv.Lib.site-packages.rich._log_render  *(path: .venv/Lib/site-packages/rich/_log_render.py)*
+- .venv.Lib.site-packages.rich._loop  *(path: .venv/Lib/site-packages/rich/_loop.py)*
+- .venv.Lib.site-packages.rich._null_file  *(path: .venv/Lib/site-packages/rich/_null_file.py)*
+- .venv.Lib.site-packages.rich._palettes  *(path: .venv/Lib/site-packages/rich/_palettes.py)*
+- .venv.Lib.site-packages.rich._pick  *(path: .venv/Lib/site-packages/rich/_pick.py)*
+- .venv.Lib.site-packages.rich._ratio  *(path: .venv/Lib/site-packages/rich/_ratio.py)*
+- .venv.Lib.site-packages.rich._spinners  *(path: .venv/Lib/site-packages/rich/_spinners.py)*
+- .venv.Lib.site-packages.rich._stack  *(path: .venv/Lib/site-packages/rich/_stack.py)*
+- .venv.Lib.site-packages.rich._timer  *(path: .venv/Lib/site-packages/rich/_timer.py)*
+- .venv.Lib.site-packages.rich._win32_console  *(path: .venv/Lib/site-packages/rich/_win32_console.py)*
+- .venv.Lib.site-packages.rich._windows  *(path: .venv/Lib/site-packages/rich/_windows.py)*
+- .venv.Lib.site-packages.rich._windows_renderer  *(path: .venv/Lib/site-packages/rich/_windows_renderer.py)*
+- .venv.Lib.site-packages.rich._wrap  *(path: .venv/Lib/site-packages/rich/_wrap.py)*
+- .venv.Lib.site-packages.rich.abc  *(path: .venv/Lib/site-packages/rich/abc.py)*
+- .venv.Lib.site-packages.rich.align  *(path: .venv/Lib/site-packages/rich/align.py)*
+- .venv.Lib.site-packages.rich.ansi  *(path: .venv/Lib/site-packages/rich/ansi.py)*
+- .venv.Lib.site-packages.rich.bar  *(path: .venv/Lib/site-packages/rich/bar.py)*
+- .venv.Lib.site-packages.rich.box  *(path: .venv/Lib/site-packages/rich/box.py)*
+- .venv.Lib.site-packages.rich.cells  *(path: .venv/Lib/site-packages/rich/cells.py)*
+- .venv.Lib.site-packages.rich.color  *(path: .venv/Lib/site-packages/rich/color.py)*
+- .venv.Lib.site-packages.rich.color_triplet  *(path: .venv/Lib/site-packages/rich/color_triplet.py)*
+- .venv.Lib.site-packages.rich.columns  *(path: .venv/Lib/site-packages/rich/columns.py)*
+- .venv.Lib.site-packages.rich.console  *(path: .venv/Lib/site-packages/rich/console.py)*
+- .venv.Lib.site-packages.rich.constrain  *(path: .venv/Lib/site-packages/rich/constrain.py)*
+- .venv.Lib.site-packages.rich.containers  *(path: .venv/Lib/site-packages/rich/containers.py)*
+- .venv.Lib.site-packages.rich.control  *(path: .venv/Lib/site-packages/rich/control.py)*
+- .venv.Lib.site-packages.rich.default_styles  *(path: .venv/Lib/site-packages/rich/default_styles.py)*
+- .venv.Lib.site-packages.rich.diagnose  *(path: .venv/Lib/site-packages/rich/diagnose.py)*
+- .venv.Lib.site-packages.rich.emoji  *(path: .venv/Lib/site-packages/rich/emoji.py)*
+- .venv.Lib.site-packages.rich.errors  *(path: .venv/Lib/site-packages/rich/errors.py)*
+- .venv.Lib.site-packages.rich.file_proxy  *(path: .venv/Lib/site-packages/rich/file_proxy.py)*
+- .venv.Lib.site-packages.rich.filesize  *(path: .venv/Lib/site-packages/rich/filesize.py)*
+- .venv.Lib.site-packages.rich.highlighter  *(path: .venv/Lib/site-packages/rich/highlighter.py)*
+- .venv.Lib.site-packages.rich.json  *(path: .venv/Lib/site-packages/rich/json.py)*
+- .venv.Lib.site-packages.rich.jupyter  *(path: .venv/Lib/site-packages/rich/jupyter.py)*
+- .venv.Lib.site-packages.rich.layout  *(path: .venv/Lib/site-packages/rich/layout.py)*
+- .venv.Lib.site-packages.rich.live  *(path: .venv/Lib/site-packages/rich/live.py)*
+- .venv.Lib.site-packages.rich.live_render  *(path: .venv/Lib/site-packages/rich/live_render.py)*
+- .venv.Lib.site-packages.rich.logging  *(path: .venv/Lib/site-packages/rich/logging.py)*
+- .venv.Lib.site-packages.rich.markdown  *(path: .venv/Lib/site-packages/rich/markdown.py)*
+- .venv.Lib.site-packages.rich.markup  *(path: .venv/Lib/site-packages/rich/markup.py)*
+- .venv.Lib.site-packages.rich.measure  *(path: .venv/Lib/site-packages/rich/measure.py)*
+- .venv.Lib.site-packages.rich.padding  *(path: .venv/Lib/site-packages/rich/padding.py)*
+- .venv.Lib.site-packages.rich.pager  *(path: .venv/Lib/site-packages/rich/pager.py)*
+- .venv.Lib.site-packages.rich.palette  *(path: .venv/Lib/site-packages/rich/palette.py)*
+- .venv.Lib.site-packages.rich.panel  *(path: .venv/Lib/site-packages/rich/panel.py)*
+- .venv.Lib.site-packages.rich.pretty  *(path: .venv/Lib/site-packages/rich/pretty.py)*
+- .venv.Lib.site-packages.rich.progress  *(path: .venv/Lib/site-packages/rich/progress.py)*
+- .venv.Lib.site-packages.rich.progress_bar  *(path: .venv/Lib/site-packages/rich/progress_bar.py)*
+- .venv.Lib.site-packages.rich.prompt  *(path: .venv/Lib/site-packages/rich/prompt.py)*
+- .venv.Lib.site-packages.rich.protocol  *(path: .venv/Lib/site-packages/rich/protocol.py)*
+- .venv.Lib.site-packages.rich.region  *(path: .venv/Lib/site-packages/rich/region.py)*
+- .venv.Lib.site-packages.rich.repr  *(path: .venv/Lib/site-packages/rich/repr.py)*
+- .venv.Lib.site-packages.rich.rule  *(path: .venv/Lib/site-packages/rich/rule.py)*
+- .venv.Lib.site-packages.rich.scope  *(path: .venv/Lib/site-packages/rich/scope.py)*
+- .venv.Lib.site-packages.rich.screen  *(path: .venv/Lib/site-packages/rich/screen.py)*
+- .venv.Lib.site-packages.rich.segment  *(path: .venv/Lib/site-packages/rich/segment.py)*
+- .venv.Lib.site-packages.rich.spinner  *(path: .venv/Lib/site-packages/rich/spinner.py)*
+- .venv.Lib.site-packages.rich.status  *(path: .venv/Lib/site-packages/rich/status.py)*
+- .venv.Lib.site-packages.rich.style  *(path: .venv/Lib/site-packages/rich/style.py)*
+- .venv.Lib.site-packages.rich.styled  *(path: .venv/Lib/site-packages/rich/styled.py)*
+- .venv.Lib.site-packages.rich.syntax  *(path: .venv/Lib/site-packages/rich/syntax.py)*
+- .venv.Lib.site-packages.rich.table  *(path: .venv/Lib/site-packages/rich/table.py)*
+- .venv.Lib.site-packages.rich.terminal_theme  *(path: .venv/Lib/site-packages/rich/terminal_theme.py)*
+- .venv.Lib.site-packages.rich.text  *(path: .venv/Lib/site-packages/rich/text.py)*
+- .venv.Lib.site-packages.rich.theme  *(path: .venv/Lib/site-packages/rich/theme.py)*
+- .venv.Lib.site-packages.rich.themes  *(path: .venv/Lib/site-packages/rich/themes.py)*
+- .venv.Lib.site-packages.rich.traceback  *(path: .venv/Lib/site-packages/rich/traceback.py)*
+- .venv.Lib.site-packages.rich.tree  *(path: .venv/Lib/site-packages/rich/tree.py)*
+- .venv.Lib.site-packages.sniffio._impl  *(path: .venv/Lib/site-packages/sniffio/_impl.py)*
+- .venv.Lib.site-packages.sniffio._version  *(path: .venv/Lib/site-packages/sniffio/_version.py)*
+- .venv.Lib.site-packages.tqdm.__main__  *(path: .venv/Lib/site-packages/tqdm/__main__.py)*
+- .venv.Lib.site-packages.tqdm._dist_ver  *(path: .venv/Lib/site-packages/tqdm/_dist_ver.py)*
+- .venv.Lib.site-packages.tqdm._main  *(path: .venv/Lib/site-packages/tqdm/_main.py)*
+- .venv.Lib.site-packages.tqdm._monitor  *(path: .venv/Lib/site-packages/tqdm/_monitor.py)*
+- .venv.Lib.site-packages.tqdm._tqdm  *(path: .venv/Lib/site-packages/tqdm/_tqdm.py)*
+- .venv.Lib.site-packages.tqdm._tqdm_gui  *(path: .venv/Lib/site-packages/tqdm/_tqdm_gui.py)*
+- .venv.Lib.site-packages.tqdm._tqdm_notebook  *(path: .venv/Lib/site-packages/tqdm/_tqdm_notebook.py)*
+- .venv.Lib.site-packages.tqdm._tqdm_pandas  *(path: .venv/Lib/site-packages/tqdm/_tqdm_pandas.py)*
+- .venv.Lib.site-packages.tqdm._utils  *(path: .venv/Lib/site-packages/tqdm/_utils.py)*
+- .venv.Lib.site-packages.tqdm.asyncio  *(path: .venv/Lib/site-packages/tqdm/asyncio.py)*
+- .venv.Lib.site-packages.tqdm.auto  *(path: .venv/Lib/site-packages/tqdm/auto.py)*
+- .venv.Lib.site-packages.tqdm.autonotebook  *(path: .venv/Lib/site-packages/tqdm/autonotebook.py)*
+- .venv.Lib.site-packages.tqdm.cli  *(path: .venv/Lib/site-packages/tqdm/cli.py)*
+- .venv.Lib.site-packages.tqdm.contrib.bells  *(path: .venv/Lib/site-packages/tqdm/contrib/bells.py)*
+- .venv.Lib.site-packages.tqdm.contrib.concurrent  *(path: .venv/Lib/site-packages/tqdm/contrib/concurrent.py)*
+- .venv.Lib.site-packages.tqdm.contrib.discord  *(path: .venv/Lib/site-packages/tqdm/contrib/discord.py)*
+- .venv.Lib.site-packages.tqdm.contrib.itertools  *(path: .venv/Lib/site-packages/tqdm/contrib/itertools.py)*
+- .venv.Lib.site-packages.tqdm.contrib.logging  *(path: .venv/Lib/site-packages/tqdm/contrib/logging.py)*
+- .venv.Lib.site-packages.tqdm.contrib.slack  *(path: .venv/Lib/site-packages/tqdm/contrib/slack.py)*
+- .venv.Lib.site-packages.tqdm.contrib.telegram  *(path: .venv/Lib/site-packages/tqdm/contrib/telegram.py)*
+- .venv.Lib.site-packages.tqdm.contrib.utils_worker  *(path: .venv/Lib/site-packages/tqdm/contrib/utils_worker.py)*
+- .venv.Lib.site-packages.tqdm.dask  *(path: .venv/Lib/site-packages/tqdm/dask.py)*
+- .venv.Lib.site-packages.tqdm.gui  *(path: .venv/Lib/site-packages/tqdm/gui.py)*
+- .venv.Lib.site-packages.tqdm.keras  *(path: .venv/Lib/site-packages/tqdm/keras.py)*
+- .venv.Lib.site-packages.tqdm.notebook  *(path: .venv/Lib/site-packages/tqdm/notebook.py)*
+- .venv.Lib.site-packages.tqdm.rich  *(path: .venv/Lib/site-packages/tqdm/rich.py)*
+- .venv.Lib.site-packages.tqdm.std  *(path: .venv/Lib/site-packages/tqdm/std.py)*
+- .venv.Lib.site-packages.tqdm.tk  *(path: .venv/Lib/site-packages/tqdm/tk.py)*
+- .venv.Lib.site-packages.tqdm.utils  *(path: .venv/Lib/site-packages/tqdm/utils.py)*
+- .venv.Lib.site-packages.tqdm.version  *(path: .venv/Lib/site-packages/tqdm/version.py)*
+- .venv.Lib.site-packages.typing_extensions  *(path: .venv/Lib/site-packages/typing_extensions.py)*
+- .venv.Lib.site-packages.typing_inspection.introspection  *(path: .venv/Lib/site-packages/typing_inspection/introspection.py)*
+- .venv.Lib.site-packages.typing_inspection.typing_objects  *(path: .venv/Lib/site-packages/typing_inspection/typing_objects.py)*
+- app.models.user  *(path: app/models/user.py)*
+- system.core  *(path: system/core.py)*
+- system.db.manager.bulk  *(path: system/db/manager/bulk.py)*
+- system.db.manager.config  *(path: system/db/manager/config.py)*
+- system.db.manager.crud  *(path: system/db/manager/crud.py)*
+- system.db.manager.driver_switch  *(path: system/db/manager/driver_switch.py)*
+- system.db.manager.helpers  *(path: system/db/manager/helpers.py)*
+- system.db.manager.transactions  *(path: system/db/manager/transactions.py)*
+- tests.conftest  *(path: tests/conftest.py)*
+- tests.dbTest  *(path: tests/dbTest.py)*
+
+## Hotspots (print/breakpoint/TODO)
+- .venv.Lib.site-packages._pytest._code.code  *(path: .venv/Lib/site-packages/_pytest/_code/code.py)* → print, TODOx4
+- .venv.Lib.site-packages._pytest._py.path  *(path: .venv/Lib/site-packages/_pytest/_py/path.py)* → TODOx4
+- .venv.Lib.site-packages._pytest.assertion.rewrite  *(path: .venv/Lib/site-packages/_pytest/assertion/rewrite.py)* → TODOx1
+- .venv.Lib.site-packages._pytest.assertion.util  *(path: .venv/Lib/site-packages/_pytest/assertion/util.py)* → TODOx1
+- .venv.Lib.site-packages._pytest.cacheprovider  *(path: .venv/Lib/site-packages/_pytest/cacheprovider.py)* → print, TODOx2
+- .venv.Lib.site-packages._pytest.capture  *(path: .venv/Lib/site-packages/_pytest/capture.py)* → print, TODOx2
+- .venv.Lib.site-packages._pytest.compat  *(path: .venv/Lib/site-packages/_pytest/compat.py)* → TODOx1
+- .venv.Lib.site-packages._pytest.config.__init__  *(path: .venv/Lib/site-packages/_pytest/config/__init__.py)* → print, TODOx1
+- .venv.Lib.site-packages._pytest.debugging  *(path: .venv/Lib/site-packages/_pytest/debugging.py)* → breakpoint, TODOx1
+- .venv.Lib.site-packages._pytest.doctest  *(path: .venv/Lib/site-packages/_pytest/doctest.py)* → TODOx2
+- .venv.Lib.site-packages._pytest.fixtures  *(path: .venv/Lib/site-packages/_pytest/fixtures.py)* → TODOx4
+- .venv.Lib.site-packages._pytest.hookspec  *(path: .venv/Lib/site-packages/_pytest/hookspec.py)* → breakpoint
+- .venv.Lib.site-packages._pytest.junitxml  *(path: .venv/Lib/site-packages/_pytest/junitxml.py)* → TODOx1
+- .venv.Lib.site-packages._pytest.legacypath  *(path: .venv/Lib/site-packages/_pytest/legacypath.py)* → TODOx1
+- .venv.Lib.site-packages._pytest.main  *(path: .venv/Lib/site-packages/_pytest/main.py)* → TODOx1
+- .venv.Lib.site-packages._pytest.mark.structures  *(path: .venv/Lib/site-packages/_pytest/mark/structures.py)* → TODOx1
+- .venv.Lib.site-packages._pytest.nodes  *(path: .venv/Lib/site-packages/_pytest/nodes.py)* → TODOx2
+- .venv.Lib.site-packages._pytest.outcomes  *(path: .venv/Lib/site-packages/_pytest/outcomes.py)* → TODOx1
+- .venv.Lib.site-packages._pytest.pytester  *(path: .venv/Lib/site-packages/_pytest/pytester.py)* → print
+- .venv.Lib.site-packages._pytest.python  *(path: .venv/Lib/site-packages/_pytest/python.py)* → TODOx7
+- .venv.Lib.site-packages._pytest.raises  *(path: .venv/Lib/site-packages/_pytest/raises.py)* → TODOx3
+- .venv.Lib.site-packages._pytest.reports  *(path: .venv/Lib/site-packages/_pytest/reports.py)* → print, TODOx2
+- .venv.Lib.site-packages._pytest.skipping  *(path: .venv/Lib/site-packages/_pytest/skipping.py)* → TODOx1
+- .venv.Lib.site-packages._pytest.terminal  *(path: .venv/Lib/site-packages/_pytest/terminal.py)* → TODOx4
+- .venv.Lib.site-packages._pytest.unittest  *(path: .venv/Lib/site-packages/_pytest/unittest.py)* → TODOx1
+- .venv.Lib.site-packages.anyio._core._fileio  *(path: .venv/Lib/site-packages/anyio/_core/_fileio.py)* → print, TODOx1
+- .venv.Lib.site-packages.certifi.__main__  *(path: .venv/Lib/site-packages/certifi/__main__.py)* → print
+- .venv.Lib.site-packages.dotenv.cli  *(path: .venv/Lib/site-packages/dotenv/cli.py)* → print
+- .venv.Lib.site-packages.dotenv.ipython  *(path: .venv/Lib/site-packages/dotenv/ipython.py)* → print
+- .venv.Lib.site-packages.h11._events  *(path: .venv/Lib/site-packages/h11/_events.py)* → TODOx1
+- .venv.Lib.site-packages.h11._readers  *(path: .venv/Lib/site-packages/h11/_readers.py)* → TODOx1
+- .venv.Lib.site-packages.h11._writers  *(path: .venv/Lib/site-packages/h11/_writers.py)* → TODOx1
+- .venv.Lib.site-packages.httpx.__init__  *(path: .venv/Lib/site-packages/httpx/__init__.py)* → print
+- .venv.Lib.site-packages.httpx._auth  *(path: .venv/Lib/site-packages/httpx/_auth.py)* → TODOx1
+- .venv.Lib.site-packages.httpx._exceptions  *(path: .venv/Lib/site-packages/httpx/_exceptions.py)* → print
+- .venv.Lib.site-packages.httpx._main  *(path: .venv/Lib/site-packages/httpx/_main.py)* → print
+- .venv.Lib.site-packages.httpx._transports.base  *(path: .venv/Lib/site-packages/httpx/_transports/base.py)* → print
+- .venv.Lib.site-packages.iniconfig.__init__  *(path: .venv/Lib/site-packages/iniconfig/__init__.py)* → TODOx1
+- .venv.Lib.site-packages.markdown_it.cli.parse  *(path: .venv/Lib/site-packages/markdown_it/cli/parse.py)* → print
+- .venv.Lib.site-packages.markdown_it.parser_inline  *(path: .venv/Lib/site-packages/markdown_it/parser_inline.py)* → TODOx1
+- .venv.Lib.site-packages.markdown_it.rules_core.replacements  *(path: .venv/Lib/site-packages/markdown_it/rules_core/replacements.py)* → TODOx1
+- .venv.Lib.site-packages.mdurl._parse  *(path: .venv/Lib/site-packages/mdurl/_parse.py)* → TODOx1
+- .venv.Lib.site-packages.openai._base_client  *(path: .venv/Lib/site-packages/openai/_base_client.py)* → TODOx7
+- .venv.Lib.site-packages.openai._compat  *(path: .venv/Lib/site-packages/openai/_compat.py)* → TODOx1
+- .venv.Lib.site-packages.openai._legacy_response  *(path: .venv/Lib/site-packages/openai/_legacy_response.py)* → print
+- .venv.Lib.site-packages.openai._models  *(path: .venv/Lib/site-packages/openai/_models.py)* → TODOx2
+- .venv.Lib.site-packages.openai._qs  *(path: .venv/Lib/site-packages/openai/_qs.py)* → TODOx1
+- .venv.Lib.site-packages.openai._response  *(path: .venv/Lib/site-packages/openai/_response.py)* → print
+- .venv.Lib.site-packages.openai._utils._transform  *(path: .venv/Lib/site-packages/openai/_utils/_transform.py)* → TODOx4
+- .venv.Lib.site-packages.openai._utils._utils  *(path: .venv/Lib/site-packages/openai/_utils/_utils.py)* → TODOx2
+- .venv.Lib.site-packages.openai.cli._api.audio  *(path: .venv/Lib/site-packages/openai/cli/_api/audio.py)* → TODOx1
+- .venv.Lib.site-packages.openai.cli._api.completions  *(path: .venv/Lib/site-packages/openai/cli/_api/completions.py)* → TODOx1
+- .venv.Lib.site-packages.openai.lib.streaming._assistants  *(path: .venv/Lib/site-packages/openai/lib/streaming/_assistants.py)* → print
+- .venv.Lib.site-packages.openai.lib.streaming.chat._completions  *(path: .venv/Lib/site-packages/openai/lib/streaming/chat/_completions.py)* → print
+- .venv.Lib.site-packages.openai.pagination  *(path: .venv/Lib/site-packages/openai/pagination.py)* → TODOx2
+- .venv.Lib.site-packages.openai.resources.chat.completions.completions  *(path: .venv/Lib/site-packages/openai/resources/chat/completions/completions.py)* → print
+- .venv.Lib.site-packages.openai.resources.vector_stores.file_batches  *(path: .venv/Lib/site-packages/openai/resources/vector_stores/file_batches.py)* → TODOx2
+- .venv.Lib.site-packages.packaging._musllinux  *(path: .venv/Lib/site-packages/packaging/_musllinux.py)* → print
+- .venv.Lib.site-packages.packaging.metadata  *(path: .venv/Lib/site-packages/packaging/metadata.py)* → TODOx2
+- .venv.Lib.site-packages.packaging.requirements  *(path: .venv/Lib/site-packages/packaging/requirements.py)* → TODOx2
+- .venv.Lib.site-packages.packaging.tags  *(path: .venv/Lib/site-packages/packaging/tags.py)* → print, TODOx1
+- .venv.Lib.site-packages.packaging.version  *(path: .venv/Lib/site-packages/packaging/version.py)* → print
+- .venv.Lib.site-packages.pip._internal.build_env  *(path: .venv/Lib/site-packages/pip/_internal/build_env.py)* → TODOx1
+- .venv.Lib.site-packages.pip._internal.cache  *(path: .venv/Lib/site-packages/pip/_internal/cache.py)* → TODOx1
+- .venv.Lib.site-packages.pip._internal.cli.autocompletion  *(path: .venv/Lib/site-packages/pip/_internal/cli/autocompletion.py)* → print
+- .venv.Lib.site-packages.pip._internal.cli.base_command  *(path: .venv/Lib/site-packages/pip/_internal/cli/base_command.py)* → print, TODOx1
+- .venv.Lib.site-packages.pip._internal.cli.parser  *(path: .venv/Lib/site-packages/pip/_internal/cli/parser.py)* → print
+- .venv.Lib.site-packages.pip._internal.commands.completion  *(path: .venv/Lib/site-packages/pip/_internal/commands/completion.py)* → print
+- .venv.Lib.site-packages.pip._internal.commands.inspect  *(path: .venv/Lib/site-packages/pip/_internal/commands/inspect.py)* → TODOx1
+- .venv.Lib.site-packages.pip._internal.configuration  *(path: .venv/Lib/site-packages/pip/_internal/configuration.py)* → TODOx2
+- .venv.Lib.site-packages.pip._internal.index.collector  *(path: .venv/Lib/site-packages/pip/_internal/index/collector.py)* → TODOx1
+- .venv.Lib.site-packages.pip._internal.locations._distutils  *(path: .venv/Lib/site-packages/pip/_internal/locations/_distutils.py)* → TODOx1
+- .venv.Lib.site-packages.pip._internal.locations.base  *(path: .venv/Lib/site-packages/pip/_internal/locations/base.py)* → TODOx2
+- .venv.Lib.site-packages.pip._internal.metadata.base  *(path: .venv/Lib/site-packages/pip/_internal/metadata/base.py)* → TODOx4
+- .venv.Lib.site-packages.pip._internal.models.installation_report  *(path: .venv/Lib/site-packages/pip/_internal/models/installation_report.py)* → TODOx1
+- .venv.Lib.site-packages.pip._internal.models.selection_prefs  *(path: .venv/Lib/site-packages/pip/_internal/models/selection_prefs.py)* → TODOx1
+- .venv.Lib.site-packages.pip._internal.network.lazy_wheel  *(path: .venv/Lib/site-packages/pip/_internal/network/lazy_wheel.py)* → TODOx1
+- .venv.Lib.site-packages.pip._internal.operations.install.wheel  *(path: .venv/Lib/site-packages/pip/_internal/operations/install/wheel.py)* → TODOx1
+- .venv.Lib.site-packages.pip._internal.operations.prepare  *(path: .venv/Lib/site-packages/pip/_internal/operations/prepare.py)* → TODOx2
+- .venv.Lib.site-packages.pip._internal.req.constructors  *(path: .venv/Lib/site-packages/pip/_internal/req/constructors.py)* → TODOx1
+- .venv.Lib.site-packages.pip._internal.req.req_file  *(path: .venv/Lib/site-packages/pip/_internal/req/req_file.py)* → TODOx3
+- .venv.Lib.site-packages.pip._internal.req.req_install  *(path: .venv/Lib/site-packages/pip/_internal/req/req_install.py)* → TODOx1
+- .venv.Lib.site-packages.pip._internal.req.req_set  *(path: .venv/Lib/site-packages/pip/_internal/req/req_set.py)* → TODOx1
+- .venv.Lib.site-packages.pip._internal.req.req_uninstall  *(path: .venv/Lib/site-packages/pip/_internal/req/req_uninstall.py)* → TODOx2
+- .venv.Lib.site-packages.pip._internal.resolution.resolvelib.candidates  *(path: .venv/Lib/site-packages/pip/_internal/resolution/resolvelib/candidates.py)* → TODOx2
+- .venv.Lib.site-packages.pip._internal.resolution.resolvelib.factory  *(path: .venv/Lib/site-packages/pip/_internal/resolution/resolvelib/factory.py)* → TODOx2
+- .venv.Lib.site-packages.pip._internal.utils.glibc  *(path: .venv/Lib/site-packages/pip/_internal/utils/glibc.py)* → print
+- .venv.Lib.site-packages.pip._internal.utils.logging  *(path: .venv/Lib/site-packages/pip/_internal/utils/logging.py)* → print
+- .venv.Lib.site-packages.pip._internal.utils.misc  *(path: .venv/Lib/site-packages/pip/_internal/utils/misc.py)* → print
+- .venv.Lib.site-packages.pip._internal.utils.setuptools_build  *(path: .venv/Lib/site-packages/pip/_internal/utils/setuptools_build.py)* → print
+- .venv.Lib.site-packages.pip._internal.utils.unpacking  *(path: .venv/Lib/site-packages/pip/_internal/utils/unpacking.py)* → TODOx2
+- .venv.Lib.site-packages.pip._internal.vcs.subversion  *(path: .venv/Lib/site-packages/pip/_internal/vcs/subversion.py)* → TODOx1
+- .venv.Lib.site-packages.pip._vendor.cachecontrol._cmd  *(path: .venv/Lib/site-packages/pip/_vendor/cachecontrol/_cmd.py)* → print
+- .venv.Lib.site-packages.pip._vendor.cachecontrol.controller  *(path: .venv/Lib/site-packages/pip/_vendor/cachecontrol/controller.py)* → TODOx1
+- .venv.Lib.site-packages.pip._vendor.cachecontrol.filewrapper  *(path: .venv/Lib/site-packages/pip/_vendor/cachecontrol/filewrapper.py)* → TODOx1
+- .venv.Lib.site-packages.pip._vendor.certifi.__main__  *(path: .venv/Lib/site-packages/pip/_vendor/certifi/__main__.py)* → print
+- .venv.Lib.site-packages.pip._vendor.dependency_groups.__main__  *(path: .venv/Lib/site-packages/pip/_vendor/dependency_groups/__main__.py)* → print
+- .venv.Lib.site-packages.pip._vendor.dependency_groups._lint_dependency_groups  *(path: .venv/Lib/site-packages/pip/_vendor/dependency_groups/_lint_dependency_groups.py)* → print
+- .venv.Lib.site-packages.pip._vendor.dependency_groups._pip_wrapper  *(path: .venv/Lib/site-packages/pip/_vendor/dependency_groups/_pip_wrapper.py)* → print
+- .venv.Lib.site-packages.pip._vendor.distlib.compat  *(path: .venv/Lib/site-packages/pip/_vendor/distlib/compat.py)* → TODOx1
+- .venv.Lib.site-packages.pip._vendor.distlib.resources  *(path: .venv/Lib/site-packages/pip/_vendor/distlib/resources.py)* → TODOx4
+- .venv.Lib.site-packages.pip._vendor.distlib.scripts  *(path: .venv/Lib/site-packages/pip/_vendor/distlib/scripts.py)* → TODOx3
+- .venv.Lib.site-packages.pip._vendor.distlib.util  *(path: .venv/Lib/site-packages/pip/_vendor/distlib/util.py)* → breakpoint, TODOx8
+- .venv.Lib.site-packages.pip._vendor.msgpack.fallback  *(path: .venv/Lib/site-packages/pip/_vendor/msgpack/fallback.py)* → TODOx4
+- .venv.Lib.site-packages.pip._vendor.packaging._musllinux  *(path: .venv/Lib/site-packages/pip/_vendor/packaging/_musllinux.py)* → print
+- .venv.Lib.site-packages.pip._vendor.packaging.metadata  *(path: .venv/Lib/site-packages/pip/_vendor/packaging/metadata.py)* → TODOx2
+- .venv.Lib.site-packages.pip._vendor.packaging.requirements  *(path: .venv/Lib/site-packages/pip/_vendor/packaging/requirements.py)* → TODOx2
+- .venv.Lib.site-packages.pip._vendor.packaging.tags  *(path: .venv/Lib/site-packages/pip/_vendor/packaging/tags.py)* → print, TODOx1
+- .venv.Lib.site-packages.pip._vendor.packaging.version  *(path: .venv/Lib/site-packages/pip/_vendor/packaging/version.py)* → print
+- .venv.Lib.site-packages.pip._vendor.pkg_resources.__init__  *(path: .venv/Lib/site-packages/pip/_vendor/pkg_resources/__init__.py)* → print, TODOx13
+- .venv.Lib.site-packages.pip._vendor.platformdirs.__main__  *(path: .venv/Lib/site-packages/pip/_vendor/platformdirs/__main__.py)* → print
+- .venv.Lib.site-packages.pip._vendor.pygments.filters.__init__  *(path: .venv/Lib/site-packages/pip/_vendor/pygments/filters/__init__.py)* → TODOx7
+- .venv.Lib.site-packages.pip._vendor.pygments.lexer  *(path: .venv/Lib/site-packages/pip/_vendor/pygments/lexer.py)* → print, TODOx3
+- .venv.Lib.site-packages.pip._vendor.pygments.lexers._mapping  *(path: .venv/Lib/site-packages/pip/_vendor/pygments/lexers/_mapping.py)* → TODOx2
+- .venv.Lib.site-packages.pip._vendor.pygments.lexers.python  *(path: .venv/Lib/site-packages/pip/_vendor/pygments/lexers/python.py)* → print, TODOx1
+- .venv.Lib.site-packages.pip._vendor.pygments.sphinxext  *(path: .venv/Lib/site-packages/pip/_vendor/pygments/sphinxext.py)* → print
+- .venv.Lib.site-packages.pip._vendor.pyproject_hooks._in_process._in_process  *(path: .venv/Lib/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py)* → print
+- .venv.Lib.site-packages.pip._vendor.requests.__init__  *(path: .venv/Lib/site-packages/pip/_vendor/requests/__init__.py)* → print
+- .venv.Lib.site-packages.pip._vendor.requests.adapters  *(path: .venv/Lib/site-packages/pip/_vendor/requests/adapters.py)* → TODOx1
+- .venv.Lib.site-packages.pip._vendor.requests.auth  *(path: .venv/Lib/site-packages/pip/_vendor/requests/auth.py)* → TODOx3
+- .venv.Lib.site-packages.pip._vendor.requests.certs  *(path: .venv/Lib/site-packages/pip/_vendor/requests/certs.py)* → print
+- .venv.Lib.site-packages.pip._vendor.requests.help  *(path: .venv/Lib/site-packages/pip/_vendor/requests/help.py)* → print
+- .venv.Lib.site-packages.pip._vendor.requests.hooks  *(path: .venv/Lib/site-packages/pip/_vendor/requests/hooks.py)* → TODOx1
+- .venv.Lib.site-packages.pip._vendor.requests.utils  *(path: .venv/Lib/site-packages/pip/_vendor/requests/utils.py)* → TODOx4
+- .venv.Lib.site-packages.pip._vendor.rich.__init__  *(path: .venv/Lib/site-packages/pip/_vendor/rich/__init__.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.__main__  *(path: .venv/Lib/site-packages/pip/_vendor/rich/__main__.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich._log_render  *(path: .venv/Lib/site-packages/pip/_vendor/rich/_log_render.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich._ratio  *(path: .venv/Lib/site-packages/pip/_vendor/rich/_ratio.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich._timer  *(path: .venv/Lib/site-packages/pip/_vendor/rich/_timer.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich._win32_console  *(path: .venv/Lib/site-packages/pip/_vendor/rich/_win32_console.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich._windows  *(path: .venv/Lib/site-packages/pip/_vendor/rich/_windows.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich._wrap  *(path: .venv/Lib/site-packages/pip/_vendor/rich/_wrap.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.abc  *(path: .venv/Lib/site-packages/pip/_vendor/rich/abc.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.align  *(path: .venv/Lib/site-packages/pip/_vendor/rich/align.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.ansi  *(path: .venv/Lib/site-packages/pip/_vendor/rich/ansi.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.box  *(path: .venv/Lib/site-packages/pip/_vendor/rich/box.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.cells  *(path: .venv/Lib/site-packages/pip/_vendor/rich/cells.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.color  *(path: .venv/Lib/site-packages/pip/_vendor/rich/color.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.columns  *(path: .venv/Lib/site-packages/pip/_vendor/rich/columns.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.console  *(path: .venv/Lib/site-packages/pip/_vendor/rich/console.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.control  *(path: .venv/Lib/site-packages/pip/_vendor/rich/control.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.default_styles  *(path: .venv/Lib/site-packages/pip/_vendor/rich/default_styles.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.diagnose  *(path: .venv/Lib/site-packages/pip/_vendor/rich/diagnose.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.emoji  *(path: .venv/Lib/site-packages/pip/_vendor/rich/emoji.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.file_proxy  *(path: .venv/Lib/site-packages/pip/_vendor/rich/file_proxy.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.highlighter  *(path: .venv/Lib/site-packages/pip/_vendor/rich/highlighter.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.json  *(path: .venv/Lib/site-packages/pip/_vendor/rich/json.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.jupyter  *(path: .venv/Lib/site-packages/pip/_vendor/rich/jupyter.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.layout  *(path: .venv/Lib/site-packages/pip/_vendor/rich/layout.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.live  *(path: .venv/Lib/site-packages/pip/_vendor/rich/live.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.logging  *(path: .venv/Lib/site-packages/pip/_vendor/rich/logging.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.markup  *(path: .venv/Lib/site-packages/pip/_vendor/rich/markup.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.padding  *(path: .venv/Lib/site-packages/pip/_vendor/rich/padding.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.pager  *(path: .venv/Lib/site-packages/pip/_vendor/rich/pager.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.palette  *(path: .venv/Lib/site-packages/pip/_vendor/rich/palette.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.panel  *(path: .venv/Lib/site-packages/pip/_vendor/rich/panel.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.pretty  *(path: .venv/Lib/site-packages/pip/_vendor/rich/pretty.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.progress  *(path: .venv/Lib/site-packages/pip/_vendor/rich/progress.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.progress_bar  *(path: .venv/Lib/site-packages/pip/_vendor/rich/progress_bar.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.prompt  *(path: .venv/Lib/site-packages/pip/_vendor/rich/prompt.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.repr  *(path: .venv/Lib/site-packages/pip/_vendor/rich/repr.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.rule  *(path: .venv/Lib/site-packages/pip/_vendor/rich/rule.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.scope  *(path: .venv/Lib/site-packages/pip/_vendor/rich/scope.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.segment  *(path: .venv/Lib/site-packages/pip/_vendor/rich/segment.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.status  *(path: .venv/Lib/site-packages/pip/_vendor/rich/status.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.styled  *(path: .venv/Lib/site-packages/pip/_vendor/rich/styled.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.syntax  *(path: .venv/Lib/site-packages/pip/_vendor/rich/syntax.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.table  *(path: .venv/Lib/site-packages/pip/_vendor/rich/table.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.text  *(path: .venv/Lib/site-packages/pip/_vendor/rich/text.py)* → print, TODOx1
+- .venv.Lib.site-packages.pip._vendor.rich.theme  *(path: .venv/Lib/site-packages/pip/_vendor/rich/theme.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.traceback  *(path: .venv/Lib/site-packages/pip/_vendor/rich/traceback.py)* → print
+- .venv.Lib.site-packages.pip._vendor.rich.tree  *(path: .venv/Lib/site-packages/pip/_vendor/rich/tree.py)* → print
+- .venv.Lib.site-packages.pip._vendor.truststore._macos  *(path: .venv/Lib/site-packages/pip/_vendor/truststore/_macos.py)* → TODOx1
+- .venv.Lib.site-packages.pip._vendor.urllib3.connection  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/connection.py)* → print, TODOx1
+- .venv.Lib.site-packages.pip._vendor.urllib3.connectionpool  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/connectionpool.py)* → TODOx1
+- .venv.Lib.site-packages.pip._vendor.urllib3.contrib.pyopenssl  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/contrib/pyopenssl.py)* → TODOx1
+- .venv.Lib.site-packages.pip._vendor.urllib3.contrib.securetransport  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/contrib/securetransport.py)* → TODOx3
+- .venv.Lib.site-packages.pip._vendor.urllib3.exceptions  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/exceptions.py)* → TODOx1
+- .venv.Lib.site-packages.pip._vendor.urllib3.packages.six  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/packages/six.py)* → print
+- .venv.Lib.site-packages.pip._vendor.urllib3.response  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/response.py)* → TODOx3
+- .venv.Lib.site-packages.pip._vendor.urllib3.util.response  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/util/response.py)* → TODOx1
+- .venv.Lib.site-packages.pip._vendor.urllib3.util.retry  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/util/retry.py)* → TODOx5
+- .venv.Lib.site-packages.pip._vendor.urllib3.util.ssl_  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/util/ssl_.py)* → print
+- .venv.Lib.site-packages.pip._vendor.urllib3.util.ssl_match_hostname  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/util/ssl_match_hostname.py)* → TODOx1
+- .venv.Lib.site-packages.pip._vendor.urllib3.util.url  *(path: .venv/Lib/site-packages/pip/_vendor/urllib3/util/url.py)* → TODOx1
+- .venv.Lib.site-packages.pluggy._hooks  *(path: .venv/Lib/site-packages/pluggy/_hooks.py)* → TODOx4
+- .venv.Lib.site-packages.pluggy._manager  *(path: .venv/Lib/site-packages/pluggy/_manager.py)* → TODOx1
+- .venv.Lib.site-packages.pydantic._internal._core_metadata  *(path: .venv/Lib/site-packages/pydantic/_internal/_core_metadata.py)* → TODOx2
+- .venv.Lib.site-packages.pydantic._internal._core_utils  *(path: .venv/Lib/site-packages/pydantic/_internal/_core_utils.py)* → print
+- .venv.Lib.site-packages.pydantic._internal._fields  *(path: .venv/Lib/site-packages/pydantic/_internal/_fields.py)* → TODOx3
+- .venv.Lib.site-packages.pydantic._internal._generate_schema  *(path: .venv/Lib/site-packages/pydantic/_internal/_generate_schema.py)* → TODOx7
+- .venv.Lib.site-packages.pydantic._internal._generics  *(path: .venv/Lib/site-packages/pydantic/_internal/_generics.py)* → TODOx2
+- .venv.Lib.site-packages.pydantic._internal._known_annotated_metadata  *(path: .venv/Lib/site-packages/pydantic/_internal/_known_annotated_metadata.py)* → print, TODOx1
+- .venv.Lib.site-packages.pydantic._internal._model_construction  *(path: .venv/Lib/site-packages/pydantic/_internal/_model_construction.py)* → TODOx1
+- .venv.Lib.site-packages.pydantic._internal._namespace_utils  *(path: .venv/Lib/site-packages/pydantic/_internal/_namespace_utils.py)* → TODOx2
+- .venv.Lib.site-packages.pydantic._internal._schema_gather  *(path: .venv/Lib/site-packages/pydantic/_internal/_schema_gather.py)* → TODOx3
+- .venv.Lib.site-packages.pydantic._internal._typing_extra  *(path: .venv/Lib/site-packages/pydantic/_internal/_typing_extra.py)* → TODOx4
+- .venv.Lib.site-packages.pydantic._internal._validators  *(path: .venv/Lib/site-packages/pydantic/_internal/_validators.py)* → TODOx2
+- .venv.Lib.site-packages.pydantic.alias_generators  *(path: .venv/Lib/site-packages/pydantic/alias_generators.py)* → TODOx1
+- .venv.Lib.site-packages.pydantic.config  *(path: .venv/Lib/site-packages/pydantic/config.py)* → print
+- .venv.Lib.site-packages.pydantic.dataclasses  *(path: .venv/Lib/site-packages/pydantic/dataclasses.py)* → TODOx1
+- .venv.Lib.site-packages.pydantic.deprecated.json  *(path: .venv/Lib/site-packages/pydantic/deprecated/json.py)* → TODOx1
+- .venv.Lib.site-packages.pydantic.experimental.pipeline  *(path: .venv/Lib/site-packages/pydantic/experimental/pipeline.py)* → TODOx2
+- .venv.Lib.site-packages.pydantic.fields  *(path: .venv/Lib/site-packages/pydantic/fields.py)* → print, TODOx6
+- .venv.Lib.site-packages.pydantic.functional_serializers  *(path: .venv/Lib/site-packages/pydantic/functional_serializers.py)* → print
+- .venv.Lib.site-packages.pydantic.functional_validators  *(path: .venv/Lib/site-packages/pydantic/functional_validators.py)* → print, TODOx1
+- .venv.Lib.site-packages.pydantic.json_schema  *(path: .venv/Lib/site-packages/pydantic/json_schema.py)* → print, TODOx10
+- .venv.Lib.site-packages.pydantic.main  *(path: .venv/Lib/site-packages/pydantic/main.py)* → TODOx3
+- .venv.Lib.site-packages.pydantic.mypy  *(path: .venv/Lib/site-packages/pydantic/mypy.py)* → TODOx3
+- .venv.Lib.site-packages.pydantic.networks  *(path: .venv/Lib/site-packages/pydantic/networks.py)* → print
+- .venv.Lib.site-packages.pydantic.type_adapter  *(path: .venv/Lib/site-packages/pydantic/type_adapter.py)* → TODOx1
+- .venv.Lib.site-packages.pydantic.types  *(path: .venv/Lib/site-packages/pydantic/types.py)* → print, TODOx1
+- .venv.Lib.site-packages.pydantic.v1.networks  *(path: .venv/Lib/site-packages/pydantic/v1/networks.py)* → TODOx1
+- .venv.Lib.site-packages.pydantic.v1.utils  *(path: .venv/Lib/site-packages/pydantic/v1/utils.py)* → TODOx1
+- .venv.Lib.site-packages.pydantic_core.core_schema  *(path: .venv/Lib/site-packages/pydantic_core/core_schema.py)* → print, TODOx1
+- .venv.Lib.site-packages.pygments.cmdline  *(path: .venv/Lib/site-packages/pygments/cmdline.py)* → print
+- .venv.Lib.site-packages.pygments.filters.__init__  *(path: .venv/Lib/site-packages/pygments/filters/__init__.py)* → TODOx7
+- .venv.Lib.site-packages.pygments.formatters.html  *(path: .venv/Lib/site-packages/pygments/formatters/html.py)* → print
+- .venv.Lib.site-packages.pygments.formatters.img  *(path: .venv/Lib/site-packages/pygments/formatters/img.py)* → TODOx1
+- .venv.Lib.site-packages.pygments.formatters.latex  *(path: .venv/Lib/site-packages/pygments/formatters/latex.py)* → TODOx1
+- .venv.Lib.site-packages.pygments.formatters.terminal256  *(path: .venv/Lib/site-packages/pygments/formatters/terminal256.py)* → TODOx1
+- .venv.Lib.site-packages.pygments.lexer  *(path: .venv/Lib/site-packages/pygments/lexer.py)* → print, TODOx3
+- .venv.Lib.site-packages.pygments.lexers._asy_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_asy_builtins.py)* → TODOx1
+- .venv.Lib.site-packages.pygments.lexers._cocoa_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_cocoa_builtins.py)* → print
+- .venv.Lib.site-packages.pygments.lexers._csound_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_csound_builtins.py)* → print
+- .venv.Lib.site-packages.pygments.lexers._lua_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_lua_builtins.py)* → print
+- .venv.Lib.site-packages.pygments.lexers._mapping  *(path: .venv/Lib/site-packages/pygments/lexers/_mapping.py)* → TODOx2
+- .venv.Lib.site-packages.pygments.lexers._php_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_php_builtins.py)* → print
+- .venv.Lib.site-packages.pygments.lexers._sourcemod_builtins  *(path: .venv/Lib/site-packages/pygments/lexers/_sourcemod_builtins.py)* → print
+- .venv.Lib.site-packages.pygments.lexers.ada  *(path: .venv/Lib/site-packages/pygments/lexers/ada.py)* → TODOx1
+- .venv.Lib.site-packages.pygments.lexers.basic  *(path: .venv/Lib/site-packages/pygments/lexers/basic.py)* → TODOx1
+- .venv.Lib.site-packages.pygments.lexers.c_like  *(path: .venv/Lib/site-packages/pygments/lexers/c_like.py)* → TODOx1
+- .venv.Lib.site-packages.pygments.lexers.configs  *(path: .venv/Lib/site-packages/pygments/lexers/configs.py)* → TODOx1
+- .venv.Lib.site-packages.pygments.lexers.css  *(path: .venv/Lib/site-packages/pygments/lexers/css.py)* → TODOx1
+- .venv.Lib.site-packages.pygments.lexers.dns  *(path: .venv/Lib/site-packages/pygments/lexers/dns.py)* → TODOx1
+- .venv.Lib.site-packages.pygments.lexers.dotnet  *(path: .venv/Lib/site-packages/pygments/lexers/dotnet.py)* → TODOx1
+- .venv.Lib.site-packages.pygments.lexers.fantom  *(path: .venv/Lib/site-packages/pygments/lexers/fantom.py)* → TODOx2
+- .venv.Lib.site-packages.pygments.lexers.felix  *(path: .venv/Lib/site-packages/pygments/lexers/felix.py)* → TODOx1
+- .venv.Lib.site-packages.pygments.lexers.gleam  *(path: .venv/Lib/site-packages/pygments/lexers/gleam.py)* → TODOx1
+- .venv.Lib.site-packages.pygments.lexers.graphics  *(path: .venv/Lib/site-packages/pygments/lexers/graphics.py)* → TODOx2
+- .venv.Lib.site-packages.pygments.lexers.haskell  *(path: .venv/Lib/site-packages/pygments/lexers/haskell.py)* → TODOx2
+- .venv.Lib.site-packages.pygments.lexers.inferno  *(path: .venv/Lib/site-packages/pygments/lexers/inferno.py)* → TODOx2
+- .venv.Lib.site-packages.pygments.lexers.int_fiction  *(path: .venv/Lib/site-packages/pygments/lexers/int_fiction.py)* → print
+- .venv.Lib.site-packages.pygments.lexers.javascript  *(path: .venv/Lib/site-packages/pygments/lexers/javascript.py)* → TODOx1
+- .venv.Lib.site-packages.pygments.lexers.julia  *(path: .venv/Lib/site-packages/pygments/lexers/julia.py)* → TODOx1
+- .venv.Lib.site-packages.pygments.lexers.jvm  *(path: .venv/Lib/site-packages/pygments/lexers/jvm.py)* → TODOx2
+- .venv.Lib.site-packages.pygments.lexers.lisp  *(path: .venv/Lib/site-packages/pygments/lexers/lisp.py)* → TODOx2
+- .venv.Lib.site-packages.pygments.lexers.markup  *(path: .venv/Lib/site-packages/pygments/lexers/markup.py)* → TODOx7
+- .venv.Lib.site-packages.pygments.lexers.meson  *(path: .venv/Lib/site-packages/pygments/lexers/meson.py)* → TODOx2
+- .venv.Lib.site-packages.pygments.lexers.mips  *(path: .venv/Lib/site-packages/pygments/lexers/mips.py)* → TODOx1
+- .venv.Lib.site-packages.pygments.lexers.modula2  *(path: .venv/Lib/site-packages/pygments/lexers/modula2.py)* → TODOx1
+- .venv.Lib.site-packages.pygments.lexers.mojo  *(path: .venv/Lib/site-packages/pygments/lexers/mojo.py)* → TODOx4
+- .venv.Lib.site-packages.pygments.lexers.nix  *(path: .venv/Lib/site-packages/pygments/lexers/nix.py)* → TODOx2
+- .venv.Lib.site-packages.pygments.lexers.oberon  *(path: .venv/Lib/site-packages/pygments/lexers/oberon.py)* → TODOx1
+- .venv.Lib.site-packages.pygments.lexers.objective  *(path: .venv/Lib/site-packages/pygments/lexers/objective.py)* → TODOx3
+- .venv.Lib.site-packages.pygments.lexers.openscad  *(path: .venv/Lib/site-packages/pygments/lexers/openscad.py)* → TODOx2
+- .venv.Lib.site-packages.pygments.lexers.parsers  *(path: .venv/Lib/site-packages/pygments/lexers/parsers.py)* → TODOx1
+- .venv.Lib.site-packages.pygments.lexers.pascal  *(path: .venv/Lib/site-packages/pygments/lexers/pascal.py)* → TODOx1
+- .venv.Lib.site-packages.pygments.lexers.perl  *(path: .venv/Lib/site-packages/pygments/lexers/perl.py)* → TODOx3
+- .venv.Lib.site-packages.pygments.lexers.praat  *(path: .venv/Lib/site-packages/pygments/lexers/praat.py)* → print
+- .venv.Lib.site-packages.pygments.lexers.python  *(path: .venv/Lib/site-packages/pygments/lexers/python.py)* → print, TODOx1
+- .venv.Lib.site-packages.pygments.lexers.rnc  *(path: .venv/Lib/site-packages/pygments/lexers/rnc.py)* → TODOx1
+- .venv.Lib.site-packages.pygments.lexers.rust  *(path: .venv/Lib/site-packages/pygments/lexers/rust.py)* → TODOx1
+- .venv.Lib.site-packages.pygments.lexers.scripting  *(path: .venv/Lib/site-packages/pygments/lexers/scripting.py)* → TODOx2
+- .venv.Lib.site-packages.pygments.lexers.sql  *(path: .venv/Lib/site-packages/pygments/lexers/sql.py)* → TODOx4
+- .venv.Lib.site-packages.pygments.lexers.templates  *(path: .venv/Lib/site-packages/pygments/lexers/templates.py)* → TODOx2
+- .venv.Lib.site-packages.pygments.lexers.testing  *(path: .venv/Lib/site-packages/pygments/lexers/testing.py)* → TODOx1
+- .venv.Lib.site-packages.pygments.lexers.textedit  *(path: .venv/Lib/site-packages/pygments/lexers/textedit.py)* → TODOx2
+- .venv.Lib.site-packages.pygments.lexers.textfmts  *(path: .venv/Lib/site-packages/pygments/lexers/textfmts.py)* → TODOx7
+- .venv.Lib.site-packages.pygments.lexers.typst  *(path: .venv/Lib/site-packages/pygments/lexers/typst.py)* → TODOx1
+- .venv.Lib.site-packages.pygments.lexers.urbi  *(path: .venv/Lib/site-packages/pygments/lexers/urbi.py)* → TODOx1
+- .venv.Lib.site-packages.pygments.lexers.wgsl  *(path: .venv/Lib/site-packages/pygments/lexers/wgsl.py)* → TODOx2
+- .venv.Lib.site-packages.pygments.sphinxext  *(path: .venv/Lib/site-packages/pygments/sphinxext.py)* → print
+- .venv.Lib.site-packages.rich.__init__  *(path: .venv/Lib/site-packages/rich/__init__.py)* → print
+- .venv.Lib.site-packages.rich.__main__  *(path: .venv/Lib/site-packages/rich/__main__.py)* → print
+- .venv.Lib.site-packages.rich._log_render  *(path: .venv/Lib/site-packages/rich/_log_render.py)* → print
+- .venv.Lib.site-packages.rich._ratio  *(path: .venv/Lib/site-packages/rich/_ratio.py)* → print
+- .venv.Lib.site-packages.rich._timer  *(path: .venv/Lib/site-packages/rich/_timer.py)* → print
+- .venv.Lib.site-packages.rich._win32_console  *(path: .venv/Lib/site-packages/rich/_win32_console.py)* → print
+- .venv.Lib.site-packages.rich._windows  *(path: .venv/Lib/site-packages/rich/_windows.py)* → print
+- .venv.Lib.site-packages.rich._wrap  *(path: .venv/Lib/site-packages/rich/_wrap.py)* → print
+- .venv.Lib.site-packages.rich.abc  *(path: .venv/Lib/site-packages/rich/abc.py)* → print
+- .venv.Lib.site-packages.rich.align  *(path: .venv/Lib/site-packages/rich/align.py)* → print
+- .venv.Lib.site-packages.rich.ansi  *(path: .venv/Lib/site-packages/rich/ansi.py)* → print
+- .venv.Lib.site-packages.rich.box  *(path: .venv/Lib/site-packages/rich/box.py)* → print
+- .venv.Lib.site-packages.rich.cells  *(path: .venv/Lib/site-packages/rich/cells.py)* → print
+- .venv.Lib.site-packages.rich.color  *(path: .venv/Lib/site-packages/rich/color.py)* → print
+- .venv.Lib.site-packages.rich.columns  *(path: .venv/Lib/site-packages/rich/columns.py)* → print
+- .venv.Lib.site-packages.rich.console  *(path: .venv/Lib/site-packages/rich/console.py)* → print
+- .venv.Lib.site-packages.rich.control  *(path: .venv/Lib/site-packages/rich/control.py)* → print
+- .venv.Lib.site-packages.rich.default_styles  *(path: .venv/Lib/site-packages/rich/default_styles.py)* → print
+- .venv.Lib.site-packages.rich.diagnose  *(path: .venv/Lib/site-packages/rich/diagnose.py)* → print
+- .venv.Lib.site-packages.rich.emoji  *(path: .venv/Lib/site-packages/rich/emoji.py)* → print
+- .venv.Lib.site-packages.rich.file_proxy  *(path: .venv/Lib/site-packages/rich/file_proxy.py)* → print
+- .venv.Lib.site-packages.rich.highlighter  *(path: .venv/Lib/site-packages/rich/highlighter.py)* → print
+- .venv.Lib.site-packages.rich.json  *(path: .venv/Lib/site-packages/rich/json.py)* → print
+- .venv.Lib.site-packages.rich.jupyter  *(path: .venv/Lib/site-packages/rich/jupyter.py)* → print
+- .venv.Lib.site-packages.rich.layout  *(path: .venv/Lib/site-packages/rich/layout.py)* → print
+- .venv.Lib.site-packages.rich.live  *(path: .venv/Lib/site-packages/rich/live.py)* → print
+- .venv.Lib.site-packages.rich.logging  *(path: .venv/Lib/site-packages/rich/logging.py)* → print
+- .venv.Lib.site-packages.rich.markdown  *(path: .venv/Lib/site-packages/rich/markdown.py)* → print
+- .venv.Lib.site-packages.rich.markup  *(path: .venv/Lib/site-packages/rich/markup.py)* → print
+- .venv.Lib.site-packages.rich.padding  *(path: .venv/Lib/site-packages/rich/padding.py)* → print
+- .venv.Lib.site-packages.rich.pager  *(path: .venv/Lib/site-packages/rich/pager.py)* → print
+- .venv.Lib.site-packages.rich.palette  *(path: .venv/Lib/site-packages/rich/palette.py)* → print
+- .venv.Lib.site-packages.rich.panel  *(path: .venv/Lib/site-packages/rich/panel.py)* → print
+- .venv.Lib.site-packages.rich.pretty  *(path: .venv/Lib/site-packages/rich/pretty.py)* → print
+- .venv.Lib.site-packages.rich.progress  *(path: .venv/Lib/site-packages/rich/progress.py)* → print
+- .venv.Lib.site-packages.rich.progress_bar  *(path: .venv/Lib/site-packages/rich/progress_bar.py)* → print
+- .venv.Lib.site-packages.rich.prompt  *(path: .venv/Lib/site-packages/rich/prompt.py)* → print
+- .venv.Lib.site-packages.rich.repr  *(path: .venv/Lib/site-packages/rich/repr.py)* → print
+- .venv.Lib.site-packages.rich.rule  *(path: .venv/Lib/site-packages/rich/rule.py)* → print
+- .venv.Lib.site-packages.rich.scope  *(path: .venv/Lib/site-packages/rich/scope.py)* → print
+- .venv.Lib.site-packages.rich.segment  *(path: .venv/Lib/site-packages/rich/segment.py)* → print
+- .venv.Lib.site-packages.rich.status  *(path: .venv/Lib/site-packages/rich/status.py)* → print
+- .venv.Lib.site-packages.rich.styled  *(path: .venv/Lib/site-packages/rich/styled.py)* → print
+- .venv.Lib.site-packages.rich.syntax  *(path: .venv/Lib/site-packages/rich/syntax.py)* → print
+- .venv.Lib.site-packages.rich.table  *(path: .venv/Lib/site-packages/rich/table.py)* → print
+- .venv.Lib.site-packages.rich.text  *(path: .venv/Lib/site-packages/rich/text.py)* → print, TODOx1
+- .venv.Lib.site-packages.rich.theme  *(path: .venv/Lib/site-packages/rich/theme.py)* → print
+- .venv.Lib.site-packages.rich.traceback  *(path: .venv/Lib/site-packages/rich/traceback.py)* → print
+- .venv.Lib.site-packages.rich.tree  *(path: .venv/Lib/site-packages/rich/tree.py)* → print
+- .venv.Lib.site-packages.tqdm.__init__  *(path: .venv/Lib/site-packages/tqdm/__init__.py)* → TODOx3
+- .venv.Lib.site-packages.tqdm.cli  *(path: .venv/Lib/site-packages/tqdm/cli.py)* → TODOx2
+- .venv.Lib.site-packages.tqdm.gui  *(path: .venv/Lib/site-packages/tqdm/gui.py)* → TODOx1
+- .venv.Lib.site-packages.tqdm.rich  *(path: .venv/Lib/site-packages/tqdm/rich.py)* → TODOx1
+- .venv.Lib.site-packages.tqdm.std  *(path: .venv/Lib/site-packages/tqdm/std.py)* → TODOx1
+- .venv.Lib.site-packages.tqdm.tk  *(path: .venv/Lib/site-packages/tqdm/tk.py)* → TODOx1
+- .venv.Lib.site-packages.tqdm.utils  *(path: .venv/Lib/site-packages/tqdm/utils.py)* → print, TODOx1
+- .venv.Lib.site-packages.typing_extensions  *(path: .venv/Lib/site-packages/typing_extensions.py)* → print, TODOx1
+- .venv.Lib.site-packages.typing_inspection.introspection  *(path: .venv/Lib/site-packages/typing_inspection/introspection.py)* → TODOx3
+- create  *(path: create.py)* → print
+- mac  *(path: mac.py)* → print
+- main  *(path: main.py)* → print
+- scan  *(path: scan.py)* → print, breakpoint, TODOx4
+- system.db.manager.helpers  *(path: system/db/manager/helpers.py)* → print
+- system.handlers.error_handler  *(path: system/handlers/error_handler.py)* → print
+- system.handlers.event_handler  *(path: system/handlers/event_handler.py)* → print
+- system.handlers.log_handler  *(path: system/handlers/log_handler.py)* → print
+- system.managers.error_manager  *(path: system/managers/error_manager.py)* → print
+- tests.dbTest  *(path: tests/dbTest.py)* → print
+- tests.test_bulk_speed  *(path: tests/test_bulk_speed.py)* → print
+- tests.test_file_system  *(path: tests/test_file_system.py)* → print
+
+## Largest Python Files
+- .venv.Lib.site-packages.idna.uts46data  → 239289 bytes (8509 LOC code)
+- .venv.Lib.site-packages.pip._vendor.idna.uts46data  → 239289 bytes (8509 LOC code)
+- .venv.Lib.site-packages.openai.resources.chat.completions.completions  → 160922 bytes (2494 LOC code)
+- .venv.Lib.site-packages.pygments.lexers.lisp  → 157668 bytes (2576 LOC code)
+- .venv.Lib.site-packages.typing_extensions  → 157408 bytes (3217 LOC code)
+- .venv.Lib.site-packages.openai.resources.beta.threads.runs.runs  → 155302 bytes (2636 LOC code)
+- .venv.Lib.site-packages.pydantic_core.core_schema  → 153980 bytes (3665 LOC code)
+- .venv.Lib.site-packages.openai.resources.responses.responses  → 150786 bytes (2412 LOC code)
+- .venv.Lib.site-packages.pip._vendor.rich._emoji_codes  → 140235 bytes (3610 LOC code)
+- .venv.Lib.site-packages.rich._emoji_codes  → 140235 bytes (3610 LOC code)

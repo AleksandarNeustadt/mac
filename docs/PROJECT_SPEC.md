@@ -1,0 +1,11 @@
+# PROJECT SPEC
+- Naziv: (npr. MAC – Modularni Aplikacioni Core)
+- Kratak opis: (jedna–dve rečenice)
+- Tehnologije: (Python, Flask/FastAPI, Postgres/MySQL, PyTest)
+- Arhitektura: (MVC, slojevi: handlers, managers, services, repositories)
+- Roadmap:
+  - [ ] Faza 1: Struktura projekta
+  - [ ] Faza 2: Bazni moduli (Config, Log, Error)
+  - [ ] Faza 3: DB sloj, migracije
+  - [ ] Faza 4: API rute, auth, testovi
+- Ne-funkcionalni zahtevi: test coverage ≥ 70%, tipovi, lint

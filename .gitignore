@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.build/
+dist/
+build/
+
+# Envs
+.env
+.venv/
+venv/
+env/
+
+# Tools & IDE
+.mypy_cache/
+.pytest_cache/
+.tox/
+.idea/
+.vscode/
+.coverage
+coverage.xml
+htmlcov/
+
+# Project data (runtime)
+system/data/tmp/
+system/data/logs/*
+!system/data/logs/.gitkeep
+system/data/db/*.sqlite3
+system/data/db/*.db
+
+# Bench artifacts
+**/db_json_bench/
+
+# OS
+.DS_Store
+Thumbs.db

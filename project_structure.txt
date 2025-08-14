@@ -1,0 +1,302 @@
+📁 MAC
+    📄 create.py
+    📄 mac.py
+    📄 main.py
+    📄 scan.py
+    📁 .pytest_cache
+        📁 v
+            📁 cache
+    📁 app
+        📄 __init__.py
+        📁 controllers
+            📄 __init__.py
+        📁 models
+            📄 __init__.py
+            📄 user.py
+                🧩 class User
+        📁 views
+            📄 __init__.py
+            📁 api
+            📁 cli
+            📁 gui
+    📁 docs
+    📁 plugins
+        📄 __init__.py
+        📁 example_plugin
+            📄 __init__.py
+    📁 system
+        📄 __init__.py
+        📄 core.py
+        📁 cli
+            📄 __init__.py
+        📁 config
+            📄 __init__.py
+            📄 env.py
+                🧩 class EnvLoader
+                    🔹 def _find_env_path()
+                    🔹 def load()
+                    🔹 def get()
+                    🔹 def get_bool()
+                    🔹 def debug_info()
+        📁 data
+            📄 __init__.py
+            📁 db
+                📄 __init__.py
+                📁 app_test.db
+            📁 logs
+                📄 __init__.py
+            📁 media
+                📄 __init__.py
+            📁 tmp
+                📁 db_json_bench
+        📁 db
+            📄 __init__.py
+            📄 base_driver.py
+                🧩 class BaseDBDriver
+                    🔹 def capabilities()
+                    🔹 def close()
+                    🔹 def transaction()
+                    🔹 def create()
+                    🔹 def read()
+                    🔹 def update()
+                    🔹 def delete()
+                    🔹 def get_last_id()
+                    🔹 def read_spec()
+            📄 json_driver.py
+                🧩 class JSONDriver
+                    🔹 def __init__()
+                    🔹 def capabilities()
+                    🔹 def _get_table_path()
+                    🔹 def _load_table()
+                    🔹 def _ensure_loaded()
+                    🔹 def _save_table()
+                    🔹 def _generate_id()
+                    🔹 def _add_to_index()
+                    🔹 def _drop_from_index()
+                    🔹 def transaction()
+                    🔹 def _normalize_where()
+                    🔹 def _apply_where()
+                    🔹 def _apply_order_limit_offset()
+                    🔹 def create()
+                    🔹 def read()
+                    🔹 def update()
+                    🔹 def delete()
+                    🔹 def get_last_id()
+                    🔹 def read_spec()
+                    🔹 def bulk_insert()
+                    🔹 def bulk_update()
+                    🔹 def count()
+                    🔹 def bulk_delete()
+                    🔹 def upsert()
+                    🔹 def bulk_upsert()
+            📄 model.py
+                🧩 class Model
+                    🔹 def query()
+                    🔹 def all()
+                    🔹 def find()
+                    🔹 def where()
+                    🔹 def first()
+                    🔹 def exists()
+                    🔹 def count()
+                    🔹 def paginate()
+                    🔹 def pluck()
+                    🔹 def first_or_create()
+                    🔹 def last_id()
+                    🔹 def raw()
+                    🔹 def driver()
+                    🔹 def create()
+                    🔹 def update()
+                    🔹 def delete()
+                    🔹 def _apply_validation()
+                    🔹 def _unique_check()
+            📄 query.py
+                🧩 class DBError
+                🧩 class CapabilityNotSupported
+                🧩 class RecordNotFound
+                🧩 class ValidationError
+                🧩 class DriverCapabilities
+                🧩 class QuerySpec
+                    🔹 def add_where()
+                    🔹 def add_order()
+                    🔹 def set_limit()
+                    🔹 def set_offset()
+                    🔹 def set_first()
+                    🔹 def set_select()
+            📄 query_builder.py
+                🧩 class QueryBuilder
+                    🔹 def __init__()
+                    🔹 def where()
+                    🔹 def order_by()
+                    🔹 def limit()
+                    🔹 def offset()
+                    🔹 def select()
+                    🔹 def first()
+                    🔹 def get()
+            📄 sqlite_driver.py
+                🧩 class SQLiteDriver
+                    🔹 def __init__()
+                    🔹 def _apply_pragmas()
+                    🔹 def close()
+                    🔹 def __del__()
+                    🔹 def capabilities()
+                    🔹 def transaction()
+                    🔹 def _ensure_table()
+                    🔹 def _insert()
+                    🔹 def _insert_many()
+                    🔹 def _update()
+                    🔹 def _bulk_update()
+                    🔹 def _delete()
+                    🔹 def _select()
+                    🔹 def create()
+                    🔹 def read()
+                    🔹 def count()
+                    🔹 def update()
+                    🔹 def delete()
+                    🔹 def get_last_id()
+                    🔹 def read_spec()
+                    🔹 def bulk_insert()
+                    🔹 def bulk_update()
+                    🔹 def bulk_delete()
+                    🔹 def _ensure_unique_index()
+                    🔹 def upsert()
+                    🔹 def bulk_upsert()
+            📁 manager
+                📄 __init__.py
+                📄 bulk.py
+                    🧩 class DBBulkMixin
+                        🔹 def bulk_create()
+                        🔹 def bulk_update()
+                        🔹 def bulk_delete()
+                        🔹 def upsert()
+                        🔹 def bulk_upsert()
+                📄 config.py
+                    🧩 class DBConfigMixin
+                        🔹 def initialize()
+                        🔹 def shutdown()
+                        🔹 def _activate()
+                        🔹 def active_config()
+                        🔹 def get_driver_key()
+                        🔹 def get_driver_name()
+                        🔹 def capabilities()
+                📄 crud.py
+                    🧩 class DBCrudMixin
+                        🔹 def create()
+                        🔹 def read()
+                        🔹 def update()
+                        🔹 def delete()
+                        🔹 def read_spec()
+                        🔹 def find_by_pk()
+                        🔹 def all()
+                        🔹 def find()
+                        🔹 def where()
+                        🔹 def first()
+                        🔹 def exists()
+                        🔹 def count()
+                        🔹 def paginate()
+                        🔹 def get_last_id()
+                        🔹 def pluck()
+                        🔹 def first_or_create()
+                        🔹 def raw()
+                        🔹 def select()
+                📄 db_manager.py
+                    🧩 class DBManager
+                📄 driver_switch.py
+                    🧩 class DBDriverSwitchMixin
+                        🔹 def switch_driver()
+                        🔹 def with_driver()
+                📄 helpers.py
+                📄 transactions.py
+                    🧩 class DBTransactionsMixin
+                        🔹 def transaction()
+        📁 handlers
+            📄 __init__.py
+            📄 error_handler.py
+                🧩 class ErrorHandler
+                    🔹 def format_error()
+                    🔹 def get_traceback()
+                    🔹 def display()
+            📄 event_handler.py
+                🧩 class EventHandler
+                    🔹 def register()
+                    🔹 def emit()
+                    🔹 def clear_all()
+                    🔹 def clear_event()
+                    🔹 def remove_listener()
+                    🔹 def get_listeners()
+            📄 file_handler.py
+            📄 log_handler.py
+                🧩 class LogHandler
+                    🔹 def _ensure_log_dir()
+                    🔹 def _write()
+                    🔹 def info()
+                    🔹 def warning()
+                    🔹 def success()
+                    🔹 def error()
+                    🔹 def critical()
+            📄 validator_handler.py
+                🧩 class ValidationError
+                    🔹 def __init__()
+                🧩 class ValidatorHandler
+                    🔹 def validate()
+        📁 helpers
+            📄 __init__.py
+            📄 core_helper.py
+        📁 managers
+            📄 __init__.py
+            📄 error_manager.py
+                🧩 class ErrorManager
+                    🔹 def initialize()
+                    🔹 def create()
+                    🔹 def read()
+                    🔹 def update()
+                    🔹 def delete()
+            📄 event_manager.py
+                🧩 class EventManager
+                    🔹 def initialize()
+                    🔹 def create()
+                    🔹 def read()
+                    🔹 def update()
+                    🔹 def delete()
+                    🔹 def emit()
+                    🔹 def on()
+            📄 file_manager.py
+                🧩 class FileManager
+                    🔹 def create()
+                    🔹 def read()
+                    🔹 def update()
+                    🔹 def delete()
+                    🔹 def exists()
+                    🔹 def rename()
+                    🔹 def copy()
+                    🔹 def move()
+                    🔹 def zip()
+                    🔹 def unzip()
+                    🔹 def list_all_files()
+                    🔹 def list_all_dirs()
+                    🔹 def ensure_dir()
+            📄 log_manager.py
+                🧩 class LogManager
+                    🔹 def initialize()
+                    🔹 def create()
+                    🔹 def read()
+                    🔹 def update()
+                    🔹 def delete()
+                    🔹 def info()
+                    🔹 def warning()
+                    🔹 def success()
+                    🔹 def error()
+                    🔹 def critical()
+            📄 validator_manager.py
+                🧩 class ValidatorManager
+                    🔹 def initialize()
+                    🔹 def validate()
+    📁 tests
+        📄 __init__.py
+        📄 conftest.py
+        📄 dbTest.py
+        📄 test_bulk_speed.py
+        📄 test_crud_matrix.py
+        📄 test_db_manager_env.py
+        📄 test_file_system.py
+        📄 test_queryspec.py
+        📄 test_transactions.py

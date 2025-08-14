@@ -1,0 +1,1 @@
+# Sistem jezgro (opciono entry point za system logiku)

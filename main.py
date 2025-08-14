@@ -1,0 +1,1 @@
+print('Pokreće se MAC aplikacija...')
